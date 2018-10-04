@@ -1,3 +1,7 @@
+Spring中获取Request的几种方法及其线程安全性分析
+---
+https://zhuanlan.zhihu.com/p/37994735<br>
+
 Spring Security3源码分析-FilterChainProxy初始化
 ---
 https://my.oschina.net/snakerflow/blog/194508<br>
@@ -28,7 +32,7 @@ https://github.com/spring-cloud/spring-cloud-gateway/issues/179<br>
 
 Using JWT with Spring Security OAuth
 ---
-https://www.baeldung.com/spring-security-oauth-jwt……<br>
+https://www.baeldung.com/spring-security-oauth-jwt<br>
 
 Spring Boot,Spring Security实现OAuth2 + JWT认证
 ---
@@ -794,6 +798,7 @@ http://shiyanjun.cn/archives/1075.html<br>
 Netty系列之Netty百万级推送服务设计要点
 ---
 http://blog.csdn.net/zhousenshan/article/details/79265755<br>
+
 APP和服务端-架构设计(一)
 ---
 http://blog.csdn.net/luckydaxiang/article/details/71308151<br>
@@ -828,18 +833,18 @@ spring4, hibernate4 整合问题
 https://www.oschina.net/question/273712_221495?sort=default&p=2<br>
 
 
-<tx:annotation-driven transaction-manager="transactionManager" />
-上面这句需要加在DispatcherServlet指定的xml中
-<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-    <init-param>
-      <param-name>contextConfigLocation</param-name>
-      <param-value>/WEB-INF/spring/appServlet/servlet-context.xml</param-value>
-    </init-param>
-加在下面的root xml中，会导致在servlet时调用不到事务管理器
-<context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>/WEB-INF/spring/root-context.xml</param-value>
-  </context-param>
+<tx:annotation-driven transaction-manager="transactionManager" /><br>
+上面这句需要加在DispatcherServlet指定的xml中<br>
+<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class><br>
+    <init-param><br>
+      <param-name>contextConfigLocation</param-name><br>
+      <param-value>/WEB-INF/spring/appServlet/servlet-context.xml</param-value><br>
+    </init-param><br>
+加在下面的root xml中，会导致在servlet时调用不到事务管理器<br>
+<context-param><br>
+    <param-name>contextConfigLocation</param-name><br>
+    <param-value>/WEB-INF/spring/root-context.xml</param-value><br>
+  </context-param><br>
 
 之所以你用junit可以，是因为junit进来不是经过servlet进来所以你配置在root中的事务管理器能找到。但是普通通过servlet进来的请求，找不到root中的事务管理器，所以需要在DispachServlet指定的xml中配置事务管理器供其使用
 
@@ -853,8 +858,6 @@ https://www.oschina.net/question/273712_221495?sort=default&p=2<br>
 ---
 http://www.cnblogs.com/shanyou/p/5048099.html<br>
 https://yq.aliyun.com/articles/212989<br>
-
-
 
 Spring Microservices Zuul proxy
 zuul学习一：spring cloud zuul的快速入门
@@ -893,17 +896,17 @@ Could not obtain transaction-synchronized Session for current thread
 ---
 https://www.oschina.net/question/273712_221495<br>
 
-<tx:annotation-driven transaction-manager="transactionManager" />
-上面这句需要加在DispatcherServlet指定的xml中
-<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-    <init-param>
-      <param-name>contextConfigLocation</param-name>
-      <param-value>/WEB-INF/spring/appServlet/servlet-context.xml</param-value>
-    </init-param>
-加在下面的root xml中，会导致在servlet时调用不到事务管理器
-<context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>/WEB-INF/spring/root-context.xml</param-value>
-  </context-param>
+<tx:annotation-driven transaction-manager="transactionManager" /><br>
+上面这句需要加在DispatcherServlet指定的xml中<br>
+<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class><br>
+    <init-param><br>
+      <param-name>contextConfigLocation</param-name><br>
+      <param-value>/WEB-INF/spring/appServlet/servlet-context.xml</param-value><br>
+    </init-param><br>
+加在下面的root xml中，会导致在servlet时调用不到事务管理器<br>
+<context-param><br>
+    <param-name>contextConfigLocation</param-name><br>
+    <param-value>/WEB-INF/spring/root-context.xml</param-value><br>
+  </context-param><br>
 之所以你用junit可以，是因为junit进来不是经过servlet进来所以你配置在root中的事务管理器能找到。但是普通通过servlet进来的请求，找不到root中的事务管理器，所以需要在DispachServlet指定的xml中配置事务管理器供其使用
 
