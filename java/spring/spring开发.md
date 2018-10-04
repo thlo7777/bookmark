@@ -738,86 +738,94 @@ https://blog.csdn.net/ufo2910628/article/details/40399539<br>
 设计一个统一的异常处理类
 ---
 https://blog.csdn.net/suifeng3051/article/details/52126895<br>
+
 SOLID Principles of Class Design
 ---
 http://www.kirkk.com/modularity/2009/12/solid-principles-of-class-design/<br>
 
 Spring事务Transaction配置的五种注入方式详解
 ---
-http://blog.csdn.net/yaerfeng/article/details/28390773
+http://blog.csdn.net/yaerfeng/article/details/28390773<br>
+
 注解的那点事儿
 ---
-http://www.importnew.com/27071.html
+http://www.importnew.com/27071.html<br>
+
 java运行内存分配图
 ---
-https://blog.csdn.net/a859522265/article/details/7282817
+https://blog.csdn.net/a859522265/article/details/7282817<br>
 
 用动态代理进行修饰
 ---
-https://www.ibm.com/developerworks/cn/java/j-jtp08305.html
+https://www.ibm.com/developerworks/cn/java/j-jtp08305.html<br>
 
 Java 动态代理机制分析及扩展，第 1 部分
 ---
-https://www.ibm.com/developerworks/cn/java/j-lo-proxy1/index.html
+https://www.ibm.com/developerworks/cn/java/j-lo-proxy1/index.html<br>
 
 Java设计模式（六） 代理模式 vs. 装饰模式
 ---
-http://www.jasongj.com/design_pattern/proxy_decorator/
+http://www.jasongj.com/design_pattern/proxy_decorator/<br>
 
 Java 异常处理
 ---
-http://www.runoob.com/java/java-exceptions.html
+http://www.runoob.com/java/java-exceptions.html<br>
+
 How to use the Spring FactoryBean?
 ---
-http://www.baeldung.com/spring-factorybean
+http://www.baeldung.com/spring-factorybean<br>
+
 What are Dynamic Proxy classes and why would I use one?
 ---
-https://stackoverflow.com/questions/933993/what-are-dynamic-proxy-classes-and-why-would-i-use-one
+https://stackoverflow.com/questions/933993/what-are-dynamic-proxy-classes-and-why-would-i-use-one<br>
 
 有货RabbitMQ双活实践
 ---
-https://www.cnblogs.com/wumingxiaoyao/p/8274177.html
+https://www.cnblogs.com/wumingxiaoyao/p/8274177.html<br>
 
 Spring线程池开发实战
 ---
-http://blog.csdn.net/chszs/article/details/8219189
+http://blog.csdn.net/chszs/article/details/8219189<br>
 
 基于Dubbo框架构建分布式服务
 ---
-http://shiyanjun.cn/archives/1075.html
+http://shiyanjun.cn/archives/1075.html<br>
+
 Netty系列之Netty百万级推送服务设计要点
 ---
-http://blog.csdn.net/zhousenshan/article/details/79265755
+http://blog.csdn.net/zhousenshan/article/details/79265755<br>
 APP和服务端-架构设计(一)
 ---
-http://blog.csdn.net/luckydaxiang/article/details/71308151
+http://blog.csdn.net/luckydaxiang/article/details/71308151<br>
 
 
 java 建造者模式（Builder）
 ---
-http://www.blogjava.net/fancydeepin/archive/2012/08/05/384783.html
+http://www.blogjava.net/fancydeepin/archive/2012/08/05/384783.html<br>
 
 Spring AOP doesn`t work with class comprising @Transactional method
 ---
-https://stackoverflow.com/questions/35271168/spring-aop-doesnt-work-with-class-comprising-transactional-method
+https://stackoverflow.com/questions/35271168/spring-aop-doesnt-work-with-class-comprising-transactional-method<br>
+
 蘑菇街交易平台 数据库架构演进历程
 ---
-https://www.wenji8.com/p/3334qPr.html
+https://www.wenji8.com/p/3334qPr.html<br>
+
 分库分表落地与实践
 ---
-http://blog.csdn.net/u011410529/article/details/68927691
+http://blog.csdn.net/u011410529/article/details/68927691<br>
 
 Spring定义bean的三种方式和自动注入
 ---
-http://blog.csdn.net/sinat_34596644/article/details/53080026
+http://blog.csdn.net/sinat_34596644/article/details/53080026<br>
 
 使用spring工厂方法(FactoryBean)模式动态创建bean
 ---
-http://blog.csdn.net/lanmo555/article/details/50803836
+http://blog.csdn.net/lanmo555/article/details/50803836<br>
 
 spring4, hibernate4 整合问题
 ---
-https://www.oschina.net/question/273712_221495?sort=default&p=2
+https://www.oschina.net/question/273712_221495?sort=default&p=2<br>
 
 
 <tx:annotation-driven transaction-manager="transactionManager" />
@@ -843,52 +851,48 @@ https://www.oschina.net/question/273712_221495?sort=default&p=2
 
 千万级规模高性能、高并发的网络架构经验分享
 ---
-http://www.cnblogs.com/shanyou/p/5048099.html
----
-https://yq.aliyun.com/articles/212989
+http://www.cnblogs.com/shanyou/p/5048099.html<br>
+https://yq.aliyun.com/articles/212989<br>
 
 
 
 Spring Microservices Zuul proxy
 zuul学习一：spring cloud zuul的快速入门
 ---
-https://www.jianshu.com/p/9c104186572d
----
-https://www.jianshu.com/p/12a70993e321
----
-https://www.jianshu.com/p/44da2daacb69
----
-https://www.jianshu.com/p/ff863d532767
----
-https://www.jianshu.com/p/fd19f4fcf1f1
----
-http://www.voidcn.com/article/p-gfqcofde-bpc.html
+https://www.jianshu.com/p/9c104186572d<br>
+https://www.jianshu.com/p/12a70993e321<br>
+https://www.jianshu.com/p/44da2daacb69<br>
+https://www.jianshu.com/p/ff863d532767<br>
+https://www.jianshu.com/p/fd19f4fcf1f1<br>
+http://www.voidcn.com/article/p-gfqcofde-bpc.html<br>
 
 Spring Cloud下基于OAUTH2认证授权的实现
 ---
-https://github.com/wiselyman/uaa-zuul
+https://github.com/wiselyman/uaa-zuul<br>
+
 Light Oauth2 
 ---
-https://doc.networknt.com/architecture/
+https://doc.networknt.com/architecture/<br>
+
 Oauth 2
 ---
-https://oauth.net/2/
+https://oauth.net/2/<br>
 
 Implement Secure Microservices With Spring Security and OAuth 2.0
 ---
-https://dzone.com/articles/implement-secure-microservices-with-spring-security-and-oauth-20
+https://dzone.com/articles/implement-secure-microservices-with-spring-security-and-oauth-20<br>
 
 Spring cloud security Oauth2 多节点集群需要修改的配置
 ---
-http://blog.csdn.net/dong_19890208/article/details/74914852
+http://blog.csdn.net/dong_19890208/article/details/74914852<br>
 
 
 
 在整合spring4,hibernate4的时候，在dao层获取session报错：
 Could not obtain transaction-synchronized Session for current thread
-
 ---
-https://www.oschina.net/question/273712_221495
+https://www.oschina.net/question/273712_221495<br>
+
 <tx:annotation-driven transaction-manager="transactionManager" />
 上面这句需要加在DispatcherServlet指定的xml中
 <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
