@@ -32,7 +32,7 @@ https://github.com/spring-cloud/spring-cloud-gateway/issues/179<br>
 
 Using JWT with Spring Security OAuth
 ---
-https://www.baeldung.com/spring-security-oauth-jwt……<br>
+https://www.baeldung.com/spring-security-oauth-jwt<br>
 
 Spring Boot,Spring Security实现OAuth2 + JWT认证
 ---
