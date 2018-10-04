@@ -33,6 +33,7 @@ https://www.baeldung.com/spring-security-oauth-jwt……<br>
 Spring Boot,Spring Security实现OAuth2 + JWT认证
 ---
 https://blog.csdn.net/buxiaoxia/article/details/64123823<br>
+
 Spring cloud OAuth2 and JWT
 ---
 https://www.jianshu.com/p/4089c9cc2dfd<br>
@@ -40,39 +41,51 @@ https://www.jianshu.com/p/4089c9cc2dfd<br>
 Spring Configuration (XML, Annotation & Java)
 ---
 http://www.hmkcode.com/spring-configuration-xml-annotation-java/<br>
+
 Spring Boot 属性配置和使用
 ---
 https://blog.csdn.net/isea533/article/details/50281151<br>
+
 SpringBoot项目实战（8）：四种读取properties文件的方式
 ---
 https://www.imooc.com/article/18252<br>
+
 What is a NoSuchBeanDefinitionException and how do I fix it?
 ---
 https://stackoverflow.com/questions/39173982/what-is-a-nosuchbeandefinitionexception-and-how-do-i-fix-it<br>
+
 Defining Bean Dependencies With Java Config in Spring Framework
 ---
 https://dzone.com/articles/defining-bean-dependencies-with-java-config-in-spring-framework<br>
+
 关于Spring boot中读取属性配置文件出现中文乱码的问题的解决
 ---
 https://blog.csdn.net/w1014074794/article/details/71159722<br>
+
 Spring - Java Based Configuration
 ---
 https://www.tutorialspoint.com/spring/spring_java_based_configuration.htm<br>
+
 springboot根据不同的条件创建bean，动态创建bean，@Conditional注解使用
 ---
 https://blog.csdn.net/tianyaleixiaowu/article/details/78201587<br>
+
 Inject spring bean dynamically
 ---
 https://stackoverflow.com/questions/40105044/inject-spring-bean-dynamically<br>
+
 Spring get current ApplicationContext
 ---
 https://stackoverflow.com/questions/21827548/spring-get-current-applicationcontext<br>
+
 随笔分类 - spring学习笔记
 ---
 http://www.cnblogs.com/duanxz/category/434763.html<br>
+
 Spring系列之FactoryBean（一）
 ---
 https://yq.aliyun.com/articles/548281<br>
+
 Spring中的beanFactory和FactoryBean
 ---
 https://www.jianshu.com/p/7ffcc413bcca<br>
@@ -84,12 +97,15 @@ https://blog.csdn.net/qq_33854869/article/details/79002230<br>
 Why Spring Boot 2.0 application does not run schema.sql?
 ---
 https://stackoverflow.com/questions/49438517/why-spring-boot-2-0-application-does-not-run-schema-sql<br>
+
 Spring-boot populate H2 database with schema.sql and data.sql
 ---
 https://stackoverflow.com/questions/37788029/spring-boot-populate-h2-database-with-schema-sql-and-data-sql<br>
+
 H2 database in memory mode cannot be accessed by Console
 ---
 https://stackoverflow.com/questions/5077584/h2-database-in-memory-mode-cannot-be-accessed-by-console<br>
+
 Mybatis-Plus
 ---
 http://baomidou.oschina.io/mybatis-plus-doc/#/<br>
@@ -105,9 +121,11 @@ https://www.devglan.com/spring-security/spring-boot-oauth2-jwt-example<br>
 https://www.devglan.com/spring-security/spring-boot-security-oauth2-example<br>
 https://www.devglan.com/spring-security/jwt-role-based-authorization<br>
 https://www.jianshu.com/p/2c231c96a29b<br>
+
 spring boot 入门之security oauth2 jwt完美整合例子-java编程
 ---
 http://www.leftso.com/blog/139.html<br>
+
 帮你深入理解OAuth2.0协议
 ---
 https://blog.csdn.net/seccloud/article/details/8192707<br>
@@ -115,6 +133,7 @@ https://blog.csdn.net/seccloud/article/details/8192707<br>
 Spring Boot Essentials 03 - How Spring Security Works, coding JWT Token
 ---
 https://www.youtube.com/watch?v=q0aYyEocWPU<br>
+
 Secure Spring REST API Using OAuth2 in Spring Boot
 ---
 https://www.youtube.com/watch?v=szNStDHXNaU<br>
@@ -122,6 +141,7 @@ https://www.youtube.com/watch?v=szNStDHXNaU<br>
 Spring框架中的设计模式
 ---
 http://blog.didispace.com/spring-design-partern/<br>
+
 Spring 框架的设计理念与设计模式分析
 ---
 https://www.ibm.com/developerworks/cn/java/j-lo-spring-principle/index.html<br>
@@ -133,6 +153,7 @@ https://blog.csdn.net/xzp_12345/article/details/78033351<br>
 Spring Boot and Spring JDBC With H2
 ---
 https://dzone.com/articles/spring-boot-and-spring-jdbc-with-h2<br>
+
 spring boot集成h2指南
 ---
 https://segmentfault.com/a/1190000007002140<br>
@@ -144,6 +165,7 @@ https://blog.csdn.net/qq_38410730/article/details/79426673<br>
 Spring 中如何控制2个bean中的初始化顺序？
 ---
 https://zhuanlan.zhihu.com/p/30112785<br>
+
 什么才叫懂Spring底层原理，这些面试题你都会吗
 ---
 https://zhuanlan.zhihu.com/p/38484238<br>
@@ -155,6 +177,7 @@ https://blog.csdn.net/a859522265/article/details/7282817<br>
 Java利器之UML类图详解
 ---
 https://zhuanlan.zhihu.com/p/24247571<br>
+
 Servlet 工作原理解析
 ---
 https://www.ibm.com/developerworks/cn/java/j-lo-servlet/<br>
@@ -163,11 +186,12 @@ spring MVC maven intellij 搭建
 How to get UTF-8 working in Java webapps?
 ---
 https://stackoverflow.com/questions/138948/how-to-get-utf-8-working-in-java-webapps<br>
-https://stackoverflow.com/questions/5928046/spring-mvc-utf-8-encoding
+https://stackoverflow.com/questions/5928046/spring-mvc-utf-8-encoding<br>
 
 tomcat 5.5、6、7各版本的web-app标准
 ---
 http://www.cnblogs.com/zhjh256/p/6118158.html<br>
+
 What exactly is the web-app version? What does it affect?
 ---
 https://stackoverflow.com/questions/15985378/what-exactly-is-the-web-app-version-what-does-it-affect<br>
@@ -183,230 +207,270 @@ http://www.baeldung.com/spring-with-maven<br>
 IDEA搭建SpringMVC并用maven配置的小例子（非常详细）
 ---
 https://blog.csdn.net/vitelon/article/details/53425138<br>
+
 IntelliJ IDEA上创建Maven Spring MVC项目
 ---
 https://yq.aliyun.com/articles/356254<br>
+
 SpringOne Platform 2016 Replay: 40 Tips & Tricks for Spring in IntelliJ IDEA
 ---
 https://spring.io/blog/2016/12/20/springone-platform-2016-replay-40-tips-tricks-for-spring-in-intellij-idea<br>
+
 java springmvc web项目，基于maven的hello world入门级项目使用IntelliJ IDEA 2017版本
 ---
 https://blog.csdn.net/qq_27093465/article/details/68961393<br>
+
 使用IntelliJ IDEA开发SpringMVC网站（一）开发环境
 ---
 https://my.oschina.net/gaussik/blog/385697<br>
+
 使用IntelliJ IDEA开发SpringMVC网站（二）框架配置
 ---
 https://my.oschina.net/gaussik/blog/513353<br>
+
 IntelliJ-IDEA-Tutorial
 ---
 https://github.com/judasn/IntelliJ-IDEA-Tutorial?spm=a2c4e.11153940.blogcont356254.31.dd4c3bddPttmW3<br>
+
 spring+maven+log4j2 配置
 ---
 https://blog.csdn.net/zhj870975587/article/details/74065227<br>
+
 log4j2 与 spring mvc整合
 ---
 http://www.cnblogs.com/yjmyzz/p/3988114.html<br>
+
 log4j2相关配置说明以及${sys:catalina.home}应用
 ---
 https://blog.csdn.net/u013491262/article/details/77022086<br>
+
 Log4j2 + Maven的配置文件示例详解
 ---
 https://blog.csdn.net/u011389474/article/details/70054256<br>
+
 web.xml vs Initializer with Spring
 ---
 http://www.baeldung.com/spring-xml-vs-java-config<br>
 http://javawebtutor.com/articles/spring/spring-mvc-tutorial.php<br>
+
 Understand web.xml in Spring MVC project
 ---
 http://shengwangi.blogspot.com/2015/08/understand-webxml-in-spring-mvc-project.html<br>
+
 Spring: namespace vs contextConfigLocation init parameters in web.xml
 What is the difference between ApplicationContext and WebApplicationContext in Spring MVC?
 ---
 https://stackoverflow.com/questions/15818047/spring-namespace-vs-contextconfiglocation-init-parameters-in-web-xml<br>
 https://stackoverflow.com/questions/11708967/what-is-the-difference-between-applicationcontext-and-webapplicationcontext-in-s<br>
+
 NoSuchBeanDefinitionException: No bean named 'cacheManager' available
 SpringMVC莫名其妙出现No bean named 'cacheManager' is defined错误
 ---
-https://stackoverflow.com/questions/24816502/cachemanager-no-bean-found-not-trying-to-setup-any-cache
+https://stackoverflow.com/questions/24816502/cachemanager-no-bean-found-not-trying-to-setup-any-cache<br>
+
 Error when adding <mvc:annotation-driven> in applicationContext.xml
 ---
-https://stackoverflow.com/questions/20440276/error-when-adding-mvcannotation-driven-in-applicationcontext-xml
+https://stackoverflow.com/questions/20440276/error-when-adding-mvcannotation-driven-in-applicationcontext-xml<br>
 
 web.xml deployment descriptor examples
 ---
-https://www.mkyong.com/web-development/the-web-xml-deployment-descriptor-examples/
+https://www.mkyong.com/web-development/the-web-xml-deployment-descriptor-examples/<br>
+
 Maven构建的Spring项目需要哪些依赖？
 ---
-https://www.cnblogs.com/javafucker/p/7566733.html
+https://www.cnblogs.com/javafucker/p/7566733.html<br>
 
 Spring中加载xml配置文件的六种方式
 ---
-https://blog.csdn.net/qq_20662113/article/details/77103162
+https://blog.csdn.net/qq_20662113/article/details/77103162<br>
+
 springmvc系列(一)-新建springmvc项目
 ---
-https://blog.csdn.net/u010372981/article/details/73730483
+https://blog.csdn.net/u010372981/article/details/73730483<br>
+
 springmvc系列(二)-自定义dispatcherservlet加载的xml配置文件
 ---
-https://blog.csdn.net/u010372981/article/details/74007084
+https://blog.csdn.net/u010372981/article/details/74007084<br>
+
 csucoderlee的专栏
 ---
-https://blog.csdn.net/u010372981?t=1
+https://blog.csdn.net/u010372981?t=1<br>
+
 spring in action 学习笔记（一）
 ---
-https://blog.csdn.net/u010372981/article/details/78161420
+https://blog.csdn.net/u010372981/article/details/78161420<br>
+
 关于SpringMVC*.xml配置文件加载问题
 ---
-https://blog.csdn.net/qq_39630225/article/details/79688396
+https://blog.csdn.net/qq_39630225/article/details/79688396<br>
+
 求助：spring mvc 注解方式 如何注入map 和 list
 ---
-https://zhidao.baidu.com/question/687458895952943804.html
+https://zhidao.baidu.com/question/687458895952943804.html<br>
+
 spring List,Set,Map,Properties,array的使用配置文件注入实例
 ---
-http://www.cnblogs.com/jifeng/archive/2011/08/08/2130497.html
+http://www.cnblogs.com/jifeng/archive/2011/08/08/2130497.html<br>
 
 How to: Secure Connected Microservices in Spring Boot with OAuth and JWTs
 ---
-https://stormpath.com/blog/service-to-service
+https://stormpath.com/blog/service-to-service<br>
 
 Spring 5的Servlet和反应式技术栈解析
 ---
-http://www.infoq.com/cn/articles/Servlet-and-Reactive-Stacks-Spring-Framework-5
+http://www.infoq.com/cn/articles/Servlet-and-Reactive-Stacks-Spring-Framework-5<br>
 
 自定义Spring Security权限控制管理（实战篇）
 ---
-http://www.cnblogs.com/dongying/p/6128268.html
+http://www.cnblogs.com/dongying/p/6128268.html<br>
+
 话说Spring Security权限管理（源码）
 ---
-https://www.javafan.cn/2016/11/29/security_privilege/
+https://www.javafan.cn/2016/11/29/security_privilege/<br>
+
 A Custom Security Expression with Spring Security
 ---
-http://www.baeldung.com/spring-security-create-new-custom-security-expression
+http://www.baeldung.com/spring-security-create-new-custom-security-expression<br>
 
 Java利器之UML类图详解
 ---
-https://blog.csdn.net/xiehuimx/article/details/53427452
+https://blog.csdn.net/xiehuimx/article/details/53427452<br>
+
 spring配置文件详解—真的蛮详细
 ---
-https://blog.csdn.net/zzjjiandan/article/details/22922847
----
+https://blog.csdn.net/zzjjiandan/article/details/22922847<br>
+
 http-api-guide
 ---
-https://github.com/bolasblack/http-api-guide#user-content-http-%E5%8D%8F%E8%AE%AE
+https://github.com/bolasblack/http-api-guide#user-content-http-%E5%8D%8F%E8%AE%AE<br>
+
 Elasticsearch、MongoDB和Hadoop比较
 ---
-https://www.jianshu.com/p/2c7b0c76fa04
+https://www.jianshu.com/p/2c7b0c76fa04<br>
+
 elasticsearch-analysis-ik
 ---
-https://github.com/medcl/elasticsearch-analysis-ik
+https://github.com/medcl/elasticsearch-analysis-ik<br>
+
 为Elasticsearch添加中文分词，对比分词器效果
 ---
-http://keenwon.com/1404.html
+http://keenwon.com/1404.html<br>
+
 微服务中网关（API Gateway）的技术选型
 ---
-http://www.spring4all.com/article/336
+http://www.spring4all.com/article/336<br>
+
 Spring Cloud学习-Eureka、Ribbon和Feign
 ---
-https://www.jianshu.com/p/0aef3724e6bc
+https://www.jianshu.com/p/0aef3724e6bc<br>
+
 基于spring boot框架访问zookeeper
 ---
-https://blog.csdn.net/boling_cavalry/article/details/69802622
+https://blog.csdn.net/boling_cavalry/article/details/69802622<br>
+
 HBase 实现数据同步 ElasticSearch
 ---
-http://www.niuchaoqun.com/14969255996574.html
+http://www.niuchaoqun.com/14969255996574.html<br>
+
 elasticsearch spring 整合
 ---
-https://yq.aliyun.com/articles/70011
+https://yq.aliyun.com/articles/70011<br>
+
 自定义spring-boot-starter-hbase
 ---
-https://blog.csdn.net/jthink_/article/details/64443022
+https://blog.csdn.net/jthink_/article/details/64443022<br>
+
 SpringBoot —集成HBASE/基于SpringDataHadoop
 ---
-https://blog.csdn.net/cwenao/article/details/57980188
----
-http://www.zhonghcc.com/2016/10/313
----
-http://www.cnblogs.com/leohao/p/6478735.html
+https://blog.csdn.net/cwenao/article/details/57980188<br>
+http://www.zhonghcc.com/2016/10/313<br>
+http://www.cnblogs.com/leohao/p/6478735.html<br>
+
 简化你的 java map 操作：Guava 之 Multimap 用法简介
 ---
-https://my.oschina.net/leejun2005/blog/179645
----
-https://blog.csdn.net/c_base_jin/article/details/51501214
+https://my.oschina.net/leejun2005/blog/179645<br>
+https://blog.csdn.net/c_base_jin/article/details/51501214<br>
+
 Spring Boot系列教程五：使用properties配置文件实现多环境配置
 ---
-https://blog.csdn.net/woniu211111/article/details/54292824
+https://blog.csdn.net/woniu211111/article/details/54292824<br>
+
 springboot多个module间多套配置文件的问题
 ---
-https://blog.csdn.net/maoyeqiu/article/details/58588400
+https://blog.csdn.net/maoyeqiu/article/details/58588400<br>
+
 SpringBoot+Maven 多模块项目的构建、运行、打包
 ---
-https://blog.csdn.net/zekeTao/article/details/79413919
+https://blog.csdn.net/zekeTao/article/details/79413919<br>
+
 技术专题讨论第二期总结：如何对 JPA 或者 MyBatis 进行技术选型
 ---
-http://www.spring4all.com/article/391
----
-http://www.spring4all.com/article/336
----
-https://blog.csdn.net/tianyaleixiaowu/article/details/74942405
----
-https://github.com/google/guava
+http://www.spring4all.com/article/391<br>
+http://www.spring4all.com/article/336<br>
+https://blog.csdn.net/tianyaleixiaowu/article/details/74942405<br>
+https://github.com/google/guava<br>
 
 IntelliJ IDEA教程之如何配置Maven
 ---
-http://www.marsitman.com/idea/intellij-idea-set-maven.html
+http://www.marsitman.com/idea/intellij-idea-set-maven.html<br>
+
 maven全局配置文件settings.xml详解
 ---
-https://www.cnblogs.com/jingmoxukong/p/6050172.html
----
-https://blog.csdn.net/wangb_java/article/category/6649995
----
-https://blog.csdn.net/wangb_java/article/details/66000956
+https://www.cnblogs.com/jingmoxukong/p/6050172.html<br>
+https://blog.csdn.net/wangb_java/article/category/6649995<br>
+https://blog.csdn.net/wangb_java/article/details/66000956<br>
+
 Maven构建一个多模块的Spring Boot + Spring MVC项目，完全基于java config
 ---
-https://blog.csdn.net/luenxin/article/details/50068985
+https://blog.csdn.net/luenxin/article/details/50068985<br>
+
 springboot多模块(modules)开发
 ---
-https://blog.csdn.net/qqhjqs/article/details/68941934
+https://blog.csdn.net/qqhjqs/article/details/68941934<br>
+
 IntelliJ IDEA教程之Maven工程多模块继承和聚合创建(详解)
 ---
-http://www.marsitman.com/idea/intellij-idea-create-maven-union.html
+http://www.marsitman.com/idea/intellij-idea-create-maven-union.html<br>
+
 maven发布项目到私服-snapshot快照库和release发布库的区别和作用及maven常用命令
 ---
-http://www.cnblogs.com/rwxwsblog/p/6029636.html
+http://www.cnblogs.com/rwxwsblog/p/6029636.html<br>
+
 Mac 安装Maven，配置Maven和Java环境，以及遇见问题解析
 ---
-https://blog.csdn.net/zcl_666/article/details/52210368
+https://blog.csdn.net/zcl_666/article/details/52210368<br>
 
 Intellij Idea 下用maven创建SpringMVC项目问题汇总
 ---
-https://blog.csdn.net/thecoldone/article/details/51480271
----
-http://www.cnblogs.com/mumuxinfei/p/4611098.html
+https://blog.csdn.net/thecoldone/article/details/51480271<br>
+http://www.cnblogs.com/mumuxinfei/p/4611098.html<br>
+http://www.spring4all.com/<br>
 
----
-http://www.spring4all.com/
 使用JMeter做压力测试
 ---
-http://www.cnblogs.com/zhangchaoyang/articles/2530731.html
+http://www.cnblogs.com/zhangchaoyang/articles/2530731.html<br>
+
 jMeter - Web Test Plan
 ---
-https://www.tutorialspoint.com/jmeter/jmeter_web_test_plan.htm
+https://www.tutorialspoint.com/jmeter/jmeter_web_test_plan.htm<br>
 
 java如何利用FastJSON、Gson、Jackson三种Json格式工具自定义时间序列化
 ---
-http://www.jb51.net/article/120883.htm
+http://www.jb51.net/article/120883.htm<br>
+
 4种json解析技术对比
 ---
-https://blog.csdn.net/pangliang_csdn/article/details/51595375
+https://blog.csdn.net/pangliang_csdn/article/details/51595375<br>
 
 Spring Boot 实践折腾记（四）：配置即使用，常用配置
 ---
-https://blog.csdn.net/mickjoust/article/details/51657601
+https://blog.csdn.net/mickjoust/article/details/51657601<br>
 
 Spring intellij  compile error
 Class JavaLaunchHelper is implemented in two places
 ---
-https://stackoverflow.com/questions/43003012/class-javalaunchhelper-is-implemented-in-two-places?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+https://stackoverflow.com/questions/43003012/class-javalaunchhelper-is-implemented-in-two-places?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa<br>
+
 keytool error Keystore was tampered with, or password was incorrect
 ---
 https://stackoverflow.com/questions/16891182/keytool-error-keystore-was-tampered-with-or-password-was-incorrect
