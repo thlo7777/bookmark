@@ -26,8 +26,6 @@ https://www.rails365.net/playlists/redux-ru-men-jiao-cheng-react-jin-jie<br>
 DVA
 ---
 https://github.com/dvajs/dva<br>
-
----
 https://dvajs.com/guide/getting-started.html#%E5%AE%89%E8%A3%85-dva-cli<br>
 
 How to fetch data in React
