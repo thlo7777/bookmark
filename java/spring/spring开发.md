@@ -1,3 +1,7 @@
+Spring中获取Request的几种方法及其线程安全性分析
+---
+https://zhuanlan.zhihu.com/p/37994735<br>
+
 Spring Security3源码分析-FilterChainProxy初始化
 ---
 https://my.oschina.net/snakerflow/blog/194508<br>
