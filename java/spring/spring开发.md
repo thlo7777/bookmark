@@ -1,234 +1,228 @@
 Spring Security3源码分析-FilterChainProxy初始化
 ---
-https://my.oschina.net/snakerflow/blog/194508
+https://my.oschina.net/snakerflow/blog/194508<br>
 Spring MVC 项目搭建 -6- spring security使用自定义Filter实现验证扩展url验证，使用数据库进行配置
 ---
-http://www.cnblogs.com/final-elysion/p/6278180.html#_label0
+http://www.cnblogs.com/final-elysion/p/6278180.html#_label0<br>
 Spring Security（16）——基于表达式的权限控制
 ---
-http://elim.iteye.com/blog/2247073
+http://elim.iteye.com/blog/2247073<br>
 
 SpringBoot 配置文件详解（告别XML)
 ---
-https://www.jianshu.com/p/60b34464ca58
+https://www.jianshu.com/p/60b34464ca58<br>
 
 Appendix A. Common application properties
 ---
-https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html#common-application-properties
+https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html#common-application-properties<br>
 
 spring security四种实现方式
 ---
-https://blog.csdn.net/bao19901210/article/details/52574340
+https://blog.csdn.net/bao19901210/article/details/52574340<br>
 
 spring cloud gatewya with OAuth2 integration
 ---
-https://github.com/spring-cloud/spring-cloud-gateway/issues/179
+https://github.com/spring-cloud/spring-cloud-gateway/issues/179<br>
 
 Using JWT with Spring Security OAuth
 ---
-https://www.baeldung.com/spring-security-oauth-jwt……
+https://www.baeldung.com/spring-security-oauth-jwt……<br>
 
 Spring Boot,Spring Security实现OAuth2 + JWT认证
 ---
-https://blog.csdn.net/buxiaoxia/article/details/64123823
+https://blog.csdn.net/buxiaoxia/article/details/64123823<br>
 Spring cloud OAuth2 and JWT
 ---
-https://www.jianshu.com/p/4089c9cc2dfd
+https://www.jianshu.com/p/4089c9cc2dfd<br>
 
 Spring Configuration (XML, Annotation & Java)
 ---
-http://www.hmkcode.com/spring-configuration-xml-annotation-java/
+http://www.hmkcode.com/spring-configuration-xml-annotation-java/<br>
 Spring Boot 属性配置和使用
 ---
-https://blog.csdn.net/isea533/article/details/50281151
+https://blog.csdn.net/isea533/article/details/50281151<br>
 SpringBoot项目实战（8）：四种读取properties文件的方式
 ---
-https://www.imooc.com/article/18252
+https://www.imooc.com/article/18252<br>
 What is a NoSuchBeanDefinitionException and how do I fix it?
 ---
-https://stackoverflow.com/questions/39173982/what-is-a-nosuchbeandefinitionexception-and-how-do-i-fix-it
+https://stackoverflow.com/questions/39173982/what-is-a-nosuchbeandefinitionexception-and-how-do-i-fix-it<br>
 Defining Bean Dependencies With Java Config in Spring Framework
 ---
-https://dzone.com/articles/defining-bean-dependencies-with-java-config-in-spring-framework
+https://dzone.com/articles/defining-bean-dependencies-with-java-config-in-spring-framework<br>
 关于Spring boot中读取属性配置文件出现中文乱码的问题的解决
 ---
-https://blog.csdn.net/w1014074794/article/details/71159722
+https://blog.csdn.net/w1014074794/article/details/71159722<br>
 Spring - Java Based Configuration
 ---
-https://www.tutorialspoint.com/spring/spring_java_based_configuration.htm
+https://www.tutorialspoint.com/spring/spring_java_based_configuration.htm<br>
 springboot根据不同的条件创建bean，动态创建bean，@Conditional注解使用
 ---
-https://blog.csdn.net/tianyaleixiaowu/article/details/78201587
+https://blog.csdn.net/tianyaleixiaowu/article/details/78201587<br>
 Inject spring bean dynamically
 ---
-https://stackoverflow.com/questions/40105044/inject-spring-bean-dynamically
+https://stackoverflow.com/questions/40105044/inject-spring-bean-dynamically<br>
 Spring get current ApplicationContext
 ---
-https://stackoverflow.com/questions/21827548/spring-get-current-applicationcontext
+https://stackoverflow.com/questions/21827548/spring-get-current-applicationcontext<br>
 随笔分类 - spring学习笔记
 ---
-http://www.cnblogs.com/duanxz/category/434763.html
+http://www.cnblogs.com/duanxz/category/434763.html<br>
 Spring系列之FactoryBean（一）
 ---
-https://yq.aliyun.com/articles/548281
+https://yq.aliyun.com/articles/548281<br>
 Spring中的beanFactory和FactoryBean
 ---
-https://www.jianshu.com/p/7ffcc413bcca
+https://www.jianshu.com/p/7ffcc413bcca<br>
 
 SpringBoot + MyBatis + H2
 ---
-https://blog.csdn.net/qq_33854869/article/details/79002230
+https://blog.csdn.net/qq_33854869/article/details/79002230<br>
 
 Why Spring Boot 2.0 application does not run schema.sql?
 ---
-https://stackoverflow.com/questions/49438517/why-spring-boot-2-0-application-does-not-run-schema-sql
+https://stackoverflow.com/questions/49438517/why-spring-boot-2-0-application-does-not-run-schema-sql<br>
 Spring-boot populate H2 database with schema.sql and data.sql
 ---
-https://stackoverflow.com/questions/37788029/spring-boot-populate-h2-database-with-schema-sql-and-data-sql
+https://stackoverflow.com/questions/37788029/spring-boot-populate-h2-database-with-schema-sql-and-data-sql<br>
 H2 database in memory mode cannot be accessed by Console
 ---
-https://stackoverflow.com/questions/5077584/h2-database-in-memory-mode-cannot-be-accessed-by-console
+https://stackoverflow.com/questions/5077584/h2-database-in-memory-mode-cannot-be-accessed-by-console<br>
 Mybatis-Plus
 ---
-http://baomidou.oschina.io/mybatis-plus-doc/#/
+http://baomidou.oschina.io/mybatis-plus-doc/#/<br>
 
 
 iBase4J/iBase4J
 ---
-https://github.com/iBase4J/iBase4J
+https://github.com/iBase4J/iBase4J<br>
 
 Spring Boot Security Oauth2 Jwt Auth Example
 ---
-https://www.devglan.com/spring-security/spring-boot-oauth2-jwt-example
----
-https://www.devglan.com/spring-security/spring-boot-security-oauth2-example
----
-https://www.devglan.com/spring-security/jwt-role-based-authorization
----
-https://www.jianshu.com/p/2c231c96a29b
+https://www.devglan.com/spring-security/spring-boot-oauth2-jwt-example<br>
+https://www.devglan.com/spring-security/spring-boot-security-oauth2-example<br>
+https://www.devglan.com/spring-security/jwt-role-based-authorization<br>
+https://www.jianshu.com/p/2c231c96a29b<br>
 spring boot 入门之security oauth2 jwt完美整合例子-java编程
 ---
-http://www.leftso.com/blog/139.html
+http://www.leftso.com/blog/139.html<br>
 帮你深入理解OAuth2.0协议
 ---
-https://blog.csdn.net/seccloud/article/details/8192707
+https://blog.csdn.net/seccloud/article/details/8192707<br>
 
 Spring Boot Essentials 03 - How Spring Security Works, coding JWT Token
 ---
-https://www.youtube.com/watch?v=q0aYyEocWPU
+https://www.youtube.com/watch?v=q0aYyEocWPU<br>
 Secure Spring REST API Using OAuth2 in Spring Boot
 ---
-https://www.youtube.com/watch?v=szNStDHXNaU
+https://www.youtube.com/watch?v=szNStDHXNaU<br>
 
 Spring框架中的设计模式
 ---
-http://blog.didispace.com/spring-design-partern/
+http://blog.didispace.com/spring-design-partern/<br>
 Spring 框架的设计理念与设计模式分析
 ---
-https://www.ibm.com/developerworks/cn/java/j-lo-spring-principle/index.html
+https://www.ibm.com/developerworks/cn/java/j-lo-spring-principle/index.html<br>
 
 Spring AOP自定义注解实现权限控制
 ---
-https://blog.csdn.net/xzp_12345/article/details/78033351
+https://blog.csdn.net/xzp_12345/article/details/78033351<br>
 
 Spring Boot and Spring JDBC With H2
 ---
-https://dzone.com/articles/spring-boot-and-spring-jdbc-with-h2
+https://dzone.com/articles/spring-boot-and-spring-jdbc-with-h2<br>
 spring boot集成h2指南
 ---
-https://segmentfault.com/a/1190000007002140
+https://segmentfault.com/a/1190000007002140<br>
 
 【Spring MVC】DispatcherServlet详解（容器初始化超详细过程源码分析）
 ---
-https://blog.csdn.net/qq_38410730/article/details/79426673
+https://blog.csdn.net/qq_38410730/article/details/79426673<br>
 
 Spring 中如何控制2个bean中的初始化顺序？
 ---
-https://zhuanlan.zhihu.com/p/30112785
+https://zhuanlan.zhihu.com/p/30112785<br>
 什么才叫懂Spring底层原理，这些面试题你都会吗
 ---
-https://zhuanlan.zhihu.com/p/38484238
+https://zhuanlan.zhihu.com/p/38484238<br>
 
 java运行内存分配图
 ---
-https://blog.csdn.net/a859522265/article/details/7282817
+https://blog.csdn.net/a859522265/article/details/7282817<br>
 
 Java利器之UML类图详解
 ---
-https://zhuanlan.zhihu.com/p/24247571
+https://zhuanlan.zhihu.com/p/24247571<br>
 Servlet 工作原理解析
 ---
-https://www.ibm.com/developerworks/cn/java/j-lo-servlet/
+https://www.ibm.com/developerworks/cn/java/j-lo-servlet/<br>
 
 spring MVC maven intellij 搭建
 How to get UTF-8 working in Java webapps?
 ---
-https://stackoverflow.com/questions/138948/how-to-get-utf-8-working-in-java-webapps
----
+https://stackoverflow.com/questions/138948/how-to-get-utf-8-working-in-java-webapps<br>
 https://stackoverflow.com/questions/5928046/spring-mvc-utf-8-encoding
 
 tomcat 5.5、6、7各版本的web-app标准
 ---
-http://www.cnblogs.com/zhjh256/p/6118158.html
+http://www.cnblogs.com/zhjh256/p/6118158.html<br>
 What exactly is the web-app version? What does it affect?
 ---
-https://stackoverflow.com/questions/15985378/what-exactly-is-the-web-app-version-what-does-it-affect
+https://stackoverflow.com/questions/15985378/what-exactly-is-the-web-app-version-what-does-it-affect<br>
 
 JavaDevNotes.com
 ---
-http://javadevnotes.com/java-string-to-long-examples
+http://javadevnotes.com/java-string-to-long-examples<br>
 
 Spring with Maven
 ---
-http://www.baeldung.com/spring-with-maven
+http://www.baeldung.com/spring-with-maven<br>
 
 IDEA搭建SpringMVC并用maven配置的小例子（非常详细）
 ---
-https://blog.csdn.net/vitelon/article/details/53425138
+https://blog.csdn.net/vitelon/article/details/53425138<br>
 IntelliJ IDEA上创建Maven Spring MVC项目
 ---
-https://yq.aliyun.com/articles/356254
+https://yq.aliyun.com/articles/356254<br>
 SpringOne Platform 2016 Replay: 40 Tips & Tricks for Spring in IntelliJ IDEA
 ---
-https://spring.io/blog/2016/12/20/springone-platform-2016-replay-40-tips-tricks-for-spring-in-intellij-idea
+https://spring.io/blog/2016/12/20/springone-platform-2016-replay-40-tips-tricks-for-spring-in-intellij-idea<br>
 java springmvc web项目，基于maven的hello world入门级项目使用IntelliJ IDEA 2017版本
 ---
-https://blog.csdn.net/qq_27093465/article/details/68961393
+https://blog.csdn.net/qq_27093465/article/details/68961393<br>
 使用IntelliJ IDEA开发SpringMVC网站（一）开发环境
 ---
-https://my.oschina.net/gaussik/blog/385697
+https://my.oschina.net/gaussik/blog/385697<br>
 使用IntelliJ IDEA开发SpringMVC网站（二）框架配置
 ---
-https://my.oschina.net/gaussik/blog/513353
+https://my.oschina.net/gaussik/blog/513353<br>
 IntelliJ-IDEA-Tutorial
 ---
-https://github.com/judasn/IntelliJ-IDEA-Tutorial?spm=a2c4e.11153940.blogcont356254.31.dd4c3bddPttmW3
+https://github.com/judasn/IntelliJ-IDEA-Tutorial?spm=a2c4e.11153940.blogcont356254.31.dd4c3bddPttmW3<br>
 spring+maven+log4j2 配置
 ---
-https://blog.csdn.net/zhj870975587/article/details/74065227
+https://blog.csdn.net/zhj870975587/article/details/74065227<br>
 log4j2 与 spring mvc整合
 ---
-http://www.cnblogs.com/yjmyzz/p/3988114.html
+http://www.cnblogs.com/yjmyzz/p/3988114.html<br>
 log4j2相关配置说明以及${sys:catalina.home}应用
 ---
-https://blog.csdn.net/u013491262/article/details/77022086
+https://blog.csdn.net/u013491262/article/details/77022086<br>
 Log4j2 + Maven的配置文件示例详解
 ---
-https://blog.csdn.net/u011389474/article/details/70054256
+https://blog.csdn.net/u011389474/article/details/70054256<br>
 web.xml vs Initializer with Spring
 ---
-http://www.baeldung.com/spring-xml-vs-java-config
----
-http://javawebtutor.com/articles/spring/spring-mvc-tutorial.php
+http://www.baeldung.com/spring-xml-vs-java-config<br>
+http://javawebtutor.com/articles/spring/spring-mvc-tutorial.php<br>
 Understand web.xml in Spring MVC project
 ---
-http://shengwangi.blogspot.com/2015/08/understand-webxml-in-spring-mvc-project.html
+http://shengwangi.blogspot.com/2015/08/understand-webxml-in-spring-mvc-project.html<br>
 Spring: namespace vs contextConfigLocation init parameters in web.xml
 What is the difference between ApplicationContext and WebApplicationContext in Spring MVC?
 ---
-https://stackoverflow.com/questions/15818047/spring-namespace-vs-contextconfiglocation-init-parameters-in-web-xml
----
-https://stackoverflow.com/questions/11708967/what-is-the-difference-between-applicationcontext-and-webapplicationcontext-in-s
+https://stackoverflow.com/questions/15818047/spring-namespace-vs-contextconfiglocation-init-parameters-in-web-xml<br>
+https://stackoverflow.com/questions/11708967/what-is-the-difference-between-applicationcontext-and-webapplicationcontext-in-s<br>
 NoSuchBeanDefinitionException: No bean named 'cacheManager' available
 SpringMVC莫名其妙出现No bean named 'cacheManager' is defined错误
 ---
