@@ -473,234 +473,275 @@ https://stackoverflow.com/questions/43003012/class-javalaunchhelper-is-implement
 
 keytool error Keystore was tampered with, or password was incorrect
 ---
-https://stackoverflow.com/questions/16891182/keytool-error-keystore-was-tampered-with-or-password-was-incorrect
-DCEVM error  https://github.com/dcevm/dcevm/issues/136
+https://stackoverflow.com/questions/16891182/keytool-error-keystore-was-tampered-with-or-password-was-incorrect<br>
+
+DCEVM error  
+---
+https://github.com/dcevm/dcevm/issues/136<br>
+
 Spring Boot SLF4J Logging example
 ---
-https://www.mkyong.com/spring-boot/spring-boot-slf4j-logging-example/
+https://www.mkyong.com/spring-boot/spring-boot-slf4j-logging-example/<br>
+
 How to Implement HTTPOnly and Secure Cookie in Nginx?
 ---
-https://geekflare.com/httponly-secure-cookie-nginx/
+https://geekflare.com/httponly-secure-cookie-nginx/<br>
+
 NGINX as Proxy: Rewrite Set-Cookie to Secure and HttpOnly
 ---
-https://maximilian-boehm.com/en-gb/blog/nginx-as-proxy-rewrite-set-cookie-to-secure-and-httponly-4830411/
+https://maximilian-boehm.com/en-gb/blog/nginx-as-proxy-rewrite-set-cookie-to-secure-and-httponly-4830411/<br>
+
 Cookie-Flag
 ---
-https://docs.nginx.com/nginx/admin-guide/dynamic-modules/cookie-flag/
+https://docs.nginx.com/nginx/admin-guide/dynamic-modules/cookie-flag/<br>
 
 [Spring]spring-boot中使用springloaded实现热部署
 ---
-https://blog.csdn.net/zemochen/article/details/53327518
+https://blog.csdn.net/zemochen/article/details/53327518<br>
+
 使用Spring Loader或者Jrebel实现java 热部署
 ---
-http://www.cnblogs.com/huanghongbo/p/6548228.html
+http://www.cnblogs.com/huanghongbo/p/6548228.html<br>
+
 Spring Boot干货系列：（十）开发常用的热部署方式汇总
 ---
-http://tengj.top/2017/06/01/springboot10/
+http://tengj.top/2017/06/01/springboot10/<br>
+
 HotswapAgent
 ---
-https://github.com/HotswapProjects/HotswapAgent
----
-https://dzone.com/articles/hot-swap-java-bytecode-on-runtime
----
-https://github.com/spring-projects/spring-loaded/issues/200
+https://github.com/HotswapProjects/HotswapAgent<br>
+https://dzone.com/articles/hot-swap-java-bytecode-on-runtime<br>
+https://github.com/spring-projects/spring-loaded/issues/200<br>
+
 Java服务器热部署的实现原理
 ---
-https://blog.csdn.net/chenjie19891104/article/details/42807959
----
-https://blog.csdn.net/u010002783/article/details/62929314
+https://blog.csdn.net/chenjie19891104/article/details/42807959<br>
+https://blog.csdn.net/u010002783/article/details/62929314<br>
+
 Spring Boot 使用 jetty 作为默认的Web容器
 ---
-https://blog.csdn.net/github_35169934/article/details/78573971
+https://blog.csdn.net/github_35169934/article/details/78573971<br>
+
 Jetty 的工作原理以及与 Tomcat 的比较
 ---
-https://www.ibm.com/developerworks/cn/java/j-lo-jetty/index.html
+https://www.ibm.com/developerworks/cn/java/j-lo-jetty/index.html<br>
+
 Jetty基本介绍 及 与tomcat对比
 ---
-https://www.jianshu.com/p/401e9e0ef8fa
+https://www.jianshu.com/p/401e9e0ef8fa<br>
+
 Spring Boot 使用 jetty 作为默认的Web容器
 ---
-https://blog.csdn.net/github_35169934/article/details/78573971
+https://blog.csdn.net/github_35169934/article/details/78573971<br>
+
 Spring Boot支持Jetty服务器，支持http、https(ssl、tls)双协议，支持双端口
 ---
-https://blog.csdn.net/typa01_kk/article/details/77100278
+https://blog.csdn.net/typa01_kk/article/details/77100278<br>
+
 spring boot 配置https|ssl
 ---
-https://zuimeidaima.com/2016/11/04/spring%20boot%20%E9%85%8D%E7%BD%AEhttps%7Cssl/
-
+https://zuimeidaima.com/2016/11/04/spring%20boot%20%E9%85%8D%E7%BD%AEhttps%7Cssl/<br>
 
 Spring MVC UTF-8 Encoding
 ---
-https://stackoverflow.com/questions/5928046/spring-mvc-utf-8-encoding?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+https://stackoverflow.com/questions/5928046/spring-mvc-utf-8-encoding?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa<br>
+
 Who sets response content-type in Spring MVC (@ResponseBody)
 ---
-https://stackoverflow.com/questions/3616359/who-sets-response-content-type-in-spring-mvc-responsebody/5268157
+https://stackoverflow.com/questions/3616359/who-sets-response-content-type-in-spring-mvc-responsebody/5268157<br>
 
 spring boot整合mybatis
 ---
-https://blog.csdn.net/qq27Ke/article/details/68922708
+https://blog.csdn.net/qq27Ke/article/details/68922708<br>
+
 Spring Boot + Mybatis + Redis二级缓存
 ---
-https://zhuanlan.zhihu.com/p/27726873
+https://zhuanlan.zhihu.com/p/27726873<br>
+
 Spring boot Mybatis 整合（完整版）
 ---
-https://blog.csdn.net/Winter_chen001/article/details/77249029
+https://blog.csdn.net/Winter_chen001/article/details/77249029<br>
+
 Spring boot Mybatis 整合（注解版）
 ---
-https://blog.csdn.net/Winter_chen001/article/details/78622141
+https://blog.csdn.net/Winter_chen001/article/details/78622141<br>
+
 Spring-Blog:个人博客（一）-Mybatis 读写分离
 ---
-https://juejin.im/post/5a61a0475188257324724345
+https://juejin.im/post/5a61a0475188257324724345<br>
+
 spring boot配置mybatis和事务管理
 ---
-https://blog.csdn.net/wohaqiyi/article/details/72895983
+https://blog.csdn.net/wohaqiyi/article/details/72895983<br>
+
 Spring Boot 事务的使用
 ---
-https://blog.csdn.net/catoop/article/details/50595702
+https://blog.csdn.net/catoop/article/details/50595702<br>
+
 A Simple Spring 4 and MyBatis Transaction Example
 ---
-https://edwin.baculsoft.com/2015/01/a-simple-spring-4-and-mybatis-transaction-example/
+https://edwin.baculsoft.com/2015/01/a-simple-spring-4-and-mybatis-transaction-example/<br>
+
 Spring Boot干货系列：（十一）数据存储篇-Spring Boot整合Mybatis通用Mapper插件
 ---
-https://blog.csdn.net/vqhgWJl9EUB/article/details/78862312
+https://blog.csdn.net/vqhgWJl9EUB/article/details/78862312<br>
+
 二十一、SpringBoot整合Mybatis、通用mapper和pageHelp
 ---
-https://blog.csdn.net/L_Sail/article/details/70247407
+https://blog.csdn.net/L_Sail/article/details/70247407<br>
+
 Spring Boot (八)：配置Druid 连接池
 ---
-https://lrshuai.top/atc/show/45
+https://lrshuai.top/atc/show/45<br>
+
 Spring Boot 配置Druid数据源
 ---
-https://blog.csdn.net/u012809062/article/details/72477852
+https://blog.csdn.net/u012809062/article/details/72477852<br>
+
 How to Configure Multiple Datasources with Spring Boot
 ---
-http://www.javaoptimum.com/how-to-configure-multiple-datasources-with-spring-boot/
+http://www.javaoptimum.com/how-to-configure-multiple-datasources-with-spring-boot/<br>
+
 Spring boot+mybatis+druid+SQL监控配置
 ---
-https://www.pocketdigi.com/20170530/1577.html
+https://www.pocketdigi.com/20170530/1577.html<br>
+
 spring boot + mybatis + druid配置实践
 ---
-http://www.cnblogs.com/vincent0928/p/6099600.html
+http://www.cnblogs.com/vincent0928/p/6099600.html<br>
+
 Spring-boot:快速搭建微框架服务
 ---
-http://www.cnblogs.com/jaycekon/p/SpringBoot.html
+http://www.cnblogs.com/jaycekon/p/SpringBoot.html<br>
+
 Spring-Blog:个人博客（一）-Mybatis 读写分离
 ---
-https://juejin.im/post/5a61a0475188257324724345
+https://juejin.im/post/5a61a0475188257324724345<br>
+
 数据源页面：(*) property for user to setup #1802
 ---
-https://github.com/alibaba/druid/issues/1802
+https://github.com/alibaba/druid/issues/1802<br>
 
 overriding jasypt properties (e.g. jasypt.encryptor.password) not possible #11
 ---
-https://github.com/ulisesbocchio/jasypt-spring-boot/issues/11#issuecomment-333134117
+https://github.com/ulisesbocchio/jasypt-spring-boot/issues/11#issuecomment-333134117<br>
 
 JPA学习笔记（5）——EntityManager相关
 ---
-https://blog.csdn.net/u010837612/article/details/47666131
+https://blog.csdn.net/u010837612/article/details/47666131<br>
 
 理解spring中的BeanFactory和FactoryBean的区别与联系
 ---
-https://blog.csdn.net/joenqc/article/details/66479154
+https://blog.csdn.net/joenqc/article/details/66479154<br>
+
 What Is Spring Boot Auto Configuration?
 ---
-https://dzone.com/articles/what-is-spring-boot-auto-configuration
+https://dzone.com/articles/what-is-spring-boot-auto-configuration<br>
+
 Spring Boot JPA使用详解
 ---
-https://blog.csdn.net/suo082407128/article/details/60963161
+https://blog.csdn.net/suo082407128/article/details/60963161<br>
+
 SpringBoot系列(6)—SpringBoot-JPA
 ---
-https://blog.csdn.net/tony308001970/article/details/74999680
----
-https://o7planning.org/en/11665/spring-boot-hibernate-and-spring-transaction-tutorial
----
-https://howtodoinjava.com/jpa/spring-hibernate-jpa-configuration-example/
+https://blog.csdn.net/tony308001970/article/details/74999680<br>
+https://o7planning.org/en/11665/spring-boot-hibernate-and-spring-transaction-tutorial<br>
+https://howtodoinjava.com/jpa/spring-hibernate-jpa-configuration-example/<br>
 
 Hibernate generator 详解
 ---
-http://www.cnblogs.com/xlwmin/articles/2189427.html
----
-http://www.springboottutorial.com/introduction-to-jpa-with-spring-boot-data-jpa
+http://www.cnblogs.com/xlwmin/articles/2189427.html<br>
+http://www.springboottutorial.com/introduction-to-jpa-with-spring-boot-data-jpa<br>
+
 Configure HikariCP with Spring Boot JPA Hibernate and PostgreSQL as a database
 ---
-https://gist.github.com/rhamedy/b3cb936061cc03acdfe21358b86a5bc6
----
-https://java2blog.com/spring-boot-hibernate-example/
+https://gist.github.com/rhamedy/b3cb936061cc03acdfe21358b86a5bc6<br>
+https://java2blog.com/spring-boot-hibernate-example/<br>
+
 Spring Boot + Hibernate 5 + Mysql Example
 ---
-http://www.devglan.com/spring-boot/spring-boot-hibernate-5-example
+http://www.devglan.com/spring-boot/spring-boot-hibernate-5-example<br>
+
 After the release of spring boot 2.0, hibernate and datasource related configurations has been more easier and more efficient.Hikari datasource has been the default datasource and connection pooling provider and we don't require any explicit configuration to achieve that. Instead, we have to remove some dependencies from above configurations.We don't require commons-dbcp and HikariCP artifacts.
 Spring Cloud (15) | Spring Boot、HikariCP、Mybatis和MySQL 配置HikariCP数据库连接池
 ---
-https://blog.csdn.net/superdangbo/article/details/78738516
----
-https://www.jianshu.com/p/3927c2b6acc0
+https://blog.csdn.net/superdangbo/article/details/78738516<br>
+https://www.jianshu.com/p/3927c2b6acc0<br>
 
 Maven依赖中的scope详解
 ---
-https://blog.csdn.net/kimylrong/article/details/50353161
+https://blog.csdn.net/kimylrong/article/details/50353161<br>
 
 Spring Boot + MyBatis + MySQL 整合
 ---
-https://www.jianshu.com/p/c2444ddd2de9
+https://www.jianshu.com/p/c2444ddd2de9<br>
+
 Mybatis的@Options注解
 ---
-http://www.cnblogs.com/sonofelice/p/6250203.html
+http://www.cnblogs.com/sonofelice/p/6250203.html<br>
 
 Spring Boot – Which main class to start
 ---
-https://www.mkyong.com/spring-boot/spring-boot-which-main-class-to-start/
+https://www.mkyong.com/spring-boot/spring-boot-which-main-class-to-start/<br>
 
 Difference for spring-boot-starter-web and spring-boot-starter-data-rest for REST APIs
 ---
-https://stackoverflow.com/questions/48914752/difference-for-spring-boot-starter-web-and-spring-boot-starter-data-rest-for-res
----
-https://stackoverflow.com/questions/39972171/difference-between-spring-boot-starter-web-and-spring-boot-starter-web-services
+https://stackoverflow.com/questions/48914752/difference-for-spring-boot-starter-web-and-spring-boot-starter-data-rest-for-res<br>
+https://stackoverflow.com/questions/39972171/difference-between-spring-boot-starter-web-and-spring-boot-starter-web-services<br>
 
 Spring, Spring Boot, and Component Scan
 ---
-https://dzone.com/articles/spring-spring-boot-and-component-scan
+https://dzone.com/articles/spring-spring-boot-and-component-scan<br>
 
 通过Spring Boot快速搭建RESTful服务
 ---
-https://www.jianshu.com/p/f72c16e4d210
+https://www.jianshu.com/p/f72c16e4d210<br>
+
 这里需要注意的是启动类的位置： Application需要放在所有controller的根节点上，保证能够正常访问我们定义的controller，否则会出现一些异常比如controller无法访问
 ---
-https://docs.spring.io/spring-boot/docs/2.0.0.RELEASE/reference/htmlsingle/#using-boot-locating-the-main-class
+https://docs.spring.io/spring-boot/docs/2.0.0.RELEASE/reference/htmlsingle/#using-boot-locating-the-main-class<br>
 
 
 Java进阶3 —— 类和接口设计原则
 ---
-https://segmentfault.com/a/1190000004454893
+https://segmentfault.com/a/1190000004454893<br>
+
 设计模式的六大原则
 ---
-https://blog.csdn.net/xiaoxinyu316/article/details/61930007
+https://blog.csdn.net/xiaoxinyu316/article/details/61930007<br>
+
 Java设计模式（二）——迭代模式
 ---
-http://www.cnblogs.com/learnhow/p/5227204.html
+http://www.cnblogs.com/learnhow/p/5227204.html<br>
+
 Spring对注解(Annotation)处理源码分析1——扫描和读取Bean定义
 ---
-https://blog.csdn.net/chjttony/article/details/6301523
+https://blog.csdn.net/chjttony/article/details/6301523<br>
+
 秒懂，Java 注解 （Annotation）你可以这样学
 ---
-https://blog.csdn.net/briblue/article/details/73824058
+https://blog.csdn.net/briblue/article/details/73824058<br>
+
 java设计模式案例详解:工厂模式
 ---
-http://www.cnblogs.com/garfieldcgf/p/5580996.html
+http://www.cnblogs.com/garfieldcgf/p/5580996.html<br>
+
 Java 9 揭秘（4. 模块依赖）
 ---
-https://www.jianshu.com/p/9713b29c9f18
+https://www.jianshu.com/p/9713b29c9f18<br>
+
 Spring MVC 中的异常处理 (handling exceptions)
 ---
-https://blog.csdn.net/suifeng3051/article/details/51672238
----
-https://blog.csdn.net/ufo2910628/article/details/40399539
+https://blog.csdn.net/suifeng3051/article/details/51672238<br>
+https://blog.csdn.net/ufo2910628/article/details/40399539<br>
+
 设计一个统一的异常处理类
 ---
-https://blog.csdn.net/suifeng3051/article/details/52126895
+https://blog.csdn.net/suifeng3051/article/details/52126895<br>
 SOLID Principles of Class Design
 ---
-http://www.kirkk.com/modularity/2009/12/solid-principles-of-class-design/
+http://www.kirkk.com/modularity/2009/12/solid-principles-of-class-design/<br>
+
 Spring事务Transaction配置的五种注入方式详解
 ---
 http://blog.csdn.net/yaerfeng/article/details/28390773
