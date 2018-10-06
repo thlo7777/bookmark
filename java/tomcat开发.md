@@ -1,29 +1,17 @@
-设计模式分析 - Tomcat 系统架构与设计模式，第 2 部分
----
-https://www.ibm.com/developerworks/cn/java/j-lo-tomcat2/index.html<br>
+# 设计模式分析 - Tomcat 系统架构与设计模式，第 2 部分
+https://www.ibm.com/developerworks/cn/java/j-lo-tomcat2/index.html
+# 在IntelliJ IDEA 和 Eclipse运行tomcat 7源代码（Tomcat源代码阅读系列之一）
+https://www.tuicool.com/articles/Rz6Fnyf
+# Java 开发
+https://www.ibm.com/developerworks/cn/java/
+# Tomcat处理HTTP请求源码分析（上）
+http://www.infoq.com/cn/articles/zh-tomcat-http-request-1
+# Spring Boot Embedded Tomcat Performance
+https://stackoverflow.com/questions/40319869/spring-boot-embedded-tomcat-performance
+# Spring Boot切换为APR模式
+https://www.cnblogs.com/xing901022/p/9145914.html
 
-在IntelliJ IDEA 和 Eclipse运行tomcat 7源代码（Tomcat源代码阅读系列之一）
----
-https://www.tuicool.com/articles/Rz6Fnyf<br>
-
-Java 开发
----
-https://www.ibm.com/developerworks/cn/java/<br>
-
-Tomcat处理HTTP请求源码分析（上）
----
-http://www.infoq.com/cn/articles/zh-tomcat-http-request-1<br>
-
-Spring Boot Embedded Tomcat Performance
----
-https://stackoverflow.com/questions/40319869/spring-boot-embedded-tomcat-performance<br>
-
-Spring Boot切换为APR模式
----
-https://www.cnblogs.com/xing901022/p/9145914.html<br>
-
-Tomcat application folder structure
----
+# Tomcat application folder structure
 app name/
     WEB-INF/web.xml
     WEB-INF/classes/
@@ -52,17 +40,18 @@ Find the CATALINA_HOME/webapps/manager/META-INF/context.xml file and add the com
 </Context>
 http://tomcat.apache.org/tomcat-8.0-doc/manager-howto.html#Configuring_Manager_Application_Access
 
-Tomcat install to mac sierra
+# Tomcat install to mac sierra
 https://wolfpaulus.com/mac/tomcat/
 https://www.howtoforge.com/tutorial/how-to-install-apache-tomcat-8-5-on-ubuntu-16-04/
 https://www.techrepublic.com/article/how-to-install-apache-tomcat-on-ubuntu-server-16-04/
-install tomcat 9 on ubuntu
-https://tecadmin.net/install-tomcat-9-on-ubuntu/
-#进入tomcat的bin目录 cd $CATALINA_HOME/bin vi catalina.sh #找到 
-# OS specific support，然后在这行下面添加以下配置 
-# OS specific support. $var _must_ be set to either true or false. 
 
-#Thlo added
+# install tomcat 9 on ubuntu
+https://tecadmin.net/install-tomcat-9-on-ubuntu/
+进入tomcat的bin目录 cd $CATALINA_HOME/bin vi catalina.sh 找到 
+OS specific support，然后在这行下面添加以下配置 
+OS specific support. $var _must_ be set to either true or false. 
+
+**Thlo added**
 JAVA_HOME=/usr/lib/jvm/java-8-oracle
 JRE_HOME=/usr/lib/jvm/java-8-oracle/jre
 CATALINA_HOME=/opt/tomcat9
@@ -70,16 +59,16 @@ CATALINA_HOME=/opt/tomcat9
 #保存退出
 http://www.jianshu.com/p/b71296e8b9a7
 
-TOMCAT原理详解及请求过程
+# TOMCAT原理详解及请求过程
 http://www.cnblogs.com/hggen/p/6264475.html
 https://www.packtpub.com/books/content/overview-tomcat-6-servlet-container-part-1
-Tomcat 系统架构与设计模式—工作原理
+# Tomcat 系统架构与设计模式—工作原理
 https://yq.aliyun.com/articles/74228
 # Jetty和Tomcat的使用及性能测试
 http://www.cnblogs.com/zhangxiaojun/archive/2013/02/07/2908619.html
 
 # What is Tomcat default administrator password
-http://www.mkyong.com/tomcat/tomcat-default-administrator-password/<br>
+http://www.mkyong.com/tomcat/tomcat-default-administrator-password/
 
 # Installing Tomcat on macOS 10.13 High Sierra
 https://wolfpaulus.com/mac/tomcat/
