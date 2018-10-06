@@ -81,6 +81,5 @@ http://www.cnblogs.com/zhangxiaojun/archive/2013/02/07/2908619.html
 # What is Tomcat default administrator password
 http://www.mkyong.com/tomcat/tomcat-default-administrator-password/<br>
 
-Installing Tomcat on macOS 10.13 High Sierra
----
-https://wolfpaulus.com/mac/tomcat/<br>
+# Installing Tomcat on macOS 10.13 High Sierra
+https://wolfpaulus.com/mac/tomcat/
