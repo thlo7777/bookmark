@@ -47,6 +47,7 @@ https://www.techrepublic.com/article/how-to-install-apache-tomcat-on-ubuntu-serv
 # install tomcat 9 on ubuntu
 https://tecadmin.net/install-tomcat-9-on-ubuntu/<br>
 进入tomcat的bin目录 
+
 cd $CATALINA_HOME/bin vi catalina.sh 找到 
 OS specific support，然后在这行下面添加以下配置 
 OS specific support. $var _must_ be set to either true or false. 
