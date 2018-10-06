@@ -42,7 +42,9 @@ http://tomcat.apache.org/tomcat-8.0-doc/manager-howto.html#Configuring_Manager_A
 
 # Tomcat install to mac sierra
 https://wolfpaulus.com/mac/tomcat/
+
 https://www.howtoforge.com/tutorial/how-to-install-apache-tomcat-8-5-on-ubuntu-16-04/
+
 https://www.techrepublic.com/article/how-to-install-apache-tomcat-on-ubuntu-server-16-04/
 
 # install tomcat 9 on ubuntu
