@@ -15,7 +15,9 @@ https://stackoverflow.com/questions/8716259/what-does-the-apr-based-apache-tomca
 # Using Tomcat APR (Apache Native Runtime) on Mac
 https://lekkimworld.com/2016/05/15/using-tomcat-apr-apache-native-runtime-on-mac/
 
-$\>vim README  
+$\>vim README    安装目录需要权限时按照以下执行
+# Mac OS X 11中的/usr/bin 的“Operation not permitted”
+https://www.jianshu.com/p/22b89f19afd6
 
 # Tomcat application folder structure
 app name/
