@@ -31,6 +31,7 @@ During the development process, two additional directories will be created on a 
 * build/ - When you execute a default build (ant), this directory will contain an exact image of the files in the web application archive for this application. Tomcat allows you to deploy an application in an unpacked directory like this, either by copying it to the $CATALINA_BASE/webapps directory, or by installing it via the "Manager" web application. The latter approach is very useful during development, and will be illustrated below. 
 
 * dist/ - When you execute the ant dist target, this directory will be created. It will create an exact image of the binary distribution for your web application, including an license information, documentation, and README files that you have prepared.
+
 # 403 Access Denied on Tomcat 9 Manager App without prompting for user/password
 Find the CATALINA_HOME/webapps/manager/META-INF/context.xml file and add the comment markers around the Valve.
 \<Context antiResourceLocking="false" privileged="true" > <br>
