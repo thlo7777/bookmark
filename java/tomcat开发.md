@@ -10,6 +10,8 @@ http://www.infoq.com/cn/articles/zh-tomcat-http-request-1
 https://stackoverflow.com/questions/40319869/spring-boot-embedded-tomcat-performance
 # Spring Boot切换为APR模式
 https://www.cnblogs.com/xing901022/p/9145914.html
+# What does “The APR based Apache Tomcat Native library was not found” mean?
+https://stackoverflow.com/questions/8716259/what-does-the-apr-based-apache-tomcat-native-library-was-not-found-mean
 
 # Tomcat application folder structure
 app name/
