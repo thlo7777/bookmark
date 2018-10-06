@@ -58,6 +58,7 @@ JRE_HOME=/usr/lib/jvm/java-8-oracle/jre<br>
 CATALINA_HOME=/opt/tomcat9<br>
 
 #保存退出
+# Linux服务器安装配置tomcat
 http://www.jianshu.com/p/b71296e8b9a7
 
 # TOMCAT原理详解及请求过程
