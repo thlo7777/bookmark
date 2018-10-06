@@ -46,15 +46,16 @@ https://www.howtoforge.com/tutorial/how-to-install-apache-tomcat-8-5-on-ubuntu-1
 https://www.techrepublic.com/article/how-to-install-apache-tomcat-on-ubuntu-server-16-04/
 
 # install tomcat 9 on ubuntu
-https://tecadmin.net/install-tomcat-9-on-ubuntu/
-进入tomcat的bin目录 cd $CATALINA_HOME/bin vi catalina.sh 找到 
+https://tecadmin.net/install-tomcat-9-on-ubuntu/<br>
+进入tomcat的bin目录 
+cd $CATALINA_HOME/bin vi catalina.sh 找到 
 OS specific support，然后在这行下面添加以下配置 
 OS specific support. $var _must_ be set to either true or false. 
 
 **Thlo added**
-JAVA_HOME=/usr/lib/jvm/java-8-oracle
-JRE_HOME=/usr/lib/jvm/java-8-oracle/jre
-CATALINA_HOME=/opt/tomcat9
+JAVA_HOME=/usr/lib/jvm/java-8-oracle<br>
+JRE_HOME=/usr/lib/jvm/java-8-oracle/jre<br>
+CATALINA_HOME=/opt/tomcat9<br>
 
 #保存退出
 http://www.jianshu.com/p/b71296e8b9a7
