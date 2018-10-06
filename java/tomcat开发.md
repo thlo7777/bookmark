@@ -14,6 +14,8 @@ https://www.cnblogs.com/xing901022/p/9145914.html
 https://stackoverflow.com/questions/8716259/what-does-the-apr-based-apache-tomcat-native-library-was-not-found-mean
 # Using Tomcat APR (Apache Native Runtime) on Mac
 https://lekkimworld.com/2016/05/15/using-tomcat-apr-apache-native-runtime-on-mac/
+# mac环境spring boot tomcat使用apr模式
+http://www.chinacion.cn/article/1005.html
 
 $\>vim README    安装目录需要权限时按照以下执行
 # Mac OS X 11中的/usr/bin 的“Operation not permitted”
