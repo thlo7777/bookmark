@@ -34,10 +34,11 @@ During the development process, two additional directories will be created on a 
 403 Access Denied on Tomcat 9 Manager App without prompting for user/password
 Find the CATALINA_HOME/webapps/manager/META-INF/context.xml file and add the comment markers around the Valve.
 \<Context antiResourceLocking="false" privileged="true" > 
-<!— 
-<Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" /> 
-—> 
-</Context>\
+\<!— 
+\<Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" /> 
+\—> 
+\</Context>
+
 http://tomcat.apache.org/tomcat-8.0-doc/manager-howto.html#Configuring_Manager_Application_Access
 
 # Tomcat install to mac sierra
