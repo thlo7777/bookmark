@@ -1,3 +1,6 @@
+# Remove hash(#) from url in dva
+https://github.com/dvajs/dva/issues/1284
+
 # 基于umi搭建React快速开发框架
 https://www.cnblogs.com/qiaojie/p/9598886.html
 
