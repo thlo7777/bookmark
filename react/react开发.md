@@ -1,3 +1,6 @@
+# 我学 dva 那些事儿
+https://www.jianshu.com/p/96b5d9d9ad80
+
 # Remove hash(#) from url in dva
 https://github.com/dvajs/dva/issues/1284
 
