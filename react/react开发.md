@@ -1,3 +1,5 @@
+# React 深入系列４：组件的生命周期
+https://segmentfault.com/a/1190000014547923
 # Parse Error: Adjacent JSX elements must be wrapped in an enclosing tag  组件 多个 \<div\>
 https://stackoverflow.com/questions/31284169/parse-error-adjacent-jsx-elements-must-be-wrapped-in-an-enclosing-tag
 # redux-saga框架使用详解及Demo教程
