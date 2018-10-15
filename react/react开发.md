@@ -1,3 +1,5 @@
+# React+Redux基础
+https://www.jianshu.com/p/7ee366bdf276
 # React 深入系列４：组件的生命周期
 https://segmentfault.com/a/1190000014547923
 # Parse Error: Adjacent JSX elements must be wrapped in an enclosing tag  组件 多个 \<div\>
