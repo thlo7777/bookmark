@@ -1,3 +1,5 @@
+# A New Way to Handle Events in React
+https://alligator.io/react/new-way-to-handle-events/
 # 如何优雅地在React中处理事件响应
 https://juejin.im/entry/596da459f265da6c4602ff7b
 # react&redux&react-redux原理（react小书）
