@@ -1,3 +1,5 @@
+# Can I pre-declare variables for destructuring assignment of objects?
+https://stackoverflow.com/questions/34836126/can-i-pre-declare-variables-for-destructuring-assignment-of-objects
 # es6系列教程 - 箭头函数详解
 http://www.cnblogs.com/ghostwu/p/7290848.html
 # 详解call()，apply()和bind()
