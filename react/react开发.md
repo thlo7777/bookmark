@@ -1,3 +1,5 @@
+# react&redux&react-redux原理（react小书）
+https://www.jianshu.com/p/a9f06b98cae5
 # React+Redux基础
 https://www.jianshu.com/p/7ee366bdf276
 # React 深入系列４：组件的生命周期
