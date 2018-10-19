@@ -1,5 +1,7 @@
 # React.js 小书
 http://huziketang.mangojuice.top/books/react/
+# 从React官方文档看 refs 的使用和未来
+https://juejin.im/post/5927f51244d904006414925a
 # Reactjs component 中 prop 和 state 的区别
 https://segmentfault.com/q/1010000002958539
 # A New Way to Handle Events in React
