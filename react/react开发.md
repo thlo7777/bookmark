@@ -1,3 +1,5 @@
+# 在react里面使用jquery插件
+https://segmentfault.com/a/1190000011133781
 # React.js 小书
 http://huziketang.mangojuice.top/books/react/
 # 从React官方文档看 refs 的使用和未来
