@@ -1,3 +1,5 @@
+# 为什么需要在 React 类组件中为事件处理程序绑定 this
+https://juejin.im/post/5afa6e2f6fb9a07aa2137f51
 # 在react里面使用jquery插件
 https://segmentfault.com/a/1190000011133781
 # React.js 小书
