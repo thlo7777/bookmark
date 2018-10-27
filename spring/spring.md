@@ -1,3 +1,5 @@
+# JeeSpringCloud微服务分布式代码生成的敏捷开发系统架构
+https://github.com/HuangBingGui/JeeSpringCloud
 # Spring Security3源码分析-FilterChainProxy初始化
 https://my.oschina.net/snakerflow/blog/194508
 # Spring MVC 项目搭建 -6- spring security使用自定义Filter实现验证扩展url验证，使用数据库进行配置
