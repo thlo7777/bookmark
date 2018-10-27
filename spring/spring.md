@@ -443,19 +443,12 @@ https://www.oschina.net/question/273712_221495?sort=default&p=2
 之所以你用junit可以，是因为junit进来不是经过servlet进来所以你配置在root中的事务管理器能找到。但是普通通过servlet进来的请求，找不到root中的事务管理器，所以需要在DispachServlet指定的xml中配置事务管理器供其使用
 
 
-
-
-
-
-
-千万级规模高性能、高并发的网络架构经验分享
+# 千万级规模高性能、高并发的网络架构经验分享
 http://www.cnblogs.com/shanyou/p/5048099.html
 https://yq.aliyun.com/articles/212989
 
-
-
-Spring Microservices Zuul proxy
-zuul学习一：spring cloud zuul的快速入门
+# Spring Microservices Zuul proxy
+# zuul学习一：spring cloud zuul的快速入门
 https://www.jianshu.com/p/9c104186572d
 https://www.jianshu.com/p/12a70993e321
 https://www.jianshu.com/p/44da2daacb69
@@ -463,25 +456,24 @@ https://www.jianshu.com/p/ff863d532767
 https://www.jianshu.com/p/fd19f4fcf1f1
 http://www.voidcn.com/article/p-gfqcofde-bpc.html
 
-Spring Cloud下基于OAUTH2认证授权的实现
+# Spring Cloud下基于OAUTH2认证授权的实现
 https://github.com/wiselyman/uaa-zuul
-Light Oauth2 
+# Light Oauth2 
 https://doc.networknt.com/architecture/
-Oauth 2
+# Oauth 2
 https://oauth.net/2/
 
-Implement Secure Microservices With Spring Security and OAuth 2.0
+# Implement Secure Microservices With Spring Security and OAuth 2.0
 https://dzone.com/articles/implement-secure-microservices-with-spring-security-and-oauth-20
 
-Spring cloud security Oauth2 多节点集群需要修改的配置
+# Spring cloud security Oauth2 多节点集群需要修改的配置
 http://blog.csdn.net/dong_19890208/article/details/74914852
 
-
-
-在整合spring4,hibernate4的时候，在dao层获取session报错：
-Could not obtain transaction-synchronized Session for current thread
-
+# 在整合spring4,hibernate4的时候，在dao层获取session报错：
+## Could not obtain transaction-synchronized Session for current thread
 https://www.oschina.net/question/273712_221495
+
+# ----
 <tx:annotation-driven transaction-manager="transactionManager" />
 上面这句需要加在DispatcherServlet指定的xml中
 <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
