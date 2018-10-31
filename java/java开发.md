@@ -1,3 +1,5 @@
+# 设计模式
+http://www.runoob.com/design-pattern/observer-pattern.html
 # 图说设计模式
 https://design-patterns.readthedocs.io/zh_CN/latest/index.html
 # 一看你就懂，超详细java中的ClassLoader详解
