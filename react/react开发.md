@@ -1,5 +1,7 @@
-# JavaScript中的浅拷贝和深拷贝
-https://segmentfault.com/a/1190000008637489
+# promise 与 fetch 详细介绍 与 使用
+https://blog.csdn.net/w2232097312/article/details/82736364
+# js中的深拷贝和浅拷贝
+https://www.jianshu.com/p/70dc5b968767
 # react 组件间的通信方法
 https://www.rails365.net/articles/react-zu-jian-jian-de-tong-xin-fang-fa
 # 如何存储 React 组件的数据
