@@ -1,3 +1,5 @@
+# 从0实现一个tiny react-redux
+https://juejin.im/entry/59e888e5518825619a01cc68
 # JSONPlaceholder
 http://jsonplaceholder.typicode.com/
 # promise 与 fetch 详细介绍 与 使用
