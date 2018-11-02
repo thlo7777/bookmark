@@ -1,3 +1,5 @@
+# JSONPlaceholder
+http://jsonplaceholder.typicode.com/
 # promise 与 fetch 详细介绍 与 使用
 https://blog.csdn.net/w2232097312/article/details/82736364
 # js中的深拷贝和浅拷贝
@@ -42,41 +44,26 @@ https://www.jianshu.com/p/1329a324101d
 https://juejin.im/post/5b93c0cce51d450e9059a84e
 # DvaJS的学习之路1 - dva+umi官网例子学习
 https://juejin.im/post/5b67fed36fb9a04f8856f817
-
 # 我学 dva 那些事儿
 https://www.jianshu.com/p/96b5d9d9ad80
-
 # Remove hash(#) from url in dva
 https://github.com/dvajs/dva/issues/1284
-
 # 基于umi搭建React快速开发框架
 https://www.cnblogs.com/qiaojie/p/9598886.html
-
 # React中文网
 https://reactjs.org.cn/doc/installation.html
-
 # dva.js 知识导图
 https://github.com/dvajs/dva-knowledgemap
-
-Redux 中文文档
----
+# Redux 中文文档
 https://cn.redux.js.org/index.html<br>
-
-Authentication with JSON Web Tokens using Rails and React / Flux
----
+# Authentication with JSON Web Tokens using Rails and React / Flux
 http://adamalbrecht.com/2015/07/20/authentication-using-json-web-tokens-using-rails-and-react/<br>
-
-前后端分离之JWT用户认证
----
+# 前后端分离之JWT用户认证
 https://blog.csdn.net/kevin_lcq/article/details/74846723<br>
 https://blog.csdn.net/riddle1981/article/details/76736518<br>
-
-Deepen your understanding of component lifecycle by stepping through each method in slow-motion.
----
+# Deepen your understanding of component lifecycle by stepping through each method in slow-motion.
 https://reactarmory.com/guides/lifecycle-simulators<br>
-
-Understanding unique keys for array children in React.js
----
+# Understanding unique keys for array children in React.js
 https://stackoverflow.com/questions/28329382/understanding-unique-keys-for-array-children-in-react-js<br>
 
 Redux 入门教程（React 进阶）（20 个视频）
