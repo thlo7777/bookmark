@@ -44,6 +44,8 @@ https://www.jianshu.com/p/7cac18e8d870
 https://www.jianshu.com/p/08f3a86e501b?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation
 # Dva + Ant Design 前后端分离之 React 应用实践
 https://www.jianshu.com/p/1329a324101d
+# umi + dva，完成用户管理的 CURD 应用 #62
+https://github.com/sorrycc/blog/issues/62
 # DvaJS的学习之路2 - umi@2 + dva，完成用户管理的 CURD 应用
 https://juejin.im/post/5b93c0cce51d450e9059a84e
 # DvaJS的学习之路1 - dva+umi官网例子学习
