@@ -1,3 +1,15 @@
+# React系列之高阶组件HOC实际应用指南
+https://juejin.im/post/5a5dc82151882573392cbe37
+# 从0实现一个tiny react-redux
+https://juejin.im/entry/59e888e5518825619a01cc68
+# JSONPlaceholder
+http://jsonplaceholder.typicode.com/
+# promise 与 fetch 详细介绍 与 使用
+https://blog.csdn.net/w2232097312/article/details/82736364
+# js中的深拷贝和浅拷贝
+https://www.jianshu.com/p/70dc5b968767
+# react 组件间的通信方法
+https://www.rails365.net/articles/react-zu-jian-jian-de-tong-xin-fang-fa
 # 如何存储 React 组件的数据
 https://www.w3ctech.com/topic/1868
 # 方案、标书怎么写
@@ -32,45 +44,32 @@ https://www.jianshu.com/p/7cac18e8d870
 https://www.jianshu.com/p/08f3a86e501b?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation
 # Dva + Ant Design 前后端分离之 React 应用实践
 https://www.jianshu.com/p/1329a324101d
+# umi + dva，完成用户管理的 CURD 应用 #62
+https://github.com/sorrycc/blog/issues/62
 # DvaJS的学习之路2 - umi@2 + dva，完成用户管理的 CURD 应用
 https://juejin.im/post/5b93c0cce51d450e9059a84e
 # DvaJS的学习之路1 - dva+umi官网例子学习
 https://juejin.im/post/5b67fed36fb9a04f8856f817
-
 # 我学 dva 那些事儿
 https://www.jianshu.com/p/96b5d9d9ad80
-
 # Remove hash(#) from url in dva
 https://github.com/dvajs/dva/issues/1284
-
 # 基于umi搭建React快速开发框架
 https://www.cnblogs.com/qiaojie/p/9598886.html
-
 # React中文网
 https://reactjs.org.cn/doc/installation.html
-
 # dva.js 知识导图
 https://github.com/dvajs/dva-knowledgemap
-
-Redux 中文文档
----
+# Redux 中文文档
 https://cn.redux.js.org/index.html<br>
-
-Authentication with JSON Web Tokens using Rails and React / Flux
----
+# Authentication with JSON Web Tokens using Rails and React / Flux
 http://adamalbrecht.com/2015/07/20/authentication-using-json-web-tokens-using-rails-and-react/<br>
-
-前后端分离之JWT用户认证
----
+# 前后端分离之JWT用户认证
 https://blog.csdn.net/kevin_lcq/article/details/74846723<br>
 https://blog.csdn.net/riddle1981/article/details/76736518<br>
-
-Deepen your understanding of component lifecycle by stepping through each method in slow-motion.
----
+# Deepen your understanding of component lifecycle by stepping through each method in slow-motion.
 https://reactarmory.com/guides/lifecycle-simulators<br>
-
-Understanding unique keys for array children in React.js
----
+# Understanding unique keys for array children in React.js
 https://stackoverflow.com/questions/28329382/understanding-unique-keys-for-array-children-in-react-js<br>
 
 Redux 入门教程（React 进阶）（20 个视频）
