@@ -1,3 +1,5 @@
+# Java并发编程：volatile关键字解析
+https://www.cnblogs.com/dolphin0520/p/3920373.html
 # 设计模式
 http://www.runoob.com/design-pattern/observer-pattern.html
 # 图说设计模式
