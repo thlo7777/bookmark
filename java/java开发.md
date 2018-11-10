@@ -1,3 +1,5 @@
+# 深入理解 Java 虚拟机
+http://wiki.jikexueyuan.com/project/java-vm/
 # 多线程死锁的产生以及如何避免死锁
 https://blog.csdn.net/ls5718/article/details/51896159
 # Java并发编程：volatile关键字解析
