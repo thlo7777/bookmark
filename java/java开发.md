@@ -1,3 +1,9 @@
+# 深入理解 Java 虚拟机
+http://wiki.jikexueyuan.com/project/java-vm/
+# 多线程死锁的产生以及如何避免死锁
+https://blog.csdn.net/ls5718/article/details/51896159
+# Java并发编程：volatile关键字解析
+https://www.cnblogs.com/dolphin0520/p/3920373.html
 # 设计模式
 http://www.runoob.com/design-pattern/observer-pattern.html
 # 图说设计模式
