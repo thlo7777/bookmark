@@ -1,3 +1,5 @@
+# Installing QEMU on OS X
+https://github.com/psema4/pine/wiki/Installing-QEMU-on-OS-X
 # 超实用！一位嵌入式高手摸索出的Linux内核编译步骤和经验
 https://cloud.tencent.com/developer/news/118670
 # How to handle a bsp
