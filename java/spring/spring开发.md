@@ -1,3 +1,5 @@
+# 知乎如何基于开源 Druid 打造下一代数据分析平台？
+https://www.infoq.cn/article/emlDNX72d8QO8-FEay50
 # Spring中获取Request的几种方法及其线程安全性分析
 https://zhuanlan.zhihu.com/p/37994735
 # JeeSpringCloud微服务分布式代码生成的敏捷开发系统架构
