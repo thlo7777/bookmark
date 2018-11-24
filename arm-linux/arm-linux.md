@@ -1,3 +1,5 @@
+# IIC详解，包括原理、过程，最后一步步教你实现IIC
+https://blog.csdn.net/shaguahaha/article/details/70766665
 # IIC详解
 https://blog.csdn.net/Firefly_cjd/article/details/51921129
 # Installing QEMU on OS X
