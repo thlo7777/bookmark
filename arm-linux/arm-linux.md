@@ -1,3 +1,5 @@
+# IIC详解
+https://blog.csdn.net/Firefly_cjd/article/details/51921129
 # Installing QEMU on OS X
 https://github.com/psema4/pine/wiki/Installing-QEMU-on-OS-X
 # 超实用！一位嵌入式高手摸索出的Linux内核编译步骤和经验
