@@ -1,3 +1,5 @@
+# 58. Spring Boot国际化（i18n）【从零开始学Spring Boot】
+http://412887952-qq-com.iteye.com/blog/2312274
 # 知乎如何基于开源 Druid 打造下一代数据分析平台？
 https://www.infoq.cn/article/emlDNX72d8QO8-FEay50
 # Spring中获取Request的几种方法及其线程安全性分析
