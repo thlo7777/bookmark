@@ -16,3 +16,6 @@ https://blog.csdn.net/sdulibh/article/details/52703687
 http://jensd.be/800/linux/cross-compiling-for-arm-with-ubuntu-16-04-lts
 # Linux DRM Developer's Guide
 http://www.landley.net/kdocs/htmldocs/drm.html#drmInternals
+
+# Linux GPU Driver Developer’s Guide
+https://dri.freedesktop.org/docs/drm/gpu/index.html
