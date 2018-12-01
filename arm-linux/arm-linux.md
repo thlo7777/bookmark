@@ -19,3 +19,12 @@ http://www.landley.net/kdocs/htmldocs/drm.html#drmInternals
 
 # Linux GPU Driver Developer’s Guide
 https://dri.freedesktop.org/docs/drm/gpu/index.html
+# The Kernel Boot Process
+https://manybutfinite.com/post/kernel-boot-process/
+# inux/arch/arm/boot/compressed/head.S
+https://blog.csdn.net/xulingxin/article/details/53185879
+# ARM Linux Kernel Boot Requirements
+http://www.arm.linux.org.uk/developer/booting.php
+http://www.arm.linux.org.uk/developer/
+# Booting ARM Linux
+http://www.simtec.co.uk/products/SWLINUX/files/booting_article.html
