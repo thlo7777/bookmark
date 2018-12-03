@@ -28,3 +28,9 @@ http://www.arm.linux.org.uk/developer/booting.php
 http://www.arm.linux.org.uk/developer/
 # Booting ARM Linux
 http://www.simtec.co.uk/products/SWLINUX/files/booting_article.html
+# 嵌入式系统 Boot Loader 技术内幕
+https://www.ibm.com/developerworks/cn/linux/l-btloader/index.html?mhq=bootloader&mhsrc=ibmsearch_a
+https://bootlin.com/docs/
+
+# Linux GPU Driver Developer’s Guide
+https://dri.freedesktop.org/docs/drm/gpu/index.html
