@@ -36,3 +36,5 @@ https://bootlin.com/docs/
 https://dri.freedesktop.org/docs/drm/gpu/index.html
 # Innost的专栏
 https://blog.csdn.net/innost
+# Linux DRM Developer's Guide
+http://www.landley.net/kdocs/htmldocs/drm.html
