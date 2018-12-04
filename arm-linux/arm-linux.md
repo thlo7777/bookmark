@@ -38,3 +38,5 @@ https://dri.freedesktop.org/docs/drm/gpu/index.html
 https://blog.csdn.net/innost
 # Linux DRM Developer's Guide
 http://www.landley.net/kdocs/htmldocs/drm.html
+# The Linux driver implementer’s API guide
+https://01.org/linuxgraphics/gfx-docs/drm/driver-api/index.html
