@@ -44,3 +44,5 @@ https://01.org/linuxgraphics/gfx-docs/drm/driver-api/index.html
 http://www.peter-cockerell.net/aalp/html/frames.html
 # linux-2.6.26内核中ARM中断实现详解（1）
 https://my.oschina.net/u/1024767/blog/324429
+# Linux Device Drivers, Third Edition
+https://lwn.net/Kernel/LDD3/
