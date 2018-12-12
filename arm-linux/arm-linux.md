@@ -46,3 +46,5 @@ http://www.peter-cockerell.net/aalp/html/frames.html
 https://my.oschina.net/u/1024767/blog/324429
 # Linux Device Drivers, Third Edition
 https://lwn.net/Kernel/LDD3/
+# The Linux Kernel documentation
+https://www.kernel.org/doc/html/v4.14/index.html
