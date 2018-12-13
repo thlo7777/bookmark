@@ -56,3 +56,5 @@ https://blog.csdn.net/smartbone763/article/details/63682819
 https://www.jianshu.com/p/51358d1dd2d2
 # 怎么看原理图之协议类接口之SPI
 http://edu.51cto.com/center/course/lesson/index?id=25675
+# Device Tree for Dummies
+https://elinux.org/images/f/f9/Petazzoni-device-tree-dummies_0.pdf
