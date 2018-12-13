@@ -54,3 +54,5 @@ https://blog.csdn.net/weijory/article/details/70212841
 https://blog.csdn.net/smartbone763/article/details/63682819
 # Linux嵌入式开发入门（二）——快速看懂原理图，对接软件开发
 https://www.jianshu.com/p/51358d1dd2d2
+# 怎么看原理图之协议类接口之SPI
+http://edu.51cto.com/center/course/lesson/index?id=25675
