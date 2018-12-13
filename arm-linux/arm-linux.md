@@ -48,3 +48,9 @@ https://my.oschina.net/u/1024767/blog/324429
 https://lwn.net/Kernel/LDD3/
 # The Linux Kernel documentation
 https://www.kernel.org/doc/html/v4.14/index.html
+# qualcomm平台camera bring up 分析
+https://blog.csdn.net/weijory/article/details/70212841
+# Android车载camera的调试-Bring up(1)
+https://blog.csdn.net/smartbone763/article/details/63682819
+# Linux嵌入式开发入门（二）——快速看懂原理图，对接软件开发
+https://www.jianshu.com/p/51358d1dd2d2
