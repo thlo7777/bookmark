@@ -58,3 +58,5 @@ https://www.jianshu.com/p/51358d1dd2d2
 http://edu.51cto.com/center/course/lesson/index?id=25675
 # Device Tree for Dummies
 https://elinux.org/images/f/f9/Petazzoni-device-tree-dummies_0.pdf
+# Linux 驱动 SPI Flash（W25Q80DV）
+https://blog.csdn.net/lu_embedded/article/details/80683998
