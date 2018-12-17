@@ -1,3 +1,5 @@
+# linux内核中的GPIO系统之
+http://www.wowotech.net/sort/gpio_subsystem
 # 理解垃圾回收算法
 https://www.infoq.cn/article/2017%2F03%2Fgarbage-collection-algorithm
 # IIC详解，包括原理、过程，最后一步步教你实现IIC
