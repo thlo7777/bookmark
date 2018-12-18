@@ -1,3 +1,5 @@
+# Device Tree（二）：基本概念
+http://www.wowotech.net/device_model/dt_basic_concept.html
 # 高通MSM8909的gpio驱动编程
 https://www.jianshu.com/p/ffb689b2d4c1
 # linux内核中的GPIO系统之
