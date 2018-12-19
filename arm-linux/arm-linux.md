@@ -1,3 +1,5 @@
+# Linux下I2C驱动架构全面分析
+https://blog.csdn.net/Romantic_Energy/article/details/50377574
 # Linux DTS(Device Tree Source)设备树详解之一
 https://blog.csdn.net/RadianceBlau/article/details/70800076
 # Device Tree（二）：基本概念
