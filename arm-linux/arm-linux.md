@@ -1,3 +1,5 @@
+# Linux DTS(Device Tree Source)设备树详解之一
+https://blog.csdn.net/RadianceBlau/article/details/70800076
 # Device Tree（二）：基本概念
 http://www.wowotech.net/device_model/dt_basic_concept.html
 # 高通MSM8909的gpio驱动编程
