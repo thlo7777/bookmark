@@ -1,3 +1,5 @@
+# S3C6410的启动
+https://kongweile.iteye.com/blog/1743208
 # Android 蓝牙开发 
 https://blog.csdn.net/baidu_35255405/article/details/78727066
 # Linux下I2C驱动架构全面分析
