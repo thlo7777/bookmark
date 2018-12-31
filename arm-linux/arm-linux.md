@@ -88,3 +88,5 @@ https://blog.csdn.net/kangear/article/details/37961151
 https://blog.csdn.net/wh_19910525/article/details/11692875
 # Android4: HDMI system in ICS
 https://www.oschina.net/question/565065_58438
+# Linux i2c子系统(一) _动手写一个i2c设备驱动
+https://www.linuxidc.com/Linux/2017-03/142198.htm
