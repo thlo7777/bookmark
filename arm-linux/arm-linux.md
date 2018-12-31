@@ -74,3 +74,8 @@ http://edu.51cto.com/center/course/lesson/index?id=25675
 https://elinux.org/images/f/f9/Petazzoni-device-tree-dummies_0.pdf
 # Linux 驱动 SPI Flash（W25Q80DV）
 https://blog.csdn.net/lu_embedded/article/details/80683998
+# Android HDMI输出设置流程
+https://blog.csdn.net/cyz_1257/article/details/54849213
+# 基于暗通道先验的去雾算法
+http://blkstone.github.io/2015/08/20/single-image-haze-removal-using-dark-channel/
+
