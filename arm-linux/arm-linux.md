@@ -78,4 +78,13 @@ https://blog.csdn.net/lu_embedded/article/details/80683998
 https://blog.csdn.net/cyz_1257/article/details/54849213
 # 基于暗通道先验的去雾算法
 http://blkstone.github.io/2015/08/20/single-image-haze-removal-using-dark-channel/
-
+# 基于linux switch模块的HDMI检测状态驱动
+https://blog.csdn.net/liujun502589075/article/details/38160717
+# Android HDMI输出设置流程
+https://blog.csdn.net/cyz_1257/article/details/54849213
+# Android内核sysfs中switch类使用实例
+https://blog.csdn.net/kangear/article/details/37961151
+# android switch模块
+https://blog.csdn.net/wh_19910525/article/details/11692875
+# Android4: HDMI system in ICS
+https://www.oschina.net/question/565065_58438
