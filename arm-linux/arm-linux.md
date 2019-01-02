@@ -92,3 +92,5 @@ https://www.oschina.net/question/565065_58438
 https://www.linuxidc.com/Linux/2017-03/142198.htm
 # linux pin control 子系统
 https://blog.csdn.net/hanp_linux/article/details/72818437
+# 使用ninja命令提高单模块编译效率
+http://note.qidong.name/2018/02/android-ninja-tips/
