@@ -14,3 +14,5 @@ https://blog.csdn.net/briblue/article/details/54973413
 https://zhuanlan.zhihu.com/p/35188214
 # Java 流(Stream)、文件(File)和IO
 http://www.runoob.com/java/java-files-io.html
+# Intellij Idea  license server
+https://gist.github.com/oct111992/383283462a2fa11defffbf401ecbdf7f
