@@ -2,6 +2,8 @@
 https://kongweile.iteye.com/blog/1743208
 # Android 蓝牙开发 
 https://blog.csdn.net/baidu_35255405/article/details/78727066
+# 理解Android编译命令
+http://gityuan.com/2016/03/19/android-build/
 # Linux下I2C驱动架构全面分析
 https://blog.csdn.net/Romantic_Energy/article/details/50377574
 # Linux DTS(Device Tree Source)设备树详解之一
