@@ -26,6 +26,8 @@ https://blog.csdn.net/shaguahaha/article/details/70766665
 https://blog.csdn.net/Firefly_cjd/article/details/51921129
 # Installing QEMU on OS X
 https://github.com/psema4/pine/wiki/Installing-QEMU-on-OS-X
+# 使用qemu模拟器搭建arm运行环境
+https://www.jianshu.com/p/0ca97e5b6c08
 # 超实用！一位嵌入式高手摸索出的Linux内核编译步骤和经验
 https://cloud.tencent.com/developer/news/118670
 # How to handle a bsp
