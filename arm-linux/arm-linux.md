@@ -1,3 +1,5 @@
+# hello girl
+https://www.jqhtml.com/down/category/resources
 # S3C6410的启动
 https://kongweile.iteye.com/blog/1743208
 # Android 蓝牙开发 
