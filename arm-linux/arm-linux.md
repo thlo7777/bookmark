@@ -96,3 +96,5 @@ https://www.linuxidc.com/Linux/2017-03/142198.htm
 https://blog.csdn.net/hanp_linux/article/details/72818437
 # 使用ninja命令提高单模块编译效率
 http://note.qidong.name/2018/02/android-ninja-tips/
+# Virtual ARM Linux environment
+https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Virtual_ARM_Linux_environment
