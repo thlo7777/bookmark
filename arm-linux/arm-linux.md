@@ -1,3 +1,5 @@
+# little kernel
+https://github.com/littlekernel/lk
 # hello girl
 https://www.jqhtml.com/down/category/resources
 # S3C6410的启动
