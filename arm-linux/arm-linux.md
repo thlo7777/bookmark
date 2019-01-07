@@ -104,3 +104,5 @@ https://blog.csdn.net/hanp_linux/article/details/72818437
 http://note.qidong.name/2018/02/android-ninja-tips/
 # Virtual ARM Linux environment
 https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Virtual_ARM_Linux_environment
+# little kernel分析
+https://blog.csdn.net/viewsky11/article/details/53906070
