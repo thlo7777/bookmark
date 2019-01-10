@@ -1,3 +1,5 @@
+# Spring Boot 2 Tutorial
+https://howtodoinjava.com/spring-boot2/sb-multi-module-maven-project/
 # Guide to Internationalization in Spring Boot
 https://www.baeldung.com/spring-boot-internationalization
 # 58. Spring Boot国际化（i18n）【从零开始学Spring Boot】
