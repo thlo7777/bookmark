@@ -230,6 +230,8 @@ https://blog.csdn.net/wangb_java/article/category/6649995
 https://blog.csdn.net/wangb_java/article/details/66000956
 # Maven构建一个多模块的Spring Boot + Spring MVC项目，完全基于java config
 https://blog.csdn.net/luenxin/article/details/50068985
+# IntelliJ IDEA中Maven插件无法更新索引之解决办法
+http://codepub.cn/2015/12/09/IntelliJ-IDEA-in-Maven-plugin-could-not-update-the-index-of-the-solution/
 # springboot多模块(modules)开发
 https://blog.csdn.net/qqhjqs/article/details/68941934
 # IntelliJ IDEA教程之Maven工程多模块继承和聚合创建(详解)
