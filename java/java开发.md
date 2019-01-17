@@ -16,3 +16,5 @@ https://zhuanlan.zhihu.com/p/35188214
 http://www.runoob.com/java/java-files-io.html
 # Intellij Idea  license server
 https://gist.github.com/oct111992/383283462a2fa11defffbf401ecbdf7f
+# JAVA NIO 一步步构建I/O多路复用的请求模型
+https://github.com/jasonGeng88/blog/blob/master/201708/java-nio.md
