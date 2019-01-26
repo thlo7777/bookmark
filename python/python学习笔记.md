@@ -1,0 +1,57 @@
+
+# python学习笔记
+
+## 基础知识
+
+脚本式编程
+通过脚本参数调用解释器开始执行脚本，直到脚本执行完毕。当脚本执行完成后，解释器不再有效。
+#!/usr/bin/python
+print "Hello, Python!"
+标识符
+       在 Python 里，标识符由字母、数字、下划线组成。
+       在 Python 中，所有标识符可以包括英文、数字以及下划线(_)，但不能以数字开头。
+        Python 中的标识符是区分大小写的。
+ 以下划线开头的标识符是有特殊意义的。以单下划线开头 _foo 的代表不能直接访问的类属性，需通过类提供的接口进行访问，不能用 from xxx import * 而导入。
+以双下划线开头的 __foo 代表类的私有成员，以双下划线开头和结尾的 __foo__ 代表 Python 里特殊方法专用的标识，如 __init__() 代表类的构造函数。
+
+
+行和缩进
+学习 Python 与其他语言最大的区别就是，Python 的代码块不使用大括号 {} 来控制类，函数以及其他逻辑判断。python 最具特色的就是用缩进来写模块。
+缩进的空白数量是可变的，但是所有代码块语句必须包含相同的缩进空白数量，这个必须严格执行。使用的缩进方式不一致，有的是 tab 键缩进，有的是空格缩进，改为一致即可。
+在 Python 的代码块中必须使用相同数目的行首缩进空格数。
+建议你在每个缩进层次使用 单个制表符 或 两个空格 或 四个空格 , 切记不能混用
+多行语句
+Python语句中一般以新行作为语句的结束符。
+但是我们可以使用斜杠（ \）将一行的语句分为多行显示，如下所示：
+total = item_one + \
+        item_two + \
+        item_three   语句中包含 [], {} 或 () 括号就不需要使用多行连接符。
+
+
+
+Python引号
+Python 可以使用引号( ' )、双引号( " )、三引号( ''' 或 """ ) 来表示字符串，引号的开始与结束必须的相同类型的。
+其中三引号可以由多行组成，编写多行文本的快捷语法，常用于文档字符串，在文件的特定地点，被当做注释。
+Python注释
+python中单行注释采用 # 开头。
+python 中多行注释使用三个单引号(''')或三个双引号(""")。
+
+
+
+```graph
+gantt
+        dateFormat  YYYY-MM-DD
+        title Adding GANTT diagram functionality to mermaid
+        section A section
+        Completed task            :done,    des1, 2014-01-06,2014-01-08
+        Active task               :active,  des2, 2014-01-09, 3d
+        Future task               :         des3, after des2, 5d
+        Future task2               :         des4, after des3, 5d
+        section Critical tasks
+        Completed task in the critical line :crit, done, 2014-01-06,24h
+        Implement parser and jison          :crit, done, after des1, 2d
+        Create tests for parser             :crit, active, 3d
+        Future task in critical line        :crit, 5d
+        Create tests for renderer           :2d
+        Add to mermaid                      :1d
+```
