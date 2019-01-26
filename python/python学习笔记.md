@@ -39,17 +39,19 @@ Python注释
 python中单行注释采用 # 开头。
 python 中多行注释使用三个单引号(''')或三个双引号(""")。
 
-
-
-
-```flow
-//定义类型和描述
-st=>start: 开始
-e=>end: 结束
-op=>operation: 我的操作
-cond=>condition: 判断确认？
-  
-st->op->cond
-cond(yes)->e
-cond(no)->op
+- Class, Object and Members
 ```
+# A simple example class 
+class Test: 
+	# A sample method 
+	def fun(self): 
+		print("Hello") 
+# Driver code 
+obj = Test() 
+obj.fun() 
+```
+>The self
+>1. Class methods must have an extra first parameter in method definition. We do not give a value for this parameter when we call the method, Python provides it
+>2. If we have a method which takes no arguments, then we still have to have one argument – the self. See fun() in above simple example.
+>3. This is similar to this pointer in C++ and this reference in Java.
+>>When we call a method of this object as myobject.method(arg1, arg2), this is automatically converted by Python into MyClass.method(myobject, arg1, arg2) – this is all the special self is about.
