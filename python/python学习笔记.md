@@ -55,3 +55,20 @@ obj.fun()
 >2. If we have a method which takes no arguments, then we still have to have one argument – the self. See fun() in above simple example.
 >3. This is similar to this pointer in C++ and this reference in Java.
 >>When we call a method of this object as myobject.method(arg1, arg2), this is automatically converted by Python into MyClass.method(myobject, arg1, arg2) – this is all the special self is about.
+- \_\_init\_\_ method
+> The __init__ method is similar to constructors in C++ and Java. It is run as soon as an object of a class is instantiated. The method is useful to do any initialization you want to do with your object.
+
+```
+# A Sample class with init method 
+class Person: 
+	# init method or constructor 
+	def __init__(self, name): 
+		self.name = name 
+
+	# Sample Method 
+	def say_hi(self): 
+		print('Hello, my name is', self.name) 
+
+p = Person('Shwetanshu') 
+p.say_hi() 
+```
