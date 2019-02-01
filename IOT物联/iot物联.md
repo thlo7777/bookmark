@@ -14,3 +14,6 @@ http://codepub.cn/2015/12/09/IntelliJ-IDEA-in-Maven-plugin-could-not-update-the-
 https://blog.csdn.net/belvine/article/details/80842240
 # AWS IoT和Azure IoT史上最强对比
 https://zhuanlan.zhihu.com/p/40035569
+
+# SmartAppUpdates FOTA
+https://github.com/cundong/SmartAppUpdates
