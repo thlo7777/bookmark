@@ -1,3 +1,5 @@
+# 是时候使用Helm了：Helm, Kubernetes的包管理工具
+https://blog.frognew.com/2017/12/its-time-to-use-helm.html
 # kubernetes-dashboard(1.8.3)部署与踩坑
 https://www.imooc.com/article/266934
 # Kubernetes集群部署不完全指南
