@@ -1,3 +1,5 @@
+# kubernetes 中文文档
+http://docs.kubernetes.org.cn/249.html#Kubernetes
 # Kubernetes-第一章：先把kubernetes跑起来
 https://cloud.tencent.com/info/cfde382fbb9420fe16c56d274b84a9e8.html
 # 是时候使用Helm了：Helm, Kubernetes的包管理工具
