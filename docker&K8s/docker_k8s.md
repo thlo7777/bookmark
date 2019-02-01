@@ -16,3 +16,5 @@ http://note.qidong.name/2018/01/docker-volume-permission/
 https://deepzz.com/post/the-docker-volumes-permissions.html
 # docker volume 容器卷的那些事（一）
 https://deepzz.com/post/the-docker-volumes-basic.html
+# UEFI引导ubuntu16.04 的Nvidia显卡驱动安装
+https://blog.csdn.net/zhhp1001/article/details/83685563
