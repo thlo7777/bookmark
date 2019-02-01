@@ -10,3 +10,9 @@ https://my.oschina.net/u/869718/blog/2250375
 https://segmentfault.com/a/1190000014405563
 # Kubernetes-应用部署问题定位和处理
 https://www.kubernetes.org.cn/4354.html
+# 定制ENTRYPOINT自动修改Docker中volume的权限
+http://note.qidong.name/2018/01/docker-volume-permission/
+# docker volume 容器卷的那些事（二）
+https://deepzz.com/post/the-docker-volumes-permissions.html
+# docker volume 容器卷的那些事（一）
+https://deepzz.com/post/the-docker-volumes-basic.html
