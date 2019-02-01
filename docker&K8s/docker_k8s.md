@@ -1,3 +1,5 @@
+# Kubernetes-第一章：先把kubernetes跑起来
+https://cloud.tencent.com/info/cfde382fbb9420fe16c56d274b84a9e8.html
 # 是时候使用Helm了：Helm, Kubernetes的包管理工具
 https://blog.frognew.com/2017/12/its-time-to-use-helm.html
 # kubernetes-dashboard(1.8.3)部署与踩坑
