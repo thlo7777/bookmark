@@ -4,3 +4,5 @@ https://www.imooc.com/article/266934
 https://juejin.im/entry/5c1a76b56fb9a04a0164473e
 # k8s Kubernetes v1.10.0 集群安装文档 &踩坑日记
 https://my.oschina.net/suncf/blog/1932826
+# Spring Cloud和Kubernetes实战
+https://my.oschina.net/u/869718/blog/2250375
