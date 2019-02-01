@@ -18,3 +18,5 @@ https://deepzz.com/post/the-docker-volumes-permissions.html
 https://deepzz.com/post/the-docker-volumes-basic.html
 # UEFI引导ubuntu16.04 的Nvidia显卡驱动安装
 https://blog.csdn.net/zhhp1001/article/details/83685563
+# 在实践之前，必须先学习 Kubernetes 的几个重要概念，它们是组成 Kubernetes 集群的基石。
+https://www.ibm.com/developerworks/community/blogs/132cfa78-44b0-4376-85d0-d3096cd30d3f/entry/k8s_重要概念_每天5分钟玩转_Docker_容器技术_117?lang=zh_cn
