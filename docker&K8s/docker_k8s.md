@@ -6,3 +6,7 @@ https://juejin.im/entry/5c1a76b56fb9a04a0164473e
 https://my.oschina.net/suncf/blog/1932826
 # Spring Cloud和Kubernetes实战
 https://my.oschina.net/u/869718/blog/2250375
+# 为什么Kubernetes天然适合微服务？
+https://segmentfault.com/a/1190000014405563
+# Kubernetes-应用部署问题定位和处理
+https://www.kubernetes.org.cn/4354.html
