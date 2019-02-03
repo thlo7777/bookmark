@@ -1,5 +1,9 @@
 # Docker and Kubernetes bookmark
 
+## 使用YAML 文件创建 Kubernetes Deployment
+
+><https://cloud.tencent.com/developer/article/1140062>
+
 ## kubernetes 中文文档
 
 ><http://docs.kubernetes.org.cn/249.html#Kubernetes>
