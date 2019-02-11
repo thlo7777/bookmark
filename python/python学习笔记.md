@@ -7,7 +7,7 @@
 
 >通过脚本参数调用解释器开始执行脚本，直到脚本执行完毕。当脚本执行完成后，解释器不再有效。
 
-```
+```bash
 #!/usr/bin/python
 print "Hello, Python!"
 ```
@@ -30,7 +30,7 @@ Python 中的标识符是区分大小写的。
 Python语句中一般以新行作为语句的结束符。
 但是我们可以使用斜杠（ \）将一行的语句分为多行显示，如下所示：
 
-```
+```python
 total = item_one + \
         item_two + \
         item_three
@@ -47,20 +47,24 @@ python中单行注释采用 # 开头。
 python 中多行注释使用三个单引号(''')或三个双引号(""")。
 
 - Class, Object and Members
+
 ```
-# A simple example class 
-class Test: 
-	# A sample method 
-	def fun(self): 
-		print("Hello") 
-# Driver code 
-obj = Test() 
-obj.fun() 
+# A simple example class
+class Test:
+	# A sample method
+	def fun(self):
+		print("Hello")
+# Driver code
+obj = Test()
+obj.fun()
 ```
+
 >The self
+
 >1. Class methods must have an extra first parameter in method definition. We do not give a value for this parameter when we call the method, Python provides it
 >2. If we have a method which takes no arguments, then we still have to have one argument – the self. See fun() in above simple example.
 >3. This is similar to this pointer in C++ and this reference in Java.
+
 >>When we call a method of this object as myobject.method(arg1, arg2), this is automatically converted by Python into MyClass.method(myobject, arg1, arg2) – this is all the special self is about.
 - \_\_init\_\_ method
 > The __init__ method is similar to constructors in C++ and Java. It is run as soon as an object of a class is instantiated. The method is useful to do any initialization you want to do with your object.
