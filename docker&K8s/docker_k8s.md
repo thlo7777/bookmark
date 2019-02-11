@@ -63,3 +63,6 @@
 ## 入门系列之Kubernetes部署
 
 ><https://juejin.im/post/5b4855265188251afc256ca9>
+
+## 构建高可用集群
+><https://kubernetes.io/zh/docs/admin/high-availability/>
