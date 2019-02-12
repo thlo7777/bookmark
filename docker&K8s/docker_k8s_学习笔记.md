@@ -22,3 +22,12 @@ Kubernetes 引入 Pod 主要基于下面两个目的：
 有些容器天生就是需要紧密联系，一起工作。Pod 提供了比容器更高层次的抽象，将它们封装到一个部署单元中。Kubernetes 以 Pod 为最小单位进行调度、扩展、共享资源、管理生命周期。
 >2. 通信和资源共享。
 Pod 中的所有容器使用同一个网络 namespace，即相同的 IP 地址和 Port 空间。它们可以直接用 localhost 通信。同样的，这些容器可以共享存储，当 Kubernetes 挂载 volume 到 Pod，本质上是将 volume 挂载到 Pod 中的每一个容器。
+
+>Pods 有两种使用方式：
+>1. 运行单一容器。
+one-container-per-Pod 是 Kubernetes 最常见的模型，这种情况下，只是将单个容器简单封装成 Pod。即便是只有一个容器，Kubernetes 管理的也是 Pod 而不是直接管理容器。
+>2. 运行多个容器。
+但问题在于：哪些容器应该放到一个 Pod 中？ 
+答案是：这些容器联系必须 非常紧密，而且需要 直接共享资源。
+
++ **kubernetes官方默认策略是worker节点运行Pod，master节点不运行Pod**
