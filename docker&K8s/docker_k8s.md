@@ -71,3 +71,15 @@
 ## Kubernetes中使用prometheus+alertmanager实现监控告警
 
 ><https://segmentfault.com/a/1190000016637398>
+
+## F5负载均衡的业务平台配置案例
+
+><http://blog.51cto.com/xjsunjie/697285>
+
+## F5负载均衡配置一例（转载）
+
+><http://www.iqianyue.net/878.html>
+
+## Grafana 在 Kubernetes 中的使用
+
+><https://www.qikqiak.com/post/grafana-usage-in-k8s/>
