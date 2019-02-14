@@ -87,3 +87,8 @@
 ## 从Docker到Kubernetes进阶
 
 ><https://www.qikqiak.com/k8s-book/>
+
+## Kubernetes+Prometheus+Grafana部署笔记
+
+><http://blog.51cto.com/kaliarch/2160569>
+
