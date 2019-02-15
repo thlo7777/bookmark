@@ -92,3 +92,6 @@
 
 ><http://blog.51cto.com/kaliarch/2160569>
 
+## 阿里云快速部署Kubernetes - VPC环境
+
+><https://yq.aliyun.com/articles/66474>
