@@ -31,3 +31,11 @@ one-container-per-Pod 是 Kubernetes 最常见的模型，这种情况下，只�
 答案是：这些容器联系必须 非常紧密，而且需要 直接共享资源。
 
 + **kubernetes官方默认策略是worker节点运行Pod，master节点不运行Pod**
+
+><https://pic4.zhimg.com/v2-c91d51eac851d4e8c845d7af5a98b6b3_r.jpg>
+
+## kubernetes Objects
+
+>A Kubernetes object is a “record of intent”–once you create the object, the Kubernetes system will constantly work to ensure that object exists.
+
+>**To work with Kubernetes objects–whether to create, modify, or delete them–you’ll need to use the Kubernetes API.**
