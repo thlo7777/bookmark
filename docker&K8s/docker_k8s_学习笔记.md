@@ -38,4 +38,4 @@ one-container-per-Pod 是 Kubernetes 最常见的模型，这种情况下，只�
 
 >A Kubernetes object is a “record of intent”–once you create the object, the Kubernetes system will constantly work to ensure that object exists.
 
->**To work with Kubernetes objects–whether to create, modify, or delete them–you’ll need to use the Kubernetes API.**
+>** To work with Kubernetes objects–whether to create, modify, or delete them–you’ll need to use the Kubernetes API.**
