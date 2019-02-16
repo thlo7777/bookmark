@@ -18,6 +18,7 @@
 
 >Pod 是 Kubernetes 的最小工作单元。每个 Pod 包含一个或多个容器。Pod 中的容器会作为一个整体被 Master 调度到一个 Node 上运行。
 Kubernetes 引入 Pod 主要基于下面两个目的：
+
 >1. 可管理性。
 有些容器天生就是需要紧密联系，一起工作。Pod 提供了比容器更高层次的抽象，将它们封装到一个部署单元中。Kubernetes 以 Pod 为最小单位进行调度、扩展、共享资源、管理生命周期。
 >2. 通信和资源共享。
@@ -37,5 +38,4 @@ one-container-per-Pod 是 Kubernetes 最常见的模型，这种情况下，只�
 ## kubernetes Objects
 
 >A Kubernetes object is a “record of intent”–once you create the object, the Kubernetes system will constantly work to ensure that object exists.
-
->** To work with Kubernetes objects–whether to create, modify, or delete them–you’ll need to use the Kubernetes API.**
+**To work with Kubernetes objects–whether to create, modify, or delete them–you’ll need to use the Kubernetes API.**
