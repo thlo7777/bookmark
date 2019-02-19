@@ -11,3 +11,6 @@
 
 ## too hard to install k8s in china
 ><https://github.com/kubernetes/kubernetes/issues/56038>
+
+## 5分钟创建Amazon EC2实例 – AWS入门
+><https://51daiwei.net/create-amazon-ec2>
