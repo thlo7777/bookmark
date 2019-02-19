@@ -14,3 +14,6 @@
 
 ## VirtualBox虚拟机互通并共享主机IP
 ><https://www.jianshu.com/p/6a2cec8de3f1>
+
+## VirtualBox中多个虚拟机之间互通及与宿主机互通配置
+><https://zhuanlan.zhihu.com/p/40405167>
