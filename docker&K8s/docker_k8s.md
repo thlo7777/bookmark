@@ -95,3 +95,7 @@
 ## 阿里云快速部署Kubernetes - VPC环境
 
 ><https://yq.aliyun.com/articles/66474>
+
+## kubernetes安装（国内环境）
+
+><https://zhuanlan.zhihu.com/p/46341911>
