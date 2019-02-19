@@ -11,3 +11,6 @@
 
 ## Ubuntu 16.04 安装ss客户端
 ><https://blog.csdn.net/thor_w/article/details/79504804>
+
+## VirtualBox虚拟机互通并共享主机IP
+><https://www.jianshu.com/p/6a2cec8de3f1>
