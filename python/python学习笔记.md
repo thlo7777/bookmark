@@ -3,7 +3,7 @@
 
 ## 基础知识
 
-- 脚本式编程
+#### 1. 脚本式编程
 >通过脚本参数调用解释器开始执行脚本，直到脚本执行完毕。当脚本执行完成后，解释器不再有效。
 
 ```bash
@@ -11,7 +11,7 @@
 print "Hello, Python!"
 ```
 
-- 标识符
+#### 2. 标识符
 
 >在 Python 里，标识符由字母、数字、下划线组成。
 在 Python 中，所有标识符可以包括英文、数字以及下划线(_)，但不能以数字开头。
@@ -19,7 +19,7 @@ Python 中的标识符是区分大小写的。
 以下划线开头的标识符是有特殊意义的。以单下划线开头 _foo 的代表不能直接访问的类属性，需通过类提供的接口进行访问，不能用 from xxx import * 而导入。
 以双下划线开头的 __foo 代表类的私有成员，以双下划线开头和结尾的 __foo__ 代表 Python 里特殊方法专用的标识，如 __init__() 代表类的构造函数。
 
-- 行和缩进
+#### 3. 行和缩进
 
 >学习 Python 与其他语言最大的区别就是，Python 的代码块不使用大括号 {} 来控制类，函数以及其他逻辑判断。python 最具特色的就是用缩进来写模块。
 缩进的空白数量是可变的，但是所有代码块语句必须包含相同的缩进空白数量，这个必须严格执行。使用的缩进方式不一致，有的是 tab 键缩进，有的是空格缩进，改为一致即可。
@@ -37,7 +37,7 @@ total = item_one + \
 
 >语句中包含 [], {} 或 () 括号就不需要使用多行连接符。
 
-- Python引号
+#### 4. Python引号
 
 >Python 可以使用引号( ' )、双引号( " )、三引号( ''' 或 """ ) 来表示字符串，引号的开始与结束必须的相同类型的。
 其中三引号可以由多行组成，编写多行文本的快捷语法，常用于文档字符串，在文件的特定地点，被当做注释。
@@ -45,7 +45,7 @@ Python注释
 python中单行注释采用 # 开头。
 python 中多行注释使用三个单引号(''')或三个双引号(""")。
 
-- Class, Object and Members
+#### 5. Class, Object and Members
 
 ```
 # A simple example class
@@ -65,7 +65,7 @@ obj.fun()
 >3. This is similar to this pointer in C++ and this reference in Java.
 
 >>When we call a method of this object as myobject.method(arg1, arg2), this is automatically converted by Python into MyClass.method(myobject, arg1, arg2) – this is all the special self is about.
-- \_\_init\_\_ method
+#### 6. \_\_init\_\_ method
 > The __init__ method is similar to constructors in C++ and Java. It is run as soon as an object of a class is instantiated. The method is useful to do any initialization you want to do with your object.
 
 ```
@@ -83,7 +83,7 @@ p = Person('Shwetanshu')
 p.say_hi() 
 ```
 
-- python函数的四种参数传递方式
+#### 7. python函数的四种参数传递方式
 
 >python中函数传递参数有四种形式
 
@@ -106,10 +106,9 @@ fun4(**kargs)
 >+ args = 须在args之后
 >+ *args须在args=value之后
 >+ **kargs须在*args之后
+>[Python 函数中，参数是传值，还是传引用？](https://foofish.net/python-function-args.html)
 
-[Python 函数中，参数是传值，还是传引用？](https://foofish.net/python-function-args.html)
-
-- Input and Output
+#### 8. Input and Output
 ```python
 # Python program to illustrate 
 # getting input from user 

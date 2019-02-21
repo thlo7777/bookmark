@@ -14,3 +14,6 @@
 
 ## 5分钟创建Amazon EC2实例 – AWS入门
 ><https://51daiwei.net/create-amazon-ec2>
+
+## AWS系列-添加购买的https证书
+><https://www.cnblogs.com/syaving/p/9029243.html>

@@ -39,3 +39,8 @@ one-container-per-Pod 是 Kubernetes 最常见的模型，这种情况下，只�
 
 >A Kubernetes object is a “record of intent”–once you create the object, the Kubernetes system will constantly work to ensure that object exists.
 **To work with Kubernetes objects–whether to create, modify, or delete them–you’ll need to use the Kubernetes API.**
+
+## Kubernetes之Pause容器
+>kubernetes中的pause容器便被设计成为每个业务容器提供以下功能：
+>- 在pod中担任Linux命名空间共享的基础；
+>- 启用pid命名空间，开启init进程。
