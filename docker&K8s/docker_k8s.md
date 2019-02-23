@@ -99,3 +99,7 @@
 ## kubernetes安装（国内环境）
 
 ><https://zhuanlan.zhihu.com/p/46341911>
+
+## Install Kubernetes On Ubuntu | Setup Kubernetes Cluster Step by Step | Kubernetes Training | Edureka
+
+><https://www.youtube.com/watch?v=UWg3ORRRF60>
