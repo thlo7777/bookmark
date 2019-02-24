@@ -1,20 +1,48 @@
-# 深入理解 Java 虚拟机
-http://wiki.jikexueyuan.com/project/java-vm/
-# 多线程死锁的产生以及如何避免死锁
-https://blog.csdn.net/ls5718/article/details/51896159
-# Java并发编程：volatile关键字解析
-https://www.cnblogs.com/dolphin0520/p/3920373.html
-# 设计模式
-http://www.runoob.com/design-pattern/observer-pattern.html
-# 图说设计模式
-https://design-patterns.readthedocs.io/zh_CN/latest/index.html
-# 一看你就懂，超详细java中的ClassLoader详解
-https://blog.csdn.net/briblue/article/details/54973413
-# Java线程池是如何诞生的？
-https://zhuanlan.zhihu.com/p/35188214
-# Java 流(Stream)、文件(File)和IO
-http://www.runoob.com/java/java-files-io.html
-# Intellij Idea  license server
-https://gist.github.com/oct111992/383283462a2fa11defffbf401ecbdf7f
-# JAVA NIO 一步步构建I/O多路复用的请求模型
-https://github.com/jasonGeng88/blog/blob/master/201708/java-nio.md
+
+## 深入理解 Java 虚拟机
+
+><http://wiki.jikexueyuan.com/project/java-vm/>
+
+## 多线程死锁的产生以及如何避免死锁
+
+><https://blog.csdn.net/ls5718/article/details/51896159>
+
+## Java并发编程：volatile关键字解析
+
+><https://www.cnblogs.com/dolphin0520/p/3920373.html>
+
+## 设计模式
+
+><http://www.runoob.com/design-pattern/observer-pattern.html>
+
+## 图说设计模式
+
+><https://design-patterns.readthedocs.io/zh_CN/latest/index.html>
+
+## 一看你就懂，超详细java中的ClassLoader详解
+
+><https://blog.csdn.net/briblue/article/details/54973413>
+
+## Java线程池是如何诞生的？
+
+><https://zhuanlan.zhihu.com/p/35188214>
+
+## Java 流(Stream)、文件(File)和IO
+
+><http://www.runoob.com/java/java-files-io.html>
+
+## Intellij Idea  license server
+
+><https://gist.github.com/oct111992/383283462a2fa11defffbf401ecbdf7f>
+
+## JAVA NIO 一步步构建I/O多路复用的请求模型
+
+><https://github.com/jasonGeng88/blog/blob/master/201708/java-nio.md>
+
+## intellij IDEA license code 
+
+><https://gist.github.com/shanezhiu/815590f573b738cc80e94d55143f6db2>
+
+```python
+BTBV1R0CZR-eyJsaWNlbnNlSWQiOiJCVEJWMVIwQ1pSIiwibGljZW5zZWVOYW1lIjoiTXVzaGZpcXVyIFJhaG1hbiIsImFzc2lnbmVlTmFtZSI6IiIsImFzc2lnbmVlRW1haWwiOiIiLCJsaWNlbnNlUmVzdHJpY3Rpb24iOiJGb3IgZWR1Y2F0aW9uYWwgdXNlIG9ubHkiLCJjaGVja0NvbmN1cnJlbnRVc2UiOmZhbHNlLCJwcm9kdWN0cyI6W3siY29kZSI6IklJIiwicGFpZFVwVG8iOiIyMDE5LTExLTI4In0seyJjb2RlIjoiQUMiLCJwYWlkVXBUbyI6IjIwMTktMTEtMjgifSx7ImNvZGUiOiJEUE4iLCJwYWlkVXBUbyI6IjIwMTktMTEtMjgifSx7ImNvZGUiOiJQUyIsInBhaWRVcFRvIjoiMjAxOS0xMS0yOCJ9LHsiY29kZSI6IkdPIiwicGFpZFVwVG8iOiIyMDE5LTExLTI4In0seyJjb2RlIjoiRE0iLCJwYWlkVXBUbyI6IjIwMTktMTEtMjgifSx7ImNvZGUiOiJDTCIsInBhaWRVcFRvIjoiMjAxOS0xMS0yOCJ9LHsiY29kZSI6IlJTMCIsInBhaWRVcFRvIjoiMjAxOS0xMS0yOCJ9LHsiY29kZSI6IlJDIiwicGFpZFVwVG8iOiIyMDE5LTExLTI4In0seyJjb2RlIjoiUkQiLCJwYWlkVXBUbyI6IjIwMTktMTEtMjgifSx7ImNvZGUiOiJQQyIsInBhaWRVcFRvIjoiMjAxOS0xMS0yOCJ9LHsiY29kZSI6IlJNIiwicGFpZFVwVG8iOiIyMDE5LTExLTI4In0seyJjb2RlIjoiV1MiLCJwYWlkVXBUbyI6IjIwMTktMTEtMjgifSx7ImNvZGUiOiJEQiIsInBhaWRVcFRvIjoiMjAxOS0xMS0yOCJ9LHsiY29kZSI6IkRDIiwicGFpZFVwVG8iOiIyMDE5LTExLTI4In0seyJjb2RlIjoiUlNVIiwicGFpZFVwVG8iOiIyMDE5LTExLTI4In1dLCJoYXNoIjoiMTEwODc1NDYvMCIsImdyYWNlUGVyaW9kRGF5cyI6MCwiYXV0b1Byb2xvbmdhdGVkIjpmYWxzZSwiaXNBdXRvUHJvbG9uZ2F0ZWQiOmZhbHNlfQ==-wQ6zKQMYh4XcZ+Rq3FkZCo9kJe9iJYoD1+cxAhVr1oiKOA0ANleB1AiBwlpeIuq6IH9v+Xt3mfONBboolQtbCsSjSuOwphPVP77sK4dzR4Bp5h0IMTlYLTSfYx484VhhuYr74VQT/90iXfKb8E/mFqJZKQQIXOXjfPPeqPsrOToxuXVIbW/i6Sp6Y6bSBYKJp1xtxTxWb/tBn/5zKK5seWS6cb/pttMFXQIFKjma6HXGxNgAlpC5hz20rH3+z4/ltns3ve4rlFn0QtHkBBRqm1G6HKTQkIg/h1cw8aVq0GIGYG6Hol5SNK0wzMB5CTjTOZxCqPb0d5LI7/cXh/i4tw==-MIIElTCCAn2gAwIBAgIBCTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTE4MTEwMTEyMjk0NloXDTIwMTEwMjEyMjk0NlowaDELMAkGA1UEBhMCQ1oxDjAMBgNVBAgMBU51c2xlMQ8wDQYDVQQHDAZQcmFndWUxGTAXBgNVBAoMEEpldEJyYWlucyBzLnIuby4xHTAbBgNVBAMMFHByb2QzeS1mcm9tLTIwMTgxMTAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxcQkq+zdxlR2mmRYBPzGbUNdMN6OaXiXzxIWtMEkrJMO/5oUfQJbLLuMSMK0QHFmaI37WShyxZcfRCidwXjot4zmNBKnlyHodDij/78TmVqFl8nOeD5+07B8VEaIu7c3E1N+e1doC6wht4I4+IEmtsPAdoaj5WCQVQbrI8KeT8M9VcBIWX7fD0fhexfg3ZRt0xqwMcXGNp3DdJHiO0rCdU+Itv7EmtnSVq9jBG1usMSFvMowR25mju2JcPFp1+I4ZI+FqgR8gyG8oiNDyNEoAbsR3lOpI7grUYSvkB/xVy/VoklPCK2h0f0GJxFjnye8NT1PAywoyl7RmiAVRE/EKwIDAQABo4GZMIGWMAkGA1UdEwQCMAAwHQYDVR0OBBYEFGEpG9oZGcfLMGNBkY7SgHiMGgTcMEgGA1UdIwRBMD+AFKOetkhnQhI2Qb1t4Lm0oFKLl/GzoRykGjAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBggkA0myxg7KDeeEwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBCwUAA4ICAQAF8uc+YJOHHwOFcPzmbjcxNDuGoOUIP+2h1R75Lecswb7ru2LWWSUMtXVKQzChLNPn/72W0k+oI056tgiwuG7M49LXp4zQVlQnFmWU1wwGvVhq5R63Rpjx1zjGUhcXgayu7+9zMUW596Lbomsg8qVve6euqsrFicYkIIuUu4zYPndJwfe0YkS5nY72SHnNdbPhEnN8wcB2Kz+OIG0lih3yz5EqFhld03bGp222ZQCIghCTVL6QBNadGsiN/lWLl4JdR3lJkZzlpFdiHijoVRdWeSWqM4y0t23c92HXKrgppoSV18XMxrWVdoSM3nuMHwxGhFyde05OdDtLpCv+jlWf5REAHHA201pAU6bJSZINyHDUTB+Beo28rRXSwSh3OUIvYwKNVeoBY+KwOJ7WnuTCUq1meE6GkKc4D/cXmgpOyW/1SmBz3XjVIi/zprZ0zf3qH5mkphtg6ksjKgKjmx1cXfZAAX6wcDBNaCL+Ortep1Dh8xDUbqbBVNBL4jbiL3i3xsfNiyJgaZ5sX7i8tmStEpLbPwvHcByuf59qJhV/bZOl8KqJBETCDJcY6O2aqhTUy+9x93ThKs1GKrRPePrWPluud7ttlgtRveit/pcBrnQcXOl1rHq7ByB8CFAxNotRUYL9IF5n3wJOgkPojMy6jetQA5Ogc8Sm7RG6vg1yow==
+```
