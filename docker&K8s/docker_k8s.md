@@ -103,3 +103,7 @@
 ## Install Kubernetes On Ubuntu | Setup Kubernetes Cluster Step by Step | Kubernetes Training | Edureka
 
 ><https://www.youtube.com/watch?v=UWg3ORRRF60>
+
+## 用 kubeadm 搭建集群环境
+
+><https://www.qikqiak.com/k8s-book/docs/16.%E7%94%A8%20kubeadm%20%E6%90%AD%E5%BB%BA%E9%9B%86%E7%BE%A4%E7%8E%AF%E5%A2%83.html>
