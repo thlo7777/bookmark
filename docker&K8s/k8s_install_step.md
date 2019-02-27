@@ -44,3 +44,5 @@ EOF
 \#vim /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
 //Add the below after the last line
 Environment="KUBELET_CGROUP_ARGS=--cgroup-driver=cgroupfs"
+
+>\#kubeadm init --kubernetes-version v1.13.1 --pod-network-cidr=192.168.0.0/16 --apiserver-advertise-address=<IP address>
