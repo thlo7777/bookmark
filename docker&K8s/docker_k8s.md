@@ -111,3 +111,7 @@
 ## Note on Troubleshooting Kubeadm-managed Kubernetes Cluster Setups
 
 ><https://medium.com/@jmarhee/note-on-troubleshooting-kubeadm-managed-kubernetes-cluster-setups-2b2c8248a4e8>
+
+## kubernetes dashboard初探
+
+><http://www.hellozcb.cn/2018/06/18/kubernetes-dashboard%E5%88%9D%E6%8E%A2/>
