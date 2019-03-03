@@ -25,11 +25,18 @@ address \<IP-address>
 **//Install Docker**  
 ><https://kubernetes.io/docs/setup/cri/>   
 May be:  
-cat \<\< EOF > /etc/docker/daemon.json  
-{   
-  "exec-opts": ["native.cgroupdriver=cgroupfs"]   
+```
+cat > /etc/docker/daemon.json <<EOF   
+{  
+  "exec-opts": ["native.cgroupdriver=cgroupfs"],    
+  "log-driver": "json-file",    
+  "log-opts": {   
+    "max-size": "100m"  
+  },  
+  "storage-driver": "overlay2"  
 }   
 EOF
+```
 
 >\#apt-get update && apt-get install -y apt-transport-https curl    
 \#curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -   
