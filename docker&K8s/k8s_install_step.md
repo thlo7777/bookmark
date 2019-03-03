@@ -22,38 +22,38 @@ address \<IP-address>
 
 >\#sudo apt-get install openssh-server
 
->//Install Docker
-<https://kubernetes.io/docs/setup/cri/>
-May be: 
-cat \<\< EOF > /etc/docker/daemon.json
-{
-  "exec-opts": ["native.cgroupdriver=cgroupfs"]
-}
+**//Install Docker**  
+><https://kubernetes.io/docs/setup/cri/>   
+May be:  
+cat \<\< EOF > /etc/docker/daemon.json  
+{   
+  "exec-opts": ["native.cgroupdriver=cgroupfs"]   
+}   
 EOF
 
->\#apt-get update && apt-get install -y apt-transport-https curl
-\#curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
-\#cat <<EOF >/etc/apt/sources.list.d/kubernetes.list
-deb https://apt.kubernetes.io/ kubernetes-xenial main
-EOF
-\#apt-get update
-\#apt-get install -y kubelet kubeadm kubectl
-\#apt-mark hold kubelet kubeadm kubectl
+>\#apt-get update && apt-get install -y apt-transport-https curl    
+\#curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -   
+\#cat \<\<EOF >/etc/apt/sources.list.d/kubernetes.list    
+deb https://apt.kubernetes.io/ kubernetes-xenial main   
+EOF   
+\#apt-get update    
+\#apt-get install -y kubelet kubeadm kubectl  
+\#apt-mark hold kubelet kubeadm kubectl   
 
->//update k8s configuration
-\#vim /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
-//Add the below after the last line
+**//update k8s configuration**
+>\#vim /etc/systemd/system/kubelet.service.d/10-kubeadm.conf    
+//Add the below after the last line   
 Environment="KUBELET_CGROUP_ARGS=--cgroup-driver=cgroupfs"
 
->//Claico or flannel 10.244.0.0/16
-\#kubeadm init --kubernetes-version v1.13.1 --pod-network-cidr=192.168.0.0/16 --apiserver-advertise-address=<IP address>
+**//Claico or flannel 10.244.0.0/16**
+>\#kubeadm init --kubernetes-version v1.13.1 --pod-network-cidr=192.168.0.0/16 --apiserver-advertise-address=\<IP address>
 
->//如果 token忘记，则可以去 Master上执行如下命令来获取：
-\#kubeadm token list
+**//如果 token忘记，则可以去 Master上执行如下命令来获取：**
+>\#kubeadm token list
 
 
->//如果init出现了错误，需要重新init的时候，可以 #kubeadm reset 重新初始化集群。
-\# kubeadm reset
+**//如果init出现了错误，需要重新init的时候，可以 #kubeadm reset 重新初始化集群。**
+>\# kubeadm reset
 
 >//设置用户环境变量和目录
 \$ mkdir -p \$HOME/.kube
