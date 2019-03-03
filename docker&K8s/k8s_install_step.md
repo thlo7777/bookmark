@@ -45,11 +45,6 @@ cat <<EOF >/etc/apt/sources.list.d/kubernetes.list
 deb https://apt.kubernetes.io/ kubernetes-xenial main   
 EOF
 ```
-```
-cat <<EOF >/etc/apt/sources.list.d/kubernetes.list    
-deb http://mirrors.ustc.edu.cn/kubernetes/apt kubernetes-xenial main
-EOF
-```
 >\#apt-get update    
 \#apt-get install -y kubelet kubeadm kubectl  
 \#apt-mark hold kubelet kubeadm kubectl   
@@ -58,6 +53,37 @@ EOF
 >\#vim /etc/systemd/system/kubelet.service.d/10-kubeadm.conf    
 //Add the below after the last line   
 Environment="KUBELET_CGROUP_ARGS=--cgroup-driver=cgroupfs"
+
+**//使用国内源**
+>添加相应的源 由于需要下载Kubeadm，Kubelet和Kubernetes-cni，多以需要添加源。国外的直接添加google源，具体可以网上搜索。国内的推荐中科大的源，命令如下：
+```
+cat <<EOF >/etc/apt/sources.list.d/kubernetes.list    
+deb http://mirrors.ustc.edu.cn/kubernetes/apt kubernetes-xenial main
+EOF
+```
+**//获取镜像列表**
+>由于官方镜像地址被墙，所以我们需要首先获取所需镜像以及它们的版本。然后从国内镜像站获取。   
+kubeadm config images list    
+获取镜像列表后可以通过下面的脚本从阿里云获取：
+```
+#!/bin/bash
+images=(  # 下面的镜像应该去除"k8s.gcr.io/"的前缀，版本换成上面获取到的版本
+    kube-apiserver:v1.13.1
+    kube-controller-manager:v1.13.1
+    kube-scheduler:v1.13.1
+    kube-proxy:v1.13.1
+    pause:3.1
+    etcd:3.2.24
+    coredns:1.2.6
+)
+
+for imageName in ${images[@]} ; do
+    docker pull registry.cn-hangzhou.aliyuncs.com/google_containers/$imageName
+    docker tag registry.cn-hangzhou.aliyuncs.com/google_containers/$imageName k8s.gcr.io/$imageName
+    docker rmi registry.cn-hangzhou.aliyuncs.com/google_containers/$imageName
+done
+```
+
 
 **//Claico or flannel 10.244.0.0/16**
 >\#kubeadm init --kubernetes-version v1.13.1 --pod-network-cidr=192.168.0.0/16 --apiserver-advertise-address=\<IP address>
@@ -69,41 +95,41 @@ Environment="KUBELET_CGROUP_ARGS=--cgroup-driver=cgroupfs"
 **//如果init出现了错误，需要重新init的时候，可以 #kubeadm reset 重新初始化集群。**
 >\# kubeadm reset
 
->//设置用户环境变量和目录
-\$ mkdir -p \$HOME/.kube
-\$ sudo cp -i /etc/kubernetes/admin.conf \$HOME/.kube/config
+**//设置用户环境变量和目录**
+>\$ mkdir -p \$HOME/.kube   
+\$ sudo cp -i /etc/kubernetes/admin.conf \$HOME/.kube/config    
 \$ sudo chown $(id -u):$(id -g) \$HOME/.kube/config
 
->//如果 token忘记，则可以去 Master上执行如下命令来获取：
-\# kubeadm token list
+**//如果 token忘记，则可以去 Master上执行如下命令来获取：**
+>\# kubeadm token list
 
->//可以看到coredns的状态是pending,这事因为我们还没有安装网络插件
-\$ sudo kubectl get pods --all-namespaces
+**//可以看到coredns的状态是pending,这事因为我们还没有安装网络插件**
+>\$ sudo kubectl get pods --all-namespaces
 
->//安装calico网络组件
-\$ kubectl apply -f <https://docs.projectcalico.org/v3.3/getting-started/kubernetes/installation/hosted/rbac-kdd.yaml>
+**//安装calico网络组件**
+>\$ kubectl apply -f <https://docs.projectcalico.org/v3.3/getting-started/kubernetes/installation/hosted/rbac-kdd.yaml>   
 \$ kubectl apply -f https://docs.projectcalico.org/v3.3/getting-started/kubernetes/installation/hosted/kubernetes-datastore/calico-networking/1.7/calico.yaml
 
->**//coredns crashloopbackoff in kubernetes**
-\$ kubectl get pods --all-namespaces
-kube-system coredns-86c58d9dfd      CrashLoopBckOff
-<https://stackoverflow.com/questions/54466359/coredns-crashloopbackoff-in-kubernetes>
->//I have resolved this issue. In my case I had below contents of /etc/resolv.conf
-nameserver     127.0.1.1
-//I first used the below command to get the correct IP as the device was in client's network.
-\$ nmcli device show \<interfacename> | grep IP4.DNS
-//After this I updated the file /etc/resolvconf/resolv.conf.d/head with below contents
-nameserver    192.168.66.21
-nameserver    114.114.114.114
-nameserver    8.8.8.8
-//and then run the below command to regenerate the resolv.conf
-\$ sudo vim /run/resolvconf/interface/NetworkManager
-//remove nameserver 127.0.1.1
-\$ sudo resolvconf -u
-//After this I had below contents in /etc/resolv.conf:
-nameserver    192.168.66.21
-nameserver    114.114.114.114
-nameserver    8.8.8.8
+**//coredns crashloopbackoff in kubernetes**
+>\$ kubectl get pods --all-namespaces
 
->//then delte coreDns 
-\$ kubectl -n kube-system delete pod -l k8s-app=kube-dns
+**//coredns kube-system coredns-86c58d9dfd      CrashLoopBckOff  可忽略**
+><https://stackoverflow.com/questions/54466359/coredns-crashloopbackoff-in-kubernetes>
+
+**//I have resolved this issue. In my case I had below contents of /etc/resolv.conf nameserver  [127.0.1.1] I first used the below command to get the correct IP as the device was in client's network.**
+
+>\$ nmcli device show \<interfacename> | grep IP4.DNS   
+//After this I updated the file /etc/resolvconf/resolv.conf.d/head with below contents    
+nameserver    192.168.66.21   
+nameserver    114.114.114.114   
+nameserver    8.8.8.8   
+//and then run the below command to regenerate the resolv.conf    
+$ sudo vim /run/resolvconf/interface/NetworkManager    
+//remove nameserver 127.0.1.1   
+$ sudo resolvconf -u
+//After this I had below contents in /etc/resolv.conf:  
+nameserver    192.168.66.21   
+nameserver    114.114.114.114   
+nameserver    8.8.8.8   
+//then delete coreDns   
+$ kubectl -n kube-system delete pod -l k8s-app=kube-dns
