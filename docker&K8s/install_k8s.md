@@ -3,7 +3,8 @@
 ## 1. ```curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add - ```
 
 >**return gpg: no valid OpenPGP data found**
->You can manually download that file ```https://packages.cloud.google.com/apt/doc/apt-key.gpg``` and then do `cat apt-get.pgp | apt-key add -`
+>You can manually download that file ```https://packages.cloud.google.com/apt/doc/apt-key.gpg``` and then do        
+`cat apt-get.pgp | apt-key add -`       
 <https://github.com/dart-lang/sdk/issues/34967>
 
 ## kubernetes安装（国内环境）
@@ -17,3 +18,6 @@
 
 ## AWS系列-添加购买的https证书
 ><https://www.cnblogs.com/syaving/p/9029243.html>
+
+## Kubernetes Ingress
+><https://medium.com/@cashisclay/kubernetes-ingress-82aa960f658e>
