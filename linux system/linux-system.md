@@ -17,3 +17,13 @@
 
 ## VirtualBox中多个虚拟机之间互通及与宿主机互通配置
 ><https://zhuanlan.zhihu.com/p/40405167>
+
+## ubuntu completely remove packages
+>**list all installed packages**    
+#sudo apt list --installed     
+**remove packages**     
+#apt-get remove --purge package     
+#apt-get clean
+
+## Error response from daemon: Get https://index.docker.io/v1/search?q=nginx&n=25: dial tcp: lookup index.docker.io on 127.0.1.1:53: read udp 127.0.0.1:47637->127.0.1.1:53: i/o timeout
+>re-install (uninstall -> install) the same version docker.
