@@ -21,3 +21,6 @@
 
 ## Kubernetes Ingress
 ><https://medium.com/@cashisclay/kubernetes-ingress-82aa960f658e>
+
+## 烂泥：k8s安装与配置ingress(一)
+><https://www.ilanni.com/?p=14501#%E4%B8%80%E3%80%81ingress%E4%BB%8B%E7%BB%8D>
