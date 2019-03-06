@@ -118,3 +118,6 @@
 
 ## kubernetes部署（kubeadm国内镜像源）
 ><https://my.oschina.net/Kanonpy/blog/3006129>
+
+## Kubernetes架构
+><https://jimmysong.io/kubernetes-handbook/concepts/>
