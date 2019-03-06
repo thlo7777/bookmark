@@ -115,3 +115,6 @@
 ## kubernetes dashboard初探
 
 ><http://www.hellozcb.cn/2018/06/18/kubernetes-dashboard%E5%88%9D%E6%8E%A2/>
+
+## kubernetes部署（kubeadm国内镜像源）
+><https://my.oschina.net/Kanonpy/blog/3006129>
