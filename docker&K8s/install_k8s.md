@@ -27,3 +27,31 @@
 
 ## kunernets使用helm安装tiller踩坑
 ><https://www.jianshu.com/p/d0cdbb49569b>
+
+## Kubernetes Commands
+><https://gist.github.com/edsiper/fac9a816898e16fc0036f5508320e8b4#pods>
+
+## kunernets使用helm安装tiller踩坑
+><https://www.jianshu.com/p/d0cdbb49569b>
+
+**helm reset -f not working**
+>current workaround I'm using
+```
+$ kubectl get pods -n kube-system | grep tiller
+tiller-deploy-674ff75566-r5658                          1/1       Running   0          2d
+$ helm reset --force
+Tiller (the Helm server-side component) has been uninstalled from your Kubernetes Cluster.
+$ kubectl delete pods -n kube-system -l=name=tiller
+pod "tiller-deploy-674ff75566-r5658" deleted
+$ sleep 20
+$ helm init --history-max=20 --debug --upgrade \ # collapsed multi-line command
+```
+
+**helm install not working**
+```
+//remove tiller
+$  kubectl delete deployment tiller-deploy --namespace kube-system
+$  create serviceaccount --namespace kube-system tiller
+$ kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
+$ helm init --service-account tiller
+```

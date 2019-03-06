@@ -142,3 +142,10 @@ nameserver    114.114.114.114
 nameserver    8.8.8.8   
 //then delete coreDns   
 $ kubectl -n kube-system delete pod -l k8s-app=kube-dns
+
+**//Helm  gcr.io can't pull**   
+```
+$ sudo docker search kubernetes-helm/tiller
+$ sudo docker pull jessestuart/tiller:v2.12.3
+$ sudo docker tag jessestuart/tiller:v2.12.3 gcr.io/kubernetes-helm/tiller:v2.12.3
+```
