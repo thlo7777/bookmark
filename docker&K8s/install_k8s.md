@@ -24,3 +24,6 @@
 
 ## 烂泥：k8s安装与配置ingress(一)
 ><https://www.ilanni.com/?p=14501#%E4%B8%80%E3%80%81ingress%E4%BB%8B%E7%BB%8D>
+
+## kunernets使用helm安装tiller踩坑
+><https://www.jianshu.com/p/d0cdbb49569b>
