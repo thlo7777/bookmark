@@ -120,7 +120,12 @@ nameserver 0.0.0.0
 \$ kubectl apply -f https://docs.projectcalico.org/v3.3/getting-started/kubernetes/installation/hosted/kubernetes-datastore/calico-networking/1.7/calico.yaml
 
 **//coredns crashloopbackoff in kubernetes**
->\$ kubectl get pods --all-namespaces
+>\$ kubectl get pods --all-namespaces   
+$ kubectl edit cm coredns -n kube-system
+```
+delete ‘loop’ ,save and exit and 
+$ kubectl -n kube-system delete pod -l k8s-app=kube-dns
+```
 
 **//coredns kube-system coredns-86c58d9dfd      CrashLoopBckOff  可忽略**
 ><https://stackoverflow.com/questions/54466359/coredns-crashloopbackoff-in-kubernetes>
