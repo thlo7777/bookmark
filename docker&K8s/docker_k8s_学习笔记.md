@@ -55,8 +55,8 @@ one-container-per-Pod 是 Kubernetes 最常见的模型，这种情况下，只�
   i. As a cluster operator, I want to allow a pod to access the Kubernetes master using a custom .kubeconfig file, so that I can securely reach the master      
 ii. As a cluster operator, I want to allow a pod to access a Docker registry using credentials from a .dockercfg file, so that containers can push images       
 iii. As a cluster operator, I want to allow a pod to access a git repository using SSH keys, so that I can push to and fetch from the repository        
-2. As a user, I want to allow containers to consume supplemental information about services such as username and password which should be kept secret, so that I can share secrets about a service amongst the containers in my application securely
-As a user, I want to associate a pod with a ServiceAccount that consumes a secret and have the kubelet implement some reserved behaviors based on the types of secrets the service account consumes:
-Use credentials for a docker registry to pull the pod's docker image
-Present Kubernetes auth token to the pod or transparently decorate traffic between the pod and master service
-As a user, I want to be able to indicate that a secret expires and for that secret's value to be rotated once it expires, so that the system can help me follow good practices
+2. As a user, I want to allow containers to consume supplemental information about services such as username and password which should be kept secret, so that I can share secrets about a service amongst the containers in my application securely        
+3. As a user, I want to associate a pod with a ServiceAccount that consumes a secret and have the kubelet implement some reserved behaviors based on the types of secrets the service account consumes:     
+i. Use credentials for a docker registry to pull the pod's docker image     
+ii. Present Kubernetes auth token to the pod or transparently decorate traffic between the pod and master service       
+4. As a user, I want to be able to indicate that a secret expires and for that secret's value to be rotated once it expires, so that the system can help me follow good practices
