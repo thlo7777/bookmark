@@ -45,3 +45,18 @@ one-container-per-Pod 是 Kubernetes 最常见的模型，这种情况下，只�
 >kubernetes中的pause容器便被设计成为每个业务容器提供以下功能：
 >+ 在pod中担任Linux命名空间共享的基础；
 >+ 启用pid命名空间，开启init进程。
+
+## Secrets
+>Kubernetes secret objects let you store and manage sensitive information, such as passwords, OAuth tokens, and ssh keys. Putting this information in a secret is safer and more flexible than putting it verbatim in a Pod Lifecycle definition or in a container image.
+
+**Use Cases**
+
+1. As a user, I want to store secret artifacts for my applications and consume them securely in containers, so that I can keep the configuration for my applications separate from the images that use them:        
+  i. As a cluster operator, I want to allow a pod to access the Kubernetes master using a custom .kubeconfig file, so that I can securely reach the master      
+ii. As a cluster operator, I want to allow a pod to access a Docker registry using credentials from a .dockercfg file, so that containers can push images       
+iii. As a cluster operator, I want to allow a pod to access a git repository using SSH keys, so that I can push to and fetch from the repository        
+2. As a user, I want to allow containers to consume supplemental information about services such as username and password which should be kept secret, so that I can share secrets about a service amongst the containers in my application securely
+As a user, I want to associate a pod with a ServiceAccount that consumes a secret and have the kubelet implement some reserved behaviors based on the types of secrets the service account consumes:
+Use credentials for a docker registry to pull the pod's docker image
+Present Kubernetes auth token to the pod or transparently decorate traffic between the pod and master service
+As a user, I want to be able to indicate that a secret expires and for that secret's value to be rotated once it expires, so that the system can help me follow good practices
