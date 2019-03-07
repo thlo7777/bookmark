@@ -27,3 +27,6 @@
 
 ## Error response from daemon: Get https://index.docker.io/v1/search?q=nginx&n=25: dial tcp: lookup index.docker.io on 127.0.1.1:53: read udp 127.0.0.1:47637->127.0.1.1:53: i/o timeout
 >re-install (uninstall -> install) the same version docker.
+
+## Ubuntu更新软件源出现GPG error
+><https://blog.csdn.net/Timekeeperl/article/details/79173793>
