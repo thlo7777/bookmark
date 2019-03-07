@@ -68,3 +68,21 @@ A **PersistentVolumeClaim (PVC)** is a request for storage by a user. It is simi
 local persistentVolume example:     
 [Configure a Pod to Use a PersistentVolume for Storage](https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/)  
 should create a /mnt/data directory in node machine
+
+## ClusterIP公开以下内容：
+    A ClusterIP service is the default Kubernetes service. It gives you a service inside your cluster that other apps inside your cluster can access. There is no external access.
+
+    If you can’t access a ClusterIP service from the internet, why am I talking about it? Turns out you can access it using the Kubernetes proxy!
+
+    ```
+    $ kubectl proxy --port=8080
+    ```
+    Now, you can navigate through the Kubernetes API to access this service using this scheme:
+    ```
+    http://localhost:8080/api/v1/proxy/namespaces/<NAMESPACE>/services/<SERVICE-NAME>:<PORT-NAME>/
+    ```
+    So to access the service we defined above, you could use the following address:
+    ```
+    http://localhost:8080/api/v1/proxy/namespaces/default/services/my-internal-service:http/
+    ```
+## NodePort
