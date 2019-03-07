@@ -61,3 +61,7 @@ iii. As a cluster operator, I want to allow a pod to access a git repository usi
 i. Use credentials for a docker registry to pull the pod's docker image     
 ii. Present Kubernetes auth token to the pod or transparently decorate traffic between the pod and master service       
 4. As a user, I want to be able to indicate that a secret expires and for that secret's value to be rotated once it expires, so that the system can help me follow good practices
+
+## PersistentVolumeClaims and PersistentVolumes
+>A **PersistentVolume (PV)** is a piece of storage in the cluster that has been provisioned by an administrator. It is a resource in the cluster just like a node is a cluster resource.        
+A **PersistentVolumeClaim (PVC)** is a request for storage by a user. It is similar to a pod. Pods consume node resources and PVCs consume PV resources. Pods can request specific levels of resources (CPU and Memory). Claims can request specific size and access modes (e.g., can be mounted once read/write or many times read-only).
