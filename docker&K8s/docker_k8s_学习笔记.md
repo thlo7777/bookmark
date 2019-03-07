@@ -70,9 +70,12 @@ local persistentVolume example:
 should create a /mnt/data directory in node machine
 
 ## ClusterIP公开以下内容：
-    A ClusterIP service is the default Kubernetes service. It gives you a service inside your cluster that other apps inside your cluster can access. There is no external access.
+    A ClusterIP service is the default Kubernetes service.   
+    It gives you a service inside your cluster that other apps  
+    inside your cluster can access. There is no external access.
 
-    If you can’t access a ClusterIP service from the internet, why am I talking about it? Turns out you can access it using the Kubernetes proxy!
+    If you can’t access a ClusterIP service from the internet, why  
+     am I talking about it? Turns out you can access it using the Kubernetes proxy!
 
     ```
     $ kubectl proxy --port=8080
