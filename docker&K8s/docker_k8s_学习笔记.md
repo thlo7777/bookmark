@@ -97,3 +97,7 @@ should create a /mnt/data directory in node machine
     A LoadBalancer service is the standard way to expose a service to the internet. 
 
 [Kubernetes NodePort vs LoadBalancer vs Ingress? When should I use what?](https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0)
+
+## Labels和Selector
+    Labels其实就一对 key/value ，被关联到对象上，标签的使用我们倾向于能够标示对象的特殊特  
+    点，并且对用户而言是有意义的（就是一眼就看出了这个Pod是尼玛数据库），但是标签对内核系统是没有直接意义的。标签可以用来划分特定组的对象（比如，所有女的），标签可以在创建一个对象的时候直接给与，也可以在后期随时修改，每一个对象可以拥有多个标签，但是，key值必须是唯一的
