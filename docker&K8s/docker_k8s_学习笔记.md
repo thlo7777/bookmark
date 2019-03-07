@@ -88,3 +88,4 @@ should create a /mnt/data directory in node machine
     http://localhost:8080/api/v1/proxy/namespaces/default/services/my-internal-service:http/
 
 ## NodePort
+    A NodePort service is the most primitive way to get external traffic directly to your service. NodePort, as the name implies, opens a specific port on all the Nodes (the VMs), and any traffic that is sent to this port is forwarded to the service.
