@@ -48,6 +48,7 @@ one-container-per-Pod 是 Kubernetes 最常见的模型，这种情况下，只�
 
 ## Secrets
 >Kubernetes secret objects let you store and manage sensitive information, such as passwords, OAuth tokens, and ssh keys. Putting this information in a secret is safer and more flexible than putting it verbatim in a Pod Lifecycle definition or in a container image.
+<https://kubernetes.io/docs/concepts/configuration/secret/#overview-of-secrets>
 
 **Use Cases**
 
