@@ -92,3 +92,8 @@ should create a /mnt/data directory in node machine
     traffic directly to your service. NodePort, as the name implies,   
     opens a specific port on all the Nodes (the VMs), and any    
     traffic that is sent to this port is forwarded to the service.
+
+## LoadBalancer
+    A LoadBalancer service is the standard way to expose a service to the internet. 
+
+[Kubernetes NodePort vs LoadBalancer vs Ingress? When should I use what?](https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0)
