@@ -77,15 +77,14 @@ should create a /mnt/data directory in node machine
     If you can’t access a ClusterIP service from the internet, why  
      am I talking about it? Turns out you can access it using the Kubernetes proxy!
 
-    ```
     $ kubectl proxy --port=8080
-    ```
+
     Now, you can navigate through the Kubernetes API to access this service using this scheme:
-    ```
+
     http://localhost:8080/api/v1/proxy/namespaces/<NAMESPACE>/services/<SERVICE-NAME>:<PORT-NAME>/
-    ```
+
     So to access the service we defined above, you could use the following address:
-    ```
+
     http://localhost:8080/api/v1/proxy/namespaces/default/services/my-internal-service:http/
-    ```
+
 ## NodePort
