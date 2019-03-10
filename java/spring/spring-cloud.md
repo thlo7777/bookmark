@@ -2,7 +2,7 @@
 
 
 ## 集群搭建
-### **1. Eureka server**
+### 1. Eureka server
 
 ### 2. 网关
 
