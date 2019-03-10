@@ -121,3 +121,12 @@
 
 ## Kubernetes架构
 ><https://jimmysong.io/kubernetes-handbook/concepts/>
+
+
+$ helm install --name wordpress-test --set "persistence.enabled=false,mariadb.persistence.enabled=false,serviceType=NodePort"  stable/wordpress
+
+--------------------- 
+作者：菲宇 
+来源：CSDN 
+原文：https://blog.csdn.net/bbwangj/article/details/81087911 
+版权声明：本文为博主原创文章，转载请附上博文链接！
