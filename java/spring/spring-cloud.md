@@ -67,3 +67,21 @@
 原文：https://blog.csdn.net/qq1501340219/article/details/54638158 
 版权声明：本文为博主原创文章，转载请附上博文链接！
 ```
+### 2. logback、log4j、log4j2三种日志框架性能检测——为什么用log4j2
+><https://blog.csdn.net/qq_32250495/article/details/82382052>
+
+关于log4j2的新特性
+
++ 丢数据这种情况少，可以用来做审计功能。而且自身内部报的exception会被发现，但是logback和log4j不会。
++ log4j2使用了disruptor技术，在多线程环境下，性能高于logback等10倍以上。
++ (garbage free）之前的版本会产生非常多的临时对象，会造成GC频繁，log4j2则在这方面上做了优化，减少产生临时对象。尽可能少的GC
++ 利用插件系统，使得扩展新的appender,filter,layout等变得容易，log4j不可以扩展 插件？？？？
++ 因为插件系统的简单性，所以在配置的时候，可以不用具体指定所要处理的类型。class
++ 可以自定义level
++ Java 8 lambda support for lazy logging
++ Support for Message objects
++ 对filter的功能支持的更强大
++ 系统日志(Syslog)协议supports both TCP and UDP
++ 利用jdk1.5并发的特性，减少了死锁的发生。
++ Socket LogEvent SerializedLayout
++ 支持kafka queue
