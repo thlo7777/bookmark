@@ -85,3 +85,14 @@
 + 利用jdk1.5并发的特性，减少了死锁的发生。
 + Socket LogEvent SerializedLayout
 + 支持kafka queue
+
+### @RequestParam @RequestBody @PathVariable 等参数绑定注解详解
+```
+    A、处理requet uri 部分（这里指uri template中variable，不含queryString部分）的注解：   @PathVariable;
+
+    B、处理request header部分的注解：   @RequestHeader, @CookieValue;
+
+    C、处理request body部分的注解：@RequestParam,  @RequestBody;
+
+    D、处理attribute类型是注解： @SessionAttributes, @ModelAttribute;
+```
