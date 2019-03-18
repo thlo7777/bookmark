@@ -502,3 +502,5 @@ https://www.oschina.net/question/273712_221495
   </context-param>
 之所以你用junit可以，是因为junit进来不是经过servlet进来所以你配置在root中的事务管理器能找到。但是普通通过servlet进来的请求，找不到root中的事务管理器，所以需要在DispachServlet指定的xml中配置事务管理器供其使用
 
+## Spring Cloud 微服务架构全链路
+><https://www.cnblogs.com/xishuai/p/spring-cloud-microservice.html>
