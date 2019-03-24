@@ -30,3 +30,9 @@
 
 ## Ubuntu更新软件源出现GPG error
 ><https://blog.csdn.net/Timekeeperl/article/details/79173793>
+
+## VirtualBox Guest Additions on Fedora 29/28, CentOS/RHEL 7.5/6.10/5.11
+><https://www.if-not-true-then-false.com/2010/install-virtualbox-guest-additions-on-fedora-centos-red-hat-rhel/>
+
+## How To Install VirtualBox Guest Additions on Fedora 29-25, CentOS 7/6
+><https://tecadmin.net/install-virtualbox-guest-additions-fedora/>
