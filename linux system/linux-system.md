@@ -36,3 +36,6 @@
 
 ## How To Install VirtualBox Guest Additions on Fedora 29-25, CentOS 7/6
 ><https://tecadmin.net/install-virtualbox-guest-additions-fedora/>
+
+## Install Docker in CentOS 7
+><https://docs.docker.com/install/linux/docker-ce/centos/#prerequisites>
