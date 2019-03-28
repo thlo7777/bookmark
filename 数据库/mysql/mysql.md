@@ -8,3 +8,6 @@ http://pb-water.iteye.com/blog/2232951
 https://developers.redhat.com/blog/2018/10/01/patterns-for-distributed-transactions-within-a-microservices-architecture/
 # Distributed Transactions and Two-Phase Commit
 https://www.endpoint.com/blog/2010/07/29/distributed-transactions-and-two-phase
+
+## 分布式秒杀系统
+><https://gitee.com/52itstyle/spring-boot-seckill>
