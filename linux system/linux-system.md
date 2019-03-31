@@ -45,7 +45,7 @@
 //add port
 $ sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
 //To run the firewall must be reloaded using the following command
-$ firewall-cmd --reload
+$ sudo firewall-cmd --reload
 
 //list status
 $  sudo firewall-cmd --list-all
@@ -59,3 +59,11 @@ $ firewall-cmd --permanent --zone=<zone> --add-port=80/tcp
 $ firewall-cmd --list-ports
 $ firewall-cmd --list-services
 ```
+
+## CentOs 7 java force use IPV4
+
+```bash
+//add  environment variable  in bashrc or bash_profile
+export _JAVA_OPTIONS="-Djava.net.preferIPv4Stack=true -Djava.net.preferIPv4Addresses=true"
+```
+>[参考java设置](http://mindprod.com/jgloss/javaexe.html#JAVAOPTIONS)
