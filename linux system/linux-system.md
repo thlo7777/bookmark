@@ -39,3 +39,23 @@
 
 ## Install Docker in CentOS 7
 ><https://docs.docker.com/install/linux/docker-ce/centos/#prerequisites>
+
+## centos7  firewall commnd
+```
+//add port
+$ sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
+//To run the firewall must be reloaded using the following command
+$ firewall-cmd --reload
+
+//list status
+$  sudo firewall-cmd --list-all
+//list all active zones
+$  firewall-cmd --get-active-zones
+//check fireall status 
+$ systemctl status firewalld
+$ firewall-cmd --set-default-zone=<zone>
+$ firewall-cmd --permanent --zone=<zone> --add-service=http
+$ firewall-cmd --permanent --zone=<zone> --add-port=80/tcp
+$ firewall-cmd --list-ports
+$ firewall-cmd --list-services
+```
