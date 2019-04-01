@@ -504,3 +504,6 @@ https://www.oschina.net/question/273712_221495
 
 ## Spring Cloud 微服务架构全链路
 ><https://www.cnblogs.com/xishuai/p/spring-cloud-microservice.html>
+
+## Using Spring Boot for OAuth2 and JWT REST Protection
+><https://www.toptal.com/spring/spring-boot-oauth2-jwt-rest-protection>
