@@ -507,3 +507,6 @@ https://www.oschina.net/question/273712_221495
 
 ## Using Spring Boot for OAuth2 and JWT REST Protection
 ><https://www.toptal.com/spring/spring-boot-oauth2-jwt-rest-protection>
+
+## How to Secure REST API using Spring Security and OAuth2
+><http://sivatechlab.com/secure-rest-api-using-spring-security-oauth2/>
