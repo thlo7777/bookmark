@@ -101,6 +101,7 @@ https://zhuanlan.zhihu.com/p/38484238
 https://blog.csdn.net/a859522265/article/details/7282817
 # Java利器之UML类图详解
 https://zhuanlan.zhihu.com/p/24247571
+https://blog.csdn.net/xiehuimx/article/details/53427452
 # Servlet 工作原理解析
 https://www.ibm.com/developerworks/cn/java/j-lo-servlet/
 # spring MVC maven intellij 搭建 How to get UTF-8 working in Java webapps?
@@ -180,8 +181,6 @@ http://www.cnblogs.com/dongying/p/6128268.html
 https://www.javafan.cn/2016/11/29/security_privilege/
 # A Custom Security Expression with Spring Security
 http://www.baeldung.com/spring-security-create-new-custom-security-expression
-# Java利器之UML类图详解
-https://blog.csdn.net/xiehuimx/article/details/53427452
 # spring配置文件详解—真的蛮详细
 https://blog.csdn.net/zzjjiandan/article/details/22922847
 # http-api-guide
