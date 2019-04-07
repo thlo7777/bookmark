@@ -326,6 +326,8 @@ http://www.javaoptimum.com/how-to-configure-multiple-datasources-with-spring-boo
 https://www.pocketdigi.com/20170530/1577.html
 # spring boot + mybatis + druid配置实践
 http://www.cnblogs.com/vincent0928/p/6099600.html
+# spring-boot整合阿里druid 如何对参数加密
+><https://www.jianshu.com/p/95fdfaf55333>
 # Spring-boot:快速搭建微框架服务
 http://www.cnblogs.com/jaycekon/p/SpringBoot.html
 # Spring-Blog:个人博客（一）-Mybatis 读写分离
