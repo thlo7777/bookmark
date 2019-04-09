@@ -73,7 +73,7 @@ export _JAVA_OPTIONS="-Djava.net.preferIPv4Stack=true -Djava.net.preferIPv4Addre
 ````
 When first start tmux Use tmux kill-server, after that start a new tmux session.
 ````
->[tmux config github](https://github.com/gpakosz/.tmux)     
+>[tmux config github](https://github.com/gpakosz/.tmux)         
 ><https://www.ifmicro.com/%E8%BD%AF%E4%BB%B6/2015/05/05/tmux/>
 
 ## ssh config file
