@@ -67,3 +67,16 @@ $ firewall-cmd --list-services
 export _JAVA_OPTIONS="-Djava.net.preferIPv4Stack=true -Djava.net.preferIPv4Addresses=true"
 ```
 >[参考java设置](http://mindprod.com/jgloss/javaexe.html#JAVAOPTIONS)
+
+## Tmux install and remove
+>[Update your tmux to latest version](http://witkowskibartosz.com/blog/update-your-tmux-to-latest-version.html#.XKwWRHWFPCI)
+````
+When first start tmux Use tmux kill-server, after that start a new tmux session.
+````
+>[tmux config github](https://github.com/gpakosz/.tmux)
+><https://www.ifmicro.com/%E8%BD%AF%E4%BB%B6/2015/05/05/tmux/>
+
+## ssh config file
+>[告诉你如何管理gitlab/github的ssh-key](https://juejin.im/post/5c063c4ee51d451ded182458)    
+><https://www.hi-linux.com/posts/14346.html>    
+><https://www.jianshu.com/p/6162b94110fc>
