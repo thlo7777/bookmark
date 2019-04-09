@@ -516,3 +516,5 @@ https://www.oschina.net/question/273712_221495
 ><https://www.jianshu.com/p/6c87b8304fc9>
 ## 社区 Spring Security 从入门到进阶系列教程
 ><http://www.spring4all.com/article/428>
+## spring boot 实践学习案例
+><https://github.com/JeffLi1993/springboot-learning-example>
