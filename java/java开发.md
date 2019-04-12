@@ -198,3 +198,5 @@ Can-Redefine-Classes: false
 ```
 5. Run project
 
+## Java中文键树的一种实现（附带模糊查询功能）
+><https://blog.csdn.net/yuhk231/article/details/51539840>
