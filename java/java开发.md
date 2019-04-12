@@ -62,7 +62,7 @@ BTBV1R0CZR-eyJsaWNlbnNlSWQiOiJCVEJWMVIwQ1pSIiwibGljZW5zZWVOYW1lIjoiTXVzaGZpcXVyI
 
 ## java 据算对象大小
 >[java 一个字节占用多少内存](https://yueyemaitian.iteye.com/blog/2033046)
-> 1. Use java Instrumentation package 类统计, create InstrumentationAgent.java
+1. Use java Instrumentation package 类统计, create InstrumentationAgent.java
 ````
 package com.dream.getObjectSize;
 
@@ -173,13 +173,13 @@ public class InstrumentationAgent {
 
 }
 ````
->2. 使用打包命令生成 InstrumentationAgent.jar包      
+2. 使用打包命令生成 InstrumentationAgent.jar包      
 MANIFEST.MF 如下：
 ```
 Premain-class: com.dream.getObjectSize.InstrumentationAgent
 Can-Redefine-Classes: false
 ```     
->3. Intellij 导入 jar包
+3. Intellij 导入 jar包
 Intellij->File->Project Structre->Libraries-> + 增加jar包      
 Maven添加dependency
 ```
