@@ -59,3 +59,30 @@ BTBV1R0CZR-eyJsaWNlbnNlSWQiOiJCVEJWMVIwQ1pSIiwibGljZW5zZWVOYW1lIjoiTXVzaGZpcXVyI
 >4. javac YourFileName.java -d ./classes  生成目录根据package
 >5. vim MANIFEST.MF
 >6. jar -cmf MANIFEST.MF youname.jar -C classes/  .  生成jar包
+
+## java 据算对象大小
+> 1. Use java Instrumentation package 类统计
+ ````
+package com.example;
+
+import java.lang.instrument.Instrumentation;
+
+public class InstrumentationAgent {
+    private static volatile Instrumentation globalInstrumentation;
+
+    public InstrumentationAgent() {
+    }
+
+    public static void premain(String var0, Instrumentation var1) {
+        globalInstrumentation = var1;
+    }
+
+    public static long getObjectSize(Object var0) {
+        if (globalInstrumentation == null) {
+            throw new IllegalStateException("Agent not initialized.");
+        } else {
+            return globalInstrumentation.getObjectSize(var0);
+        }
+    }
+}
+  ````
