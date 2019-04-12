@@ -180,16 +180,17 @@ Premain-class: com.dream.getObjectSize.InstrumentationAgent
 Can-Redefine-Classes: false
 ```     
 3. Intellij 导入 jar包
-Intellij->File->Project Structre->Libraries-> + 增加jar包      
-Maven添加dependency
+>3.1 在project工程中创建lib目录
+>3.2 Intellij->File->Project Structre->Libraries-> + 增加jar包      
+>3.3 Maven添加dependency
 ```
-        <dependency>
-            <groupId>com.dream.getObjectSize</groupId>
-            <artifactId>InstrumentationAgent</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/InstrumentationAgent.jar</systemPath>
-        </dependency>
+    <dependency>
+        <groupId>com.dream.getObjectSize</groupId>
+        <artifactId>InstrumentationAgent</artifactId>
+        <version>1.0</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/lib/InstrumentationAgent.jar</systemPath>
+    </dependency>
 ```
-
+4. Intellij projct 工程参数
 
