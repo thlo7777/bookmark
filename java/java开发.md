@@ -180,8 +180,8 @@ Premain-class: com.dream.getObjectSize.InstrumentationAgent
 Can-Redefine-Classes: false
 ```     
 3. Intellij 导入 jar包
->3.1 在project工程中创建lib目录
->3.2 Intellij->File->Project Structre->Libraries-> + 增加jar包      
+>3.1 在project工程中创建lib目录, copy InstrumentationAgent.jar到这里     
+>3.2 Intellij->File->Project Structure->Libraries-> + 增加jar包      
 >3.3 Maven添加dependency
 ```
     <dependency>
@@ -192,5 +192,9 @@ Can-Redefine-Classes: false
         <systemPath>${project.basedir}/lib/InstrumentationAgent.jar</systemPath>
     </dependency>
 ```
-4. Intellij projct 工程参数
+4. Intellij project 工程参数 应用Edit configurations -> VM options
+```text
+-javaagent:"/home/user/IdeaProjects/sso-demo/thymeleaf-demo/lib/InstrumentationAgent.jar"
+```
+5. Run project
 
