@@ -53,5 +53,9 @@ BTBV1R0CZR-eyJsaWNlbnNlSWQiOiJCVEJWMVIwQ1pSIiwibGljZW5zZWVOYW1lIjoiTXVzaGZpcXVyI
 ><https://tecadmin.net/install-java-8-on-centos-rhel-and-fedora/>
 
 ## java 打包命令
->1. javac YourFileName.java -d .  生成目录根据package
->2. jar -cvf  youname.jar com  .  生成jar包
+>1. mkdir app folder
+>2. mkdir app/classes
+>3. coding java file with package, import etc
+>4. javac YourFileName.java -d ./classes  生成目录根据package
+>5. vim MANIFEST.MF
+>6. jar -cmf MANIFEST.MF youname.jar -C classes/  .  生成jar包
