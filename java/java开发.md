@@ -51,3 +51,7 @@ BTBV1R0CZR-eyJsaWNlbnNlSWQiOiJCVEJWMVIwQ1pSIiwibGljZW5zZWVOYW1lIjoiTXVzaGZpcXVyI
 
 ## install Oracle jdk8u201 to centos 7
 ><https://tecadmin.net/install-java-8-on-centos-rhel-and-fedora/>
+
+## java 打包命令
+>1. javac YourFileName.java -d .  生成目录根据package
+>2. jar -cvf  youname.jar com  .  生成jar包
