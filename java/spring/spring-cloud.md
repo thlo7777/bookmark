@@ -101,3 +101,10 @@
 > 【classpath:】此配置表示告诉web容器去classpath（WEB-INF/classes和WEB-INF/lib）中去加载指定名称的配置文件，若是有同名文件，**则只会加载一个**。     
 > 【classpath*:】此配置表示告诉web容器去classpath（WEB-INF/classes和WEB-INF/lib）中去加载指定名称的配置文件，若是有同名文件**则会全部加载**。      
 > [ Spring加载配置文件classpath、classpath*、file解析](https://blog.csdn.net/shangmingtao/article/details/78311189)
+> ````
+>   /**
+>    * Get current classpath
+>    */
+>   String path = Thread.currentThread().getContextClassLoader().getResource("").getPath();
+>   System.out.println(path);
+> ````
