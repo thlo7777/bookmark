@@ -108,3 +108,16 @@
 >   String path = Thread.currentThread().getContextClassLoader().getResource("").getPath();
 >   System.out.println(path);
 > ````
+> **spring boot默认加载文件的路径：**
+> + /META-INF/resources/
+> + /resources/
+> + /static/
+> + /public/
+> 也可以从spring boot源码也可以看到：
+> ```
+> private static final String[] CLASSPATH_RESOURCE_LOCATIONS = { 
+>     "classpath:/META-INF/resources/", 
+>     "classpath:/resources/", 
+>     "classpath:/static/", 
+>     "classpath:/public/" }; 
+> ``` 
