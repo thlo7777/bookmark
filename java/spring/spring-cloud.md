@@ -121,3 +121,4 @@
 >     "classpath:/static/", 
 >     "classpath:/public/" }; 
 > ``` 
+> [Springboot 之 静态资源路径配置](https://www.jianshu.com/p/20a63d144551)
