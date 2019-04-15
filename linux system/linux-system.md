@@ -40,6 +40,9 @@
 ## Install Docker in CentOS 7
 ><https://docs.docker.com/install/linux/docker-ce/centos/#prerequisites>
 
+## How To Reset Root Password In CentOS 7
+><http://www.linuxandubuntu.com/home/how-to-reset-root-password-in-centos-7>
+
 ## centos7  firewall commnd
 ```
 //add port

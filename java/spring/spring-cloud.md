@@ -86,13 +86,39 @@
 + Socket LogEvent SerializedLayout
 + 支持kafka queue
 
-### @RequestParam @RequestBody @PathVariable 等参数绑定注解详解
-```
-    A、处理requet uri 部分（这里指uri template中variable，不含queryString部分）的注解：   @PathVariable;
+> ### 3. @RequestParam @RequestBody @PathVariable 等参数绑定注解详解
+> ```
+>    A、处理requet uri 部分（这里指uri template中variable，不含queryString部分）的注解：   @PathVariable;
+>
+>    B、处理request header部分的注解：   @RequestHeader, @CookieValue;
+>
+>    C、处理request body部分的注解：@RequestParam,  @RequestBody;
+>
+>    D、处理attribute类型是注解： @SessionAttributes, @ModelAttribute;
+> ```     
 
-    B、处理request header部分的注解：   @RequestHeader, @CookieValue;
-
-    C、处理request body部分的注解：@RequestParam,  @RequestBody;
-
-    D、处理attribute类型是注解： @SessionAttributes, @ModelAttribute;
-```
+> ### 4. classpath:与classpath*:有何区别
+> 【classpath:】此配置表示告诉web容器去classpath（WEB-INF/classes和WEB-INF/lib）中去加载指定名称的配置文件，若是有同名文件，**则只会加载一个**。     
+> 【classpath*:】此配置表示告诉web容器去classpath（WEB-INF/classes和WEB-INF/lib）中去加载指定名称的配置文件，若是有同名文件**则会全部加载**。      
+> [ Spring加载配置文件classpath、classpath*、file解析](https://blog.csdn.net/shangmingtao/article/details/78311189)
+> ````
+>   /**
+>    * Get current classpath
+>    */
+>   String path = Thread.currentThread().getContextClassLoader().getResource("").getPath();
+>   System.out.println(path);
+> ````
+> **spring boot默认加载文件的路径：**
+> + /META-INF/resources/
+> + /resources/
+> + /static/
+> + /public/
+> 也可以从spring boot源码也可以看到：
+> ```
+> private static final String[] CLASSPATH_RESOURCE_LOCATIONS = { 
+>     "classpath:/META-INF/resources/", 
+>     "classpath:/resources/", 
+>     "classpath:/static/", 
+>     "classpath:/public/" }; 
+> ``` 
+> [Springboot 之 静态资源路径配置](https://www.jianshu.com/p/20a63d144551)
