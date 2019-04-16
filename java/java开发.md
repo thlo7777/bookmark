@@ -200,3 +200,6 @@ Can-Redefine-Classes: false
 
 ## Java中文键树的一种实现（附带模糊查询功能）
 ><https://blog.csdn.net/yuhk231/article/details/51539840>
+
+## java8的HashMap详解（存储结构，功能实现，扩容优化，线程安全，遍历方法）
+><https://blog.csdn.net/login_sonata/article/details/76598675>
