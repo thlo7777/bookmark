@@ -11,3 +11,19 @@ copy file between container and local machine
 # docker cp 2506:/etc/mysql/mysql.conf.d/mysqld.cnf   mysqld.cnf
 # docker cp mysqld.cnf 25061311d968:/etc/mysql/mysql.conf.d/mysqld.cnf
 ```
+
+### Configure Docker to start on boot
+> ````
+> systemd
+>
+> $ sudo systemctl enable docker
+>
+> To disable this behavior, use disable instead.
+>
+> $ sudo systemctl disable docker
+>
+> ````
+### start docker
+> ```
+> $ sudo systemctl start docker
+> ```
