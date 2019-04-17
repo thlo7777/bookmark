@@ -83,3 +83,6 @@ When first start tmux Use tmux kill-server, after that start a new tmux session.
 >[告诉你如何管理gitlab/github的ssh-key](https://juejin.im/post/5c063c4ee51d451ded182458)    
 ><https://www.hi-linux.com/posts/14346.html>    
 ><https://www.jianshu.com/p/6162b94110fc>
+
+## 3 Ways to List All Installed Packages in RHEL, CentOS and Fedora
+><https://www.tecmint.com/list-installed-packages-in-rhel-centos-fedora/>

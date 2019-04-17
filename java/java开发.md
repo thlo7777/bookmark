@@ -50,7 +50,8 @@ BTBV1R0CZR-eyJsaWNlbnNlSWQiOiJCVEJWMVIwQ1pSIiwibGljZW5zZWVOYW1lIjoiTXVzaGZpcXVyI
 ><https://tecadmin.net/install-oracle-java-8-ubuntu-via-ppa/>
 
 ## install Oracle jdk8u201 to centos 7
-><https://tecadmin.net/install-java-8-on-centos-rhel-and-fedora/>
+><https://tecadmin.net/install-java-8-on-centos-rhel-and-fedora/>   
+[alternatives(update-alternatives) 的配置目录位置](https://my.oschina.net/weiyi/blog/2248648)
 
 ## java 打包命令
 >1. mkdir app folder
