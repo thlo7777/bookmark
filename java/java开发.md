@@ -204,3 +204,34 @@ Can-Redefine-Classes: false
 
 ## java8的HashMap详解（存储结构，功能实现，扩容优化，线程安全，遍历方法）
 ><https://blog.csdn.net/login_sonata/article/details/76598675>
+
+## rocketMQ+centos+安装配置
+><https://blog.csdn.net/cdnight/article/details/81027829>   
+>[RocketMQ快速安装与使用](https://blog.csdn.net/u010391342/article/details/82150062)
+> ````
+> RocketMQ systemd service  mqnamesrv.service
+> [Unit]
+> Description=rocketmq name server
+> After=network-online.target firewalld.service syslog.target network.target remote-fs.target nss-lookup.target
+> 
+> [Service]
+> ExecStart=/usr/local/rocketmq/bin/mqnamesrv
+> ExecStop =/usr/local/rocketmq/bin/mqshutdown namesrv
+> 
+> [Install]
+> WantedBy=multi-user.target
+>
+
+> RocketMQ systemd service  mqbroker.service    
+> [Unit]    
+> Description=rocketmq Broker   
+> After=mqnamesrv.service network-online.target firewalld.service syslog.target network.target remote-fs.target nss-lookup.target
+> 
+> [Service]     
+> ExecStart=/usr/local/rocketmq/bin/mqbroker -n 10.0.36.88:9876     
+> ExecStop =/usr/local/rocketmq/bin/mqshutdown broker       
+> 
+> [Install]     
+> WantedBy=multi-user.target
+>
+> ````
