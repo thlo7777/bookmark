@@ -47,6 +47,8 @@
 ```
 //add port
 $ sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
+$ sudo firewall-cmd --permanent --zone=public --remove-port=10911/tcp
+
 //To run the firewall must be reloaded using the following command
 $ sudo firewall-cmd --reload
 

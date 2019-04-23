@@ -239,3 +239,5 @@ Can-Redefine-Classes: false
 > ````
 ## RocketMQ 解决 No route info of this topic 异常步骤
 ><https://blog.csdn.net/chenaima1314/article/details/79403113>
+## 浅谈JDK动态代理
+><https://zhuanlan.zhihu.com/p/62660956>
