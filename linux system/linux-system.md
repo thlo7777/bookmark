@@ -89,4 +89,5 @@ When first start tmux Use tmux kill-server, after that start a new tmux session.
 ## 3 Ways to List All Installed Packages in RHEL, CentOS and Fedora
 ><https://www.tecmint.com/list-installed-packages-in-rhel-centos-fedora/>
 
-## 
+## 每天一个linux命令（10）：cat 命令
+><https://www.cnblogs.com/peida/archive/2012/10/30/2746968.html>
