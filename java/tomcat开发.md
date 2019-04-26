@@ -88,3 +88,6 @@ http://www.mkyong.com/tomcat/tomcat-default-administrator-password/
 
 # Installing Tomcat on macOS 10.13 High Sierra
 https://wolfpaulus.com/mac/tomcat/
+
+## How To Install Apache Tomcat 8 on Ubuntu 16.04
+><https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-16-04>
