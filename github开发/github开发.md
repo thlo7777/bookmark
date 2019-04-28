@@ -18,3 +18,10 @@
 ##  git rm --cached \<file>
 > \$fatal: pathspec file    
 ><https://stackoverflow.com/questions/35069660/git-rm-cached-results-in-fatal-pathspec>
+
+## Bad owner or permissions on /Users/username/.ssh/config
+><https://github.com/ddollar/heroku-accounts/issues/15>
+> ```
+>Just chmod 600 ~/.ssh/config
+>```
+
