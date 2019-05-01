@@ -520,3 +520,5 @@ https://www.oschina.net/question/273712_221495
 ><https://github.com/JeffLi1993/springboot-learning-example>
 ## Model、ModelMap和ModelAndView的使用详解
 ><https://blog.csdn.net/ITBigGod/article/details/79685610>
+## Spring Boot静态资源访问和配置全解析
+><https://blog.csdn.net/u010358168/article/details/81205116>
