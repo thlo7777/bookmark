@@ -521,4 +521,5 @@ https://www.oschina.net/question/273712_221495
 ## Model、ModelMap和ModelAndView的使用详解
 ><https://blog.csdn.net/ITBigGod/article/details/79685610>
 ## Spring Boot静态资源访问和配置全解析
-><https://blog.csdn.net/u010358168/article/details/81205116>
+><https://blog.csdn.net/u010358168/article/details/81205116>        
+ <https://blog.csdn.net/u011144425/article/details/79225864>
