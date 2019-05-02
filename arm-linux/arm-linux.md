@@ -106,3 +106,5 @@ http://note.qidong.name/2018/02/android-ninja-tips/
 https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Virtual_ARM_Linux_environment
 # little kernel分析
 https://blog.csdn.net/viewsky11/article/details/53906070
+## Linux DTS(Device Tree Source)设备树详解之
+><https://e-mailky.github.io/2019-01-14-dts-1>
