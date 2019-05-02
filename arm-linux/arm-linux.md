@@ -108,3 +108,5 @@ https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Virtual_ARM_Lin
 https://blog.csdn.net/viewsky11/article/details/53906070
 ## Linux DTS(Device Tree Source)设备树详解之
 ><https://e-mailky.github.io/2019-01-14-dts-1>
+## Linux内存管理：ARM Memory Layout以及mmu配置
+><https://blog.csdn.net/viewsky11/article/details/53401716>
