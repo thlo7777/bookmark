@@ -9,4 +9,4 @@
 > + **start a redis instance**  
 ```$ docker run --name some-redis -d redis```
 > + **docker export pot**  
-```$ docker run --name some-redis -d redis -p 6380:6379```
+```$ sudo docker run --name my-redis -p 6380:6379 -d redis```
