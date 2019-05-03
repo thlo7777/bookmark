@@ -10,6 +10,9 @@ $ sudo docker pull mysql/mysql-server:5.7
 copy file between container and local machine
 # docker cp 2506:/etc/mysql/mysql.conf.d/mysqld.cnf   mysqld.cnf
 # docker cp mysqld.cnf 25061311d968:/etc/mysql/mysql.conf.d/mysqld.cnf
+
+//进入容器
+$ docker exec -it ubuntu_bash bash
 ```
 
 ### mysql utf8mb4 配置
