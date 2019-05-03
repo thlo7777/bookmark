@@ -12,6 +12,24 @@ copy file between container and local machine
 # docker cp mysqld.cnf 25061311d968:/etc/mysql/mysql.conf.d/mysqld.cnf
 ```
 
+### mysql utf8mb4 配置
+```aidl
+# vim /etc/mysql/mysql.cnf
+!includedir /etc/mysql/conf.d/
+!includedir /etc/mysql/mysql.conf.d/
+
+[client]
+default-character-set = utf8mb4
+
+[mysql]
+default-character-set = utf8mb4
+
+[mysqld]
+character-set-client-handshake = FALSE
+character-set-server = utf8mb4
+collation-server = utf8mb4_unicode_ci
+
+```
 ### Configure Docker to start on boot
 > ````
 > systemd
