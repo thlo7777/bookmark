@@ -237,6 +237,17 @@ Can-Redefine-Classes: false
 > WantedBy=multi-user.target
 >
 > ````
+
+```
+创建MQ topic
+
+cd YOUR_ROCKETMQ_HOME
+
+bash bin/mqadmin updateTopic -c DefaultCluster -t string-topic              -n xx.xxx.xxx.xxx:9876
+bash bin/mqadmin updateTopic -c DefaultCluster -t order-paid-topic          -n xx.xxx.xxx.xxx:9876
+bash bin/mqadmin updateTopic -c DefaultCluster -t message-ext-topic         -n xx.xxx.xxx.xxx:9876
+bash bin/mqadmin updateTopic -c DefaultCluster -t spring-transaction-topic  -n xx.xxx.xxx.xxx:9876
+```
 ## RocketMQ 解决 No route info of this topic 异常步骤
 ><https://blog.csdn.net/chenaima1314/article/details/79403113>
 ## 浅谈JDK动态代理
