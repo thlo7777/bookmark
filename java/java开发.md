@@ -258,3 +258,7 @@ bash bin/mqadmin updateTopic -c DefaultCluster -t spring-transaction-topic  -n x
  MyBatis3做数据持久层，在字段中有Date和DateTime类型，在插入数据时只要将实体的属性设置成Timestamp就会
 对应mysql的DateTime类型，Date会对应mysql的Date类型。
 ```
+
+## keytool 制作证书
+keytool -genkey -alias client -keypass 123456 -keyalg RSA -keysize 1024 -validity 365 -storetype PKCS12 -keystore client.p12 -storepass 123456
+
