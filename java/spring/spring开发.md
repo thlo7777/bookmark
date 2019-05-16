@@ -523,3 +523,14 @@ https://www.oschina.net/question/273712_221495
 ## Spring Boot静态资源访问和配置全解析
 ><https://blog.csdn.net/u010358168/article/details/81205116>        
  <https://blog.csdn.net/u011144425/article/details/79225864>
+
+## Spring cloud gateway  ssl  io netty exception: not an SSL/TLS record
+><https://github.com/spring-cloud/spring-cloud-gateway/issues/378>
+## spring-cloud-gateway使用https注意事项2---如何在转发后端服务的时候使用http
+><https://www.jianshu.com/p/5a36129399f2>
+><https://blog.csdn.net/qq_26932225/article/details/87875336>
+
+## spring cloud gateway之filter篇
+><https://blog.csdn.net/forezp/article/details/85057268>
+## keytool(JDK自带)生成ssl证书
+><https://www.jianshu.com/p/981431a2b6ea>

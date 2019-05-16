@@ -260,5 +260,5 @@ bash bin/mqadmin updateTopic -c DefaultCluster -t spring-transaction-topic  -n x
 ```
 
 ## keytool 制作证书
-keytool -genkey -alias client -keypass 123456 -keyalg RSA -keysize 1024 -validity 365 -storetype PKCS12 -keystore client.p12 -storepass 123456
+keytool -genkey -alias ssltest -keypass 1234 -keyalg RSA -keysize 1024 -validity 365 -storetype PKCS12 -keystore ssltest-keystore.p12 -storepass 123456
 
