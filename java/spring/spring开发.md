@@ -534,3 +534,8 @@ https://www.oschina.net/question/273712_221495
 ><https://blog.csdn.net/forezp/article/details/85057268>
 ## keytool(JDK自带)生成ssl证书
 ><https://www.jianshu.com/p/981431a2b6ea>
+## ConfigurationProperties介绍
+><https://elim.iteye.com/blog/2434028>
+
+## 升级Spring Boot 2.0后RelaxedPropertyResolver不可用的解决方案
+><https://www.ouzengqi.com/detail/J3SH1cFi.html>
