@@ -544,3 +544,6 @@ https://www.oschina.net/question/273712_221495
 ## SpringBoot + Mybatis 配置多数据源（Srping boot 二）
 ><https://my.oschina.net/haitaohu/blog/2989169>
 
+## 3分钟搞定SpringBoot+Mybatis+druid多数据源和分布式事务
+><https://my.oschina.net/u/1760791/blog/1605367>
+
