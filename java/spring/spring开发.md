@@ -540,6 +540,9 @@ https://www.oschina.net/question/273712_221495
 
 ## 升级Spring Boot 2.0后RelaxedPropertyResolver不可用的解决方案
 ><https://www.ouzengqi.com/detail/J3SH1cFi.html>
+```text
+kebab格式,（小写，连字符分隔），acme.myProject或acme.my_project是无效的 - 你必须在此处使用acme.my-project
+```
 
 ## SpringBoot + Mybatis 配置多数据源（Srping boot 二）
 ><https://my.oschina.net/haitaohu/blog/2989169>
