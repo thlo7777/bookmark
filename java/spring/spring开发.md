@@ -537,3 +537,8 @@ https://www.oschina.net/question/273712_221495
 
 ## SpringBoot + Mybatis 配置多数据源（Srping boot 二）
 ><https://my.oschina.net/haitaohu/blog/2989169>
+## ConfigurationProperties介绍
+><https://elim.iteye.com/blog/2434028>
+
+## 升级Spring Boot 2.0后RelaxedPropertyResolver不可用的解决方案
+><https://www.ouzengqi.com/detail/J3SH1cFi.html>
