@@ -550,3 +550,12 @@ kebab格式,（小写，连字符分隔），acme.myProject或acme.my_project是
 ## 3分钟搞定SpringBoot+Mybatis+druid多数据源和分布式事务
 ><https://my.oschina.net/u/1760791/blog/1605367>
 
+## 你真的会用Gson吗?Gson使用指南
+><https://www.jianshu.com/p/e740196225a4>
+## Should GSON be declared as static final?
+><https://stackoverflow.com/questions/21709219/should-gson-be-declared-as-static-final>
+```text
+The Gson object is explicitly safe to use from multiple threads, as it doesn't keep any 
+internal state, so yes, declare a private static final Gson GSON = new Gson();, 
+or even make it public.
+```
