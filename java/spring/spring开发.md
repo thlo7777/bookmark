@@ -534,3 +534,6 @@ https://www.oschina.net/question/273712_221495
 ><https://blog.csdn.net/forezp/article/details/85057268>
 ## keytool(JDK自带)生成ssl证书
 ><https://www.jianshu.com/p/981431a2b6ea>
+
+## SpringBoot + Mybatis 配置多数据源（Srping boot 二）
+><https://my.oschina.net/haitaohu/blog/2989169>
