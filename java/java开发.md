@@ -264,3 +264,5 @@ keytool -genkey -alias ssltest -keypass 1234 -keyalg RSA -keysize 1024 
 
 ## 各种 Java 的序列化库的性能比较测试结果
 ><http://developer.51cto.com/art/201506/480273.htm>
+## 实战Redis序列化性能测试(Kryo和字符串)
+><https://blog.csdn.net/boling_cavalry/article/details/80719683>
