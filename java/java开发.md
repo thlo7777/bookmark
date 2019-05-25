@@ -260,6 +260,10 @@ nohup sh /usr/local/rocketmq/bin/mqbroker -n localhost:9876  -c /usr/local/rocke
 ```
 ## RocketMQ 解决 No route info of this topic 异常步骤
 ><https://blog.csdn.net/chenaima1314/article/details/79403113>
+
+## RocketMQ部署时遇到的问题
+><https://www.jianshu.com/p/bfd6d849f156>
+
 ## 浅谈JDK动态代理
 ><https://zhuanlan.zhihu.com/p/62660956>
 
