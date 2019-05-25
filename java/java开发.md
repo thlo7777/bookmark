@@ -256,6 +256,7 @@ $ sh mqadmin topicList –n 10.45.47.168:9876
 ```text
 虚机先装了MQ, 又装了 Docker 发现错误
 需要指定  localhost 作为 brokerIP  否则 会自动制定到 docker IP
+nohup sh /usr/local/rocketmq/bin/mqnamesrv &
 nohup sh /usr/local/rocketmq/bin/mqbroker -n localhost:9876  -c /usr/local/rocketmq/conf/broker.properties &
 ```
 ## RocketMQ 解决 No route info of this topic 异常步骤
