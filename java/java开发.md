@@ -264,6 +264,9 @@ nohup sh /usr/local/rocketmq/bin/mqbroker -n localhost:9876  -c /usr/local/rocke
 ## RocketMQ部署时遇到的问题
 ><https://www.jianshu.com/p/bfd6d849f156>
 
+## 跟我学RocketMQ[1-1]之安装RocketMQ
+><http://wuwenliang.net/2019/01/09/%E8%B7%9F%E6%88%91%E5%AD%A6RocketMQ-1-1-%E4%B9%8B%E5%AE%89%E8%A3%85RocketMQ/>
+
 ## 浅谈JDK动态代理
 ><https://zhuanlan.zhihu.com/p/62660956>
 
