@@ -207,7 +207,8 @@ Can-Redefine-Classes: false
 
 ## rocketMQ+centos+安装配置
 ><https://blog.csdn.net/cdnight/article/details/81027829>   
->[RocketMQ快速安装与使用](https://blog.csdn.net/u010391342/article/details/82150062)
+>[RocketMQ快速安装与使用](https://blog.csdn.net/u010391342/article/details/82150062)  
+>[跟我学RocketMQ[1-1]之安装RocketMQ](http://wuwenliang.net/2019/01/09/%E8%B7%9F%E6%88%91%E5%AD%A6RocketMQ-1-1-%E4%B9%8B%E5%AE%89%E8%A3%85RocketMQ/)
 > ````
 > RocketMQ systemd service  mqnamesrv.service
 > [Unit]
@@ -247,6 +248,15 @@ bash bin/mqadmin updateTopic -c DefaultCluster -t string-topic              -n x
 bash bin/mqadmin updateTopic -c DefaultCluster -t order-paid-topic          -n xx.xxx.xxx.xxx:9876
 bash bin/mqadmin updateTopic -c DefaultCluster -t message-ext-topic         -n xx.xxx.xxx.xxx:9876
 bash bin/mqadmin updateTopic -c DefaultCluster -t spring-transaction-topic  -n xx.xxx.xxx.xxx:9876
+
+$ sh mqadmin topicList –n 10.45.47.168:9876
+```
+
+## 解决 rocketmq 连接异常 sendDefaultImpl call timeout
+```text
+虚机先装了MQ, 又装了 Docker 发现错误
+需要指定  localhost 作为 brokerIP  否则 会自动制定到 docker IP
+nohup sh /usr/local/rocketmq/bin/mqbroker -n localhost:9876  -c /usr/local/rocketmq/conf/broker.properties &
 ```
 ## RocketMQ 解决 No route info of this topic 异常步骤
 ><https://blog.csdn.net/chenaima1314/article/details/79403113>

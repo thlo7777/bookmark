@@ -94,3 +94,18 @@ When first start tmux Use tmux kill-server, after that start a new tmux session.
 
 ## Postman请求Https接口
 ><https://blog.csdn.net/ONS_cukuyo/article/details/79172242>
+
+## systemctl 列出所有可用单元
+```text
+# systemctl list-unit-files
+# systemctl status halt-local.service
+在开机时启用一个服务：systemctl enable app-run.service  
+在开机时禁用一个服务：systemctl disable app-run.service
+启动一个服务：systemctl start app-run.service  
+关闭一个服务：systemctl stop app-run.service  
+重启一个服务：systemctl restart app-run.service  
+显示一个服务的状态：systemctl status app-run.service    
+查看服务是否开机启动：systemctl is-enabled app-run.service  
+查看已启动的服务列表：systemctl list-unit-files|grep enabled  
+
+```
