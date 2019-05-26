@@ -48,3 +48,9 @@
 It's time for web servers to handle ten thousand clients simultaneously, don't you think?
 After all, the web is a big place now.
 ```
+
+- ####[Document recommendation about using netty-tcnative for optimizing TLS performance #344](https://github.com/reactor/reactor-netty/issues/344)
+```text
+Speed: In local testing, we've seen performance improvements of 3x over the JDK. GCM, which is used 
+by the only cipher suite required by the HTTP/2 RFC, is 10-500x faster.
+```
