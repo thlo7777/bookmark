@@ -91,3 +91,6 @@ https://wolfpaulus.com/mac/tomcat/
 
 ## How To Install Apache Tomcat 8 on Ubuntu 16.04
 ><https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-16-04>
+
+## 认知迭代：Tomcat性能提升的实战操作，提升60倍以上tomcat性能
+><https://blog.csdn.net/zhuwenqiancn/article/details/78623822>
