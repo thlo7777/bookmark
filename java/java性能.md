@@ -42,3 +42,9 @@
  所以建议使用tomcat作为内嵌容器并且**没有开启tomcat的NIO模式时，可以配合HTTP异步来提升程序性能**。
  尤其是当业务繁重时，提升效果尤其明显。
 ```
+
+- ####[The C10K problem](http://www.kegel.com/c10k.html)
+```
+It's time for web servers to handle ten thousand clients simultaneously, don't you think?
+After all, the web is a big place now.
+```
