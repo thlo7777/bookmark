@@ -109,3 +109,50 @@ When first start tmux Use tmux kill-server, after that start a new tmux session.
 查看已启动的服务列表：systemctl list-unit-files|grep enabled  
 
 ```
+
+### [ubuntu16.04 apt-get更换阿里源](https://blog.csdn.net/ypbsyy/article/details/81143017)
+```text
+1.备份系统自带源
+
+　　mv /etc/apt/sources.list /etc/apt/sources.list.bak
+
+2.修改/etc/apt/sources.list文件
+
+　　vim /etc/apt/sources.list  
+
+　　加入如下内容:
+deb-src http://archive.ubuntu.com/ubuntu xenial main restricted #Added by software-properties
+
+deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted
+
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial main restricted multiverse universe #Added by software-properties
+
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted
+
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted multiverse universe #Added by software-properties
+
+deb http://mirrors.aliyun.com/ubuntu/ xenial universe
+
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates universe
+
+deb http://mirrors.aliyun.com/ubuntu/ xenial multiverse
+
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates multiverse
+
+deb http://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse
+
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse #Added by software-properties
+
+deb http://archive.canonical.com/ubuntu xenial partner
+
+deb-src http://archive.canonical.com/ubuntu xenial partner
+
+deb http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted
+
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted multiverse universe #Added by software-properties
+
+deb http://mirrors.aliyun.com/ubuntu/ xenial-security universe
+
+deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse
+
+```
