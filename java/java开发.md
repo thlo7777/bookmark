@@ -49,6 +49,9 @@ BTBV1R0CZR-eyJsaWNlbnNlSWQiOiJCVEJWMVIwQ1pSIiwibGljZW5zZWVOYW1lIjoiTXVzaGZpcXVyI
 ## How to Install JAVA 8 on Ubuntu 18.04/16.04, Linux Mint 19/18
 ><https://tecadmin.net/install-oracle-java-8-ubuntu-via-ppa/>
 
+## How To Install Oracle Java 8 in Ubuntu 16.04
+><https://www.liquidweb.com/kb/how-to-install-oracle-java-8-in-ubuntu-16-04/>
+
 ## install Oracle jdk8u201 to centos 7
 ><https://tecadmin.net/install-java-8-on-centos-rhel-and-fedora/>   
 [alternatives(update-alternatives) 的配置目录位置](https://my.oschina.net/weiyi/blog/2248648)
