@@ -13,6 +13,14 @@ copy file between container and local machine
 
 //进入容器
 $ docker exec -it ubuntu_bash bash
+
+//删除镜像
+
+sudo docker ps
+sudo docker stop  container ID
+sudo docker images
+sudo docker rmi -f 857eadf53a54
+
 ```
 
 ### mysql utf8mb4 配置
