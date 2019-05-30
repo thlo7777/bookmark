@@ -11,3 +11,8 @@
 
 ### Centralized Authorization with OAuth2 + JWT using Spring Boot 2
 ><http://blog.marcosbarbero.com/centralized-authorization-jwt-spring-boot2/>
+
+### can I include user information while issuing an access token?
+><https://stackoverflow.com/questions/28492116/can-i-include-user-information-while-issuing-an-access-token>
+><https://github.com/spring-projects/spring-security-oauth/issues/186>
+><https://github.com/spring-projects/spring-security-oauth/issues/523>
