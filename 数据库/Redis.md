@@ -9,6 +9,12 @@
 ## Redis 容量评估
 ><https://blog.csdn.net/u011983531/article/details/79598671>
 
+## redis 安装
+1. ### Redis 3.0.7版本启动时出现警告的解决办法  
+   <https://blog.csdn.net/jiangshouzhuang/article/details/50864933>  
+   <https://www.jianshu.com/p/7ca4b74c92be>
+2. ### 
+
 ## Redis 列出集群中已知的所有节点（node）,以及这些节点相关 信息
 ```text
 127.0.0.1:7001>cluster nodes

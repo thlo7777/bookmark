@@ -25,3 +25,23 @@
 >Just chmod 600 ~/.ssh/config
 >```
 
+
+### git pull git解决non-fast-forward冲突
+```text
+1. git fetch origin debug 
+获取远程分支debug的修改 
+2. git merge origin debug 
+合并远程分支debug 
+3. git pull origin debug 
+更新本地分支 
+
+
+        public static final String IAM_USER_GUID_USERNAME_KEY = "guid:user_name";
+        
+        /*
+         * only for guid:user_name key. when IM need find user name by guid
+         */
+        hashOperations.put(AppConstants.IAM_USER_GUID_USERNAME_KEY,
+                iamUser.getGuid() + ":user_name", iamUser.getUserName()== null ? "null" : iamUser.getUserName());
+
+```
