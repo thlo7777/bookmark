@@ -17,7 +17,8 @@
 
 ## Redis 列出集群中已知的所有节点（node）,以及这些节点相关 信息
 ```text
-127.0.0.1:7001>cluster nodes
+$ ./redis-cli  -h 10.0.32.225 -p 7004
+10.0.32.225:7004> cluster nodes
 ```
 
 ## Redis cluster delete pattern
