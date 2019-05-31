@@ -24,3 +24,46 @@
 ```text
 redis-cli -h 10.0.32.225 -p 7005 --scan --pattern metadata*|xargs -L 1 redis-cli -h 10.0.32.225 -p 7005 del
 ```
+
+## centos6下redis cluster集群部署过程
+><https://www.cnblogs.com/kevingrace/p/7846324.html>
+
+### 关闭redis 持久化
+```text
+redis的持久化——RDB和AOF。redis有两种方式支持持久化，分别是RDB和AOF。
+
+1.注释掉原来的持久化规则
+
+#save 900 1
+
+#save 300 10
+
+#save 60 10000
+
+2.设置为空
+
+save ""
+
+然后重启redis服务即可。
+
+执行操作命令
+
+语法：
+
+CONFIG SET save ""
+
+执行命令后，无需重启服务，即可生效。
+
+3. 默认情况下redis并没有开启AOF，AOF的配置在redis.conf中注释为APPEND ONLY MODE的模块里，如果要开启AOF，需要将appendonly no改为appendonly yes。
+在redis_aof.conf配置文件中，appendfsync指定了redis进行aof持久化的时机，有如下三种方式：
+
+appendfsync always：每次收到写命令就立即强制写入磁盘，性能最低，但是最能保证数据的完整性，不推荐使用
+
+appendfsync everysec：每秒钟强制写入磁盘一次，在性能和持久化方面做了很好的折中，推荐
+
+appendfsync no：从不写入，完全依赖os，性能最好，不能保证数据的完整性
+
+
+
+
+```
