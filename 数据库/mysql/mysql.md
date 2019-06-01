@@ -53,3 +53,15 @@ alert user  canal identity by '123456';
 读写分离，从库只用于查询，提高数据库整体性能。
 
 ```
+### [mysql 多主多从配置，自增id解决方案](https://www.cnblogs.com/cocoliu/p/9020845.html)
+```text
+给大家一个设置的方法：
+
+auto-increment-increment = 10
+auto-increment-offset   = 1
+auto-increment-increment = 10
+auto-increment-offset   = 2
+auto-increment-increment = 10
+auto-increment-offset   = 3
+这样是不是就可以设置10台主mysql了呢？
+```
