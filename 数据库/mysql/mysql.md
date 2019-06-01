@@ -55,8 +55,14 @@ alert user  canal identity by '123456';
 ```
 ### [mysql 多主多从配置，自增id解决方案](https://www.cnblogs.com/cocoliu/p/9020845.html)
 ```text
-给大家一个设置的方法：
+Master mysql:
+server-id=145
+log-bin=mysql-bin
+auto-increment-increment=2
+auto-increment-offset=1
+log-slave-updates
 
+给大家一个设置的方法：
 auto-increment-increment = 10
 auto-increment-offset   = 1
 auto-increment-increment = 10
