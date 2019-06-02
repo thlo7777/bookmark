@@ -41,3 +41,33 @@ $ mysql -uroot -p
 alert user  canal identity by '123456';
 
 ```
+
+### [MySQL5.7多主一从（多源复制）同步配置](https://my.oschina.net/u/2399373/blog/2878650)
+```text
+多主一从，也称为多源复制，数据流向：
+
+主库1 -> 从库s
+主库2 -> 从库s
+主库n -> 从库s
+数据汇总，可将多个主数据库同步汇总到一个从数据库中，方便数据统计分析。
+读写分离，从库只用于查询，提高数据库整体性能。
+
+```
+### [mysql 多主多从配置，自增id解决方案](https://www.cnblogs.com/cocoliu/p/9020845.html)
+```text
+Master mysql:
+server-id=145
+log-bin=mysql-bin
+auto-increment-increment=2
+auto-increment-offset=1
+log-slave-updates
+
+给大家一个设置的方法：
+auto-increment-increment = 10
+auto-increment-offset   = 1
+auto-increment-increment = 10
+auto-increment-offset   = 2
+auto-increment-increment = 10
+auto-increment-offset   = 3
+这样是不是就可以设置10台主mysql了呢？
+```
