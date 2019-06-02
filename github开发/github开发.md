@@ -25,3 +25,20 @@
 >Just chmod 600 ~/.ssh/config
 >```
 
+### clone github
+
+```text
+配置
+# github
+Host github.com
+   User thlo7777
+   HostName github.com
+   PreferredAuthentications publickey
+   IdentityFile ~/.ssh/github_rsa
+
+
+$ ssh-add ~/.ssh/github_rsa
+$ git clone xxxxxx
+
+```
+
