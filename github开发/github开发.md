@@ -37,6 +37,7 @@ Host github.com
    IdentityFile ~/.ssh/github_rsa
 
 
+```
 $ ssh-add ~/.ssh/github_rsa
 $ git clone xxxxxx
 
