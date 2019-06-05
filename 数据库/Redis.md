@@ -68,3 +68,5 @@ appendfsync no：从不写入，完全依赖os，性能最好，不能保证数�
 
 
 ```
+
+### [How fast is Redis?](https://redis.io/topics/benchmarks)
