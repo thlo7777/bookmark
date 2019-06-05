@@ -83,3 +83,7 @@ SortedSet
 ```
 
 ### [How fast is Redis?](https://redis.io/topics/benchmarks)
+```text
+Redis includes the redis-benchmark utility that simulates running commands done by 
+N clients at the same time sending M total queries (it is similar to the Apache's ab utility). 
+```
