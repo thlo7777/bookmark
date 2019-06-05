@@ -68,3 +68,16 @@ appendfsync no：从不写入，完全依赖os，性能最好，不能保证数�
 
 
 ```
+
+### [Redis常用命令的时间复杂度整理](http://blog.liukaining.com/redis_o_n.html)
+```text
+Redis 的命令按照常用的数据结构分为六种类型：
+
+Key
+String
+Hash
+List
+Set
+SortedSet
+本文主要整理以上 6 类的最常使用的命令，全部的命令建议查看上文的文档。
+```
