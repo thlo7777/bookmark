@@ -42,3 +42,12 @@ $ git clone xxxxxx
 
 ```
 
+### git pull git解决non-fast-forward冲突
+```text
+1. git fetch origin debug 
+获取远程分支debug的修改 
+2. git merge origin debug 
+合并远程分支debug 
+3. git pull origin debug 
+更新本地分支 
+```

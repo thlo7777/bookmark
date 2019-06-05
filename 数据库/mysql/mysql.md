@@ -71,3 +71,5 @@ auto-increment-increment = 10
 auto-increment-offset   = 3
 这样是不是就可以设置10台主mysql了呢？
 ```
+
+### [MySQL 5.7: 使用MySQL Router实现应用程序的高可用](https://segmentfault.com/a/1190000011970688)
