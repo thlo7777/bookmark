@@ -1,3 +1,8 @@
+### [MacOS使用shadowsocks-libev+Simple-OBFS教程](https://medium.com/@yanlong/macos%E4%BD%BF%E7%94%A8shadowsocks-libev-simple-obfs%E6%95%99%E7%A8%8B-c10eba9c0758)
+```
+平时我们不会使用全局代理的，下来我们配置PAC自动代理。
+```
+
 ### [在 macOS 中安装 shadowsocks-libev 和 simple-obfs](https://boris1993.github.io/tools/shadowsocks/install-shadowsocks-on-macosx.html)
 
 ### [Ubuntu 16.04下Shadowsocks服务器端安装及优化](https://www.polarxiong.com/archives/Ubuntu-16-04%E4%B8%8BShadowsocks%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BC%98%E5%8C%96.html)
