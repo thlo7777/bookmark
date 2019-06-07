@@ -1,3 +1,9 @@
+### [Install Shadowsocks-libev + simple-obfs on Ubuntu](https://gist.github.com/nuhuo08/01cb865f77967a2ce14841d6d7fc1f02)
+```
+Install shadowsocks-libev via Ubuntu PPA
+Install simple-obfs
+```
+
 ## ssh自动登录的实现方法
 ><https://www.jianshu.com/p/ad67893d36ea>
 
