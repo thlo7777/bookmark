@@ -3,6 +3,10 @@
 Install shadowsocks-libev via Ubuntu PPA
 Install simple-obfs
 ```
+### [Ubuntu Server 配置 Shadowsocks-libev 服务端（包括 simple-obfs）](https://medium.com/circumvention-technology/install-and-configure-shadowsocks-libev-and-simple-obfs-on-ubuntu-357e908a5546)
+```
+libev 版是因为此版本还在维护，特别注意不要使用 python 版尤其是从 python 源上下载的版本
+```
 
 ## ssh自动登录的实现方法
 ><https://www.jianshu.com/p/ad67893d36ea>
