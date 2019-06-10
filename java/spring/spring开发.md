@@ -559,3 +559,5 @@ The Gson object is explicitly safe to use from multiple threads, as it doesn't k
 internal state, so yes, declare a private static final Gson GSON = new Gson();, 
 or even make it public.
 ```
+
+### [Spring Boot中使用MyBatis注解配置详解](http://blog.didispace.com/mybatisinfo/)
