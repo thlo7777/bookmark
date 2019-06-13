@@ -126,3 +126,7 @@ num2 = int(input("Enter num2: "))
 num3 = num1 * num2 
 print("Product is: ", num3) 
 ```
+### [np.ravel_multi_index](https://stackoverflow.com/questions/48135736/what-is-an-intuitive-explanation-of-np-unravel-index)
+```
+ If you have a 2-D matrix, or array, you can reference it in different ways. You could type the (row, col), to get the value at (row, col), or you can give each cell a single-number index. unravel_index just translates between these two ways of referencing values in a matrix.
+```
