@@ -73,3 +73,13 @@ auto-increment-offset   = 3
 ```
 
 ### [MySQL 5.7: 使用MySQL Router实现应用程序的高可用](https://segmentfault.com/a/1190000011970688)
+
+### [sql update操作数据更新成功，返回的影响行数是0](https://blog.csdn.net/win7system/article/details/73658270)
+```text
+下面的两种情况均返回0：
+       1、没有找到需要更新的数据
+        比如，我们进行update的时候，条件是id=5，但是id=5的数据不存在。这种情况下，更新是失败的，返回0，很正确；
+       2、要更新的数据和更新的值是完全一样的
+        比如，我们要对id=5的记录进行更新，把title变成hello。虽然这条记录存在，但是这条记录的title本来就是hello，
+        那么，返回值也是0；
+```
