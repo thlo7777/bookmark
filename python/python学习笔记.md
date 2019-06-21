@@ -126,7 +126,24 @@ num2 = int(input("Enter num2: "))
 num3 = num1 * num2 
 print("Product is: ", num3) 
 ```
+
 #### 9. [np.ravel_multi_index](https://stackoverflow.com/questions/48135736/what-is-an-intuitive-explanation-of-np-unravel-index)
 ```
  If you have a 2-D matrix, or array, you can reference it in different ways. You could type the (row, col), to get the value at (row, col), or you can give each cell a single-number index. unravel_index just translates between these two ways of referencing values in a matrix.
 ```
+
+### [Zip lists in Python](https://stackoverflow.com/questions/13704860/zip-lists-in-python)
+```text
+zip takes a bunch of lists likes
+
+a: a1 a2 a3 a4 a5 a6 a7...
+b: b1 b2 b3 b4 b5 b6 b7...
+c: c1 c2 c3 c4 c5 c6 c7...
+and "zips" them into one list whose entries are 3-tuples (ai, bi, ci). 
+Imagine drawing a zipper horizontally from left to right.
+```
+
+### [Python list、tuple、dict区别]
+
+_1. Dictionary 是 Python 的内置数据类型之一, 它定义了键和值之间一对一的关系。_
+2. 每一个元素都是一个 key-value 对, 整个元素集合用大括号括起来
