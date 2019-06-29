@@ -575,3 +575,17 @@ springboot中如何添加线程池
 线程池中线程认领任务
 jemeter高并发测试接口
 ```
+
+### [Spring @Async rest controller example – Spring @EnableAsync](https://howtodoinjava.com/spring-boot2/enableasync-async-controller/)
+```
+Learn to create asynchronous controller methods in Spring framework with the help of @Async and @EnableAsync annotations, async thread pool on top of Java ExecutorService framework.
+```
+
+### [Understanding Callable and Spring DeferredResult](https://www.javacodegeeks.com/2015/07/understanding-callable-and-spring-deferredresult.html)
+```
+Asynchronous support introduced in Servlet 3.0 offers the possibility to process an HTTP request in another thread. This is specially interesting when you have a long running task, since while another thread processes this request, the container thread is freed and can continue serving other requests.
+```
+### [Asynchronous REST results in Spring](https://niels.nu/blog/2016/spring-async-rest.html)
+```
+In this example I will demonstrate four different approaches to returning JSON from a Spring Boot REST service. The example is a 'time server' whose calls will return a JSON result with the current date/time in ISO 8601 format. All the calls with be simple GET calls that can be done from your browser.
+```
