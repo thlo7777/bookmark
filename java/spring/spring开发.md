@@ -561,3 +561,17 @@ or even make it public.
 ```
 
 ### [Spring Boot中使用MyBatis注解配置详解](http://blog.didispace.com/mybatisinfo/)
+
+### [Can Spring Boot application handle multiple requests simultaneously?](https://stackoverflow.com/questions/46893237/can-spring-boot-application-handle-multiple-requests-simultaneously)
+```
+From what I read in Spring-Boot: Handle multiple requests concurrently and How to have thread safe controller in spring boot, it seems Spring Boot can handle requests concurrently while controller being thread safe.
+```
+### [提升java web程序高并发访问，在springmvc中的controller层使用线程池调用service](https://blog.csdn.net/Hello_Ray/article/details/83340064)
+```
+在springboot中使用线程池调用service，提高web程序的高并发处理能力。而标题中说到springmvc，这里使用springboot。是因为springboot包含springmvc。
+
+本文介绍
+springboot中如何添加线程池
+线程池中线程认领任务
+jemeter高并发测试接口
+```
