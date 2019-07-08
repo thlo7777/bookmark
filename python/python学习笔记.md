@@ -145,5 +145,5 @@ Imagine drawing a zipper horizontally from left to right.
 
 ### [Python list、tuple、dict区别]
 
-_1. Dictionary 是 Python 的内置数据类型之一, 它定义了键和值之间一对一的关系。_
-2. 每一个元素都是一个 key-value 对, 整个元素集合用大括号括起来
+**1. Dictionary 是 Python 的内置数据类型之一, 它定义了键和值之间一对一的关系。**
+**2. 每一个元素都是一个 key-value 对, 整个元素集合用大括号括起来**
