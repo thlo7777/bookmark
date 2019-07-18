@@ -189,3 +189,4 @@ deb http://mirrors.aliyun.com/ubuntu/ xenial-security universe
 deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse
 
 ```
+####[Centos内核优化](https://blog.csdn.net/jet19810906/article/details/80676786)
