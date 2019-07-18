@@ -65,3 +65,4 @@ OS 诊断
 jstack可以定位到线程堆栈，根据堆栈信息我们可以定位到具体代码，所以它在JVM性能调优中使用得非常多。下面我们来一个实例找出某个Java进程中最耗费CPU的Java线程并定位堆栈信息，
 用到的命令有ps、top、printf、jstack、grep。
 ```
+- ####[A Look at ForkJoinPool and Parallel Streams](https://dzone.com/articles/a-look-at-forkjoinpool)
