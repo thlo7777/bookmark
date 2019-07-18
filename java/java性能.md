@@ -66,3 +66,5 @@ jstack可以定位到线程堆栈，根据堆栈信息我们可以定位到具�
 用到的命令有ps、top、printf、jstack、grep。
 ```
 - ####[A Look at ForkJoinPool and Parallel Streams](https://dzone.com/articles/a-look-at-forkjoinpool)
+
+- ####[Be Aware of ForkJoinPool#commonPool()](https://dzone.com/articles/be-aware-of-forkjoinpoolcommonpool)
