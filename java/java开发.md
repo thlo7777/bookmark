@@ -241,3 +241,7 @@ keytool -genkey -alias ssltest -keypass 1234 -keyalg RSA -keysize 1024 
 ><http://developer.51cto.com/art/201506/480273.htm>
 ## 实战Redis序列化性能测试(Kryo和字符串)
 ><https://blog.csdn.net/boling_cavalry/article/details/80719683>
+
+#### [Be Aware of ForkJoinPool#commonPool()](https://dzone.com/articles/be-aware-of-forkjoinpoolcommonpool)
+#### [Default ForkJoinPool executor taking long time](https://stackoverflow.com/questions/45460577/default-forkjoinpool-executor-taking-long-time)
+#### [Performance Issues with newFixedThreadPool vs newSingleThreadExecutor](https://stackoverflow.com/questions/16125626/performance-issues-with-newfixedthreadpool-vs-newsinglethreadexecutor)
