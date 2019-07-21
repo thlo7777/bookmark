@@ -73,3 +73,4 @@ jstack可以定位到线程堆栈，根据堆栈信息我们可以定位到具�
 - #### [API网关性能比较](https://chanjarster.github.io/post/api-gateway-perf-comparison/)
 - #### [性能测试 —— Spring Cloud Gateway、Zuul 基准测试](http://www.iocoder.cn/Performance-Testing/SpringCloudGateway-Zuul-benchmark/?vip)
 - #### [Nginx tuning tips: TLS/SSL HTTPS – Improved TTFB/latency](https://haydenjames.io/nginx-tuning-tips-tls-ssl-https-ttfb-latency/)
+- #### [Spring boot async controller with ResponseBodyEmitter](https://howtodoinjava.com/spring-boot2/spring-async-controller-responsebodyemitter/)
