@@ -235,7 +235,7 @@ Can-Redefine-Classes: false
 ## 浅谈JDK动态代理
 ><https://zhuanlan.zhihu.com/p/62660956>
 
-## mybatis <--> mysql 日期字段
+## mybatis <--> mysql 日期字段 test
 ```text
  MyBatis3做数据持久层，在字段中有Date和DateTime类型，在插入数据时只要将实体的属性设置成Timestamp就会
 对应mysql的DateTime类型，Date会对应mysql的Date类型。
