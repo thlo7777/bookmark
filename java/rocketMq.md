@@ -127,3 +127,12 @@ cat mqclusterstart.sh
 nohup sh /usr/local/rocketmq/bin/mqnamesrv &
 nohup sh /usr/local/rocketmq/bin/mqbroker -c /usr/local/rocketmq/conf/2m-noslave/broker-a.properties &
 ```
+#### [清空rocketmq消息方法](https://blog.csdn.net/jenny8080/article/details/53467536)
+```html
+1. 停止rocketmq
+可以使用kill -9 命令强制停止rocketmq进程
+2. 删除rocketmq日志
+rm -rf /root/logs/rocketmqlogs/*
+....
+
+```
