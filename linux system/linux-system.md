@@ -75,6 +75,7 @@ libev 版是因为此版本还在维护，特别注意不要使用 python 版尤
 
 ## How To Reset Root Password In CentOS 7
 ><http://www.linuxandubuntu.com/home/how-to-reset-root-password-in-centos-7>
+#### [How To Reset Root Password On CentOS 7](https://www.unixmen.com/reset-root-password-centos-7/)
 
 ## centos7  firewall commnd
 ```
