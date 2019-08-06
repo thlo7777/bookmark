@@ -99,3 +99,9 @@ auto-increment-offset   = 3
 最后对全局E-R模式进行优化，得到最终的E-R模式，即概念模式。
 ```
 
+### [E-R图的基本概念（一）](https://blog.csdn.net/chenpidaxia/article/details/62073162)
+```
+实体-联系方法（Entity-Relationship Approach），也叫E-R模型，由一位叫P.P.S.Chen的大佬最先提出。主要是用来描述现实世界的概念模型。
+具体来说就是用一下三种东西来描述我们的问题构成的世界 
+```
+
