@@ -74,3 +74,16 @@ jstack可以定位到线程堆栈，根据堆栈信息我们可以定位到具�
 - #### [性能测试 —— Spring Cloud Gateway、Zuul 基准测试](http://www.iocoder.cn/Performance-Testing/SpringCloudGateway-Zuul-benchmark/?vip)
 - #### [Nginx tuning tips: TLS/SSL HTTPS – Improved TTFB/latency](https://haydenjames.io/nginx-tuning-tips-tls-ssl-https-ttfb-latency/)
 - #### [Spring boot async controller with ResponseBodyEmitter](https://howtodoinjava.com/spring-boot2/spring-async-controller-responsebodyemitter/)
+
+### [亿级流量系统架构之如何设计全链路99.99%高可用架构【石杉的架构笔记】](https://juejin.im/post/5bffab686fb9a04a102f0022)
+```
+百亿流量级别高并发写入场景下，如何承载这种高并发写入，
+同时如何在高并发写入的背景下还能保证系统的超高性能计算。
+```
+
+### [如何设计一个高并发系统？](https://github.com/doocs/advanced-java/blob/master/docs/high-concurrency/high-concurrency-design.md)
+```
+假设你在某知名电商公司干过高并发系统，用户上亿，一天流量几十亿，高峰期并发量上万，甚至是十万。那么人家一定
+会仔细盘问你的系统架构，你们系统啥架构？怎么部署的？部署了多少台机器？缓存咋用的？MQ 咋用的？数据库咋用的？
+就是深挖你到底是如何扛住高并发的。
+```
