@@ -144,4 +144,8 @@ auto-increment-offset   = 3
 ### [基于Snowflake的分布式唯一ID生成器](https://blog.csdn.net/javaboy/article/details/81978286)
 ```
 先上我的实现的项目地址：https://github.com/johnhuang-cn/snowflake-uid
+另外补充解释下，为啥要用这么多位数用于避免worker id重复，实际部署的系统一般也就几百几千台机器/虚拟机，直接为不同的应用
+指定不同的id不就完了吗？这主要是考虑在Spring Cloud或者k8s这样的环境里，每个应用是有可能同时开好几个实例的，如果worker
+ id是硬编码或者固定配置的，那所有相同应用的实例都会是相同的worker id，肯定会造成UID冲突的。所以就需要有一个渠道能得到
+ 唯一的id。
 ```
