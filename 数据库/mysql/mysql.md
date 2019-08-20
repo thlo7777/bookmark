@@ -120,3 +120,28 @@ auto-increment-offset   = 3
 
 这时就需要用到分库分表（sharding），对写操作进行切分。
 ```
+
+```
+不要迷信数据库性能，不要迷信三范式，不要使用外键，不要使用byte，不要使用自增id，不要使用存储过程，不要使用内部函数，
+不要使用非标准sql，存储系统只做存储系统的事。当出现系统性能时，如此设计的数据库可以更好的实现迁移数据库
+（如mysql->oracle)，实现nosql改造（(mongodb/hadoop），实现key-value缓存(redis,memcache)。
+```
+
+### [依赖zookeeper组件的一种高可用实践](https://blog.csdn.net/yu280265067/article/details/62041465)
+```
+电子商务系统大量使用mysql数据库作为其交易和存储的系统； 随着商户和用户量的不断增长，mysql中存储的数据量会越来越大，
+这时把所有数据存储在一张表或者一个数据库中会极大的影响系统的性能和安全。 分库分表是业界一个比较通用的方案，并且也
+比较成熟。
+为了进行分库分表，我们需要为业务表中设置一个唯一的id；举个商品中心的例子：为了把一个租户下的所有菜品，菜价，菜品分类
+放在一下，会在所有这些表上加上一个全局唯一的租户id。
+```
+
+### [分布式唯一id：snowflake算法思考](https://juejin.im/post/5a7f9176f265da4e721c73a8)
+```
+为什么会突然谈到分布式唯一id呢？原因是最近在准备使用RocketMQ，看看官网介绍
+```
+
+### [基于Snowflake的分布式唯一ID生成器](https://blog.csdn.net/javaboy/article/details/81978286)
+```
+先上我的实现的项目地址：https://github.com/johnhuang-cn/snowflake-uid
+```
