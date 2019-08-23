@@ -51,11 +51,12 @@ The default build configuration depends on only 3 libraries to be installed: Ope
 > 编译问题 **[emerg] getpwnam("nginx") failed**  
 > [nginx server cannot restart using service nginx start](https://stackoverflow.com/questions/38147412/nginx-server-cannot-restart-using-service-nginx-start)  
 >   
->  If you’re compiling Nginx from source, you might be specifying the
-> user and group flags at compile time.
-> If this is the case, you need to ensure that the users actually exist
-> when you attempt to start Nginx.
-> How to fix getpwnam(“nginx”) failed
-> It’s easy to fix this issue, simply create the specified user (in this
-> case, ‘nginx’) by issuing the following command:
-> useradd nginx `
+>  If you’re compiling Nginx from source, you might be specifying the  
+>  user and group flags at compile time.  
+>  If this is the case, you need to ensure that the users actually exist  
+>  when you attempt to start Nginx.  
+>  How to fix getpwnam(“nginx”) failed  
+>  It’s easy to fix this issue, simply create the specified user (in
+>  this  
+>  case, ‘nginx’) by issuing the following command:  
+>  useradd nginx
