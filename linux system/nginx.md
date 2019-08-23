@@ -42,3 +42,20 @@ nginx来说配置上就要相对复杂一些。
 
 注：除特殊注明外，本文中所有的配置同时适用于NGINX和NGINX Plus。
 ```
+#### [How to Build Nginx from source on CentOS 7](https://www.howtoforge.com/how-to-build-nginx-from-source-on-centos-7/)
+```
+In comparison with some other UNIX/Linux software, Nginx is pretty lightweight and doesn’t have many library dependencies. 
+The default build configuration depends on only 3 libraries to be installed: OpenSSL/LibreSSL/BoringSSL, Zlib and PCRE.
+```
+***
+> 编译问题 **[emerg] getpwnam("nginx") failed**  
+> [nginx server cannot restart using service nginx start](https://stackoverflow.com/questions/38147412/nginx-server-cannot-restart-using-service-nginx-start)  
+>   
+>  If you’re compiling Nginx from source, you might be specifying the
+> user and group flags at compile time.
+> If this is the case, you need to ensure that the users actually exist
+> when you attempt to start Nginx.
+> How to fix getpwnam(“nginx”) failed
+> It’s easy to fix this issue, simply create the specified user (in this
+> case, ‘nginx’) by issuing the following command:
+> useradd nginx `
