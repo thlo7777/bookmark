@@ -60,3 +60,28 @@ The default build configuration depends on only 3 libraries to be installed: Ope
 >  this  
 >  case, ‘nginx’) by issuing the following command:  
 >  useradd nginx
+
+>  **[emerg] mkdir() "/var/cache/nginx/client_temp" failed (2: No such
+>  file or directory)**  
+>  $ sudo nginx -t   
+>  nginx: the configuration file /etc/nginx/nginx.conf syntax is ok  
+>  nginx: [emerg] mkdir() "/var/cache/nginx/client_temp" failed (2: No
+>  such file or directory) nginx: configuration file  
+>  /etc/nginx/nginx.conf test failed  
+>  **To fix this, create the following directory: $ sudo mkdir -p-
+>  /var/cache/nginx/client_temp**  
+>  Now if we try again:  
+>  $ sudo nginx -t   
+>  nginx: the configuration file /etc/nginx/nginx.conf syntax is ok   
+>  nginx: configuration file /etc/nginx/nginx.conf test is successful   
+>  [Install Nginx, OpenSSL, and ngx_pagespeed from source on Ubuntu 14.04](https://gist.github.com/AJMaxwell/f6793605068813aae888216b02364d85)
+
+
+
+***
+>  **How can I create a non-login user?**  
+>  [创建 Non login user](https://superuser.com/questions/77617/how-can-i-create-a-non-login-user)  
+>  [How to create user “nginx”? ](https://serverfault.com/questions/190917/how-to-create-user-nginx)
+
+
+
