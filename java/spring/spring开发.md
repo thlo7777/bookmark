@@ -532,6 +532,17 @@ https://www.oschina.net/question/273712_221495
 
 ## spring cloud gateway之filter篇
 ><https://blog.csdn.net/forezp/article/details/85057268>
+
+### [spring cloud gateway中Path Predicate规则类似/A/B/** /A/B/C/**时，无法定位到/A/B/C/**的问题](https://blog.csdn.net/horizon_zy/article/details/84392363)
+```
+结论：
+  发现spring cloud gateway中Path Predicate规则类似/A/B/** /A/B/C/**时，无法定位到/A/B/C/**的问题时，
+
+  只要修改两个Route的定义顺序即可解决该问题。
+
+  方案二：可设置对应的order。order越小的匹配顺序越先。
+```
+
 ## keytool(JDK自带)生成ssl证书
 ><https://www.jianshu.com/p/981431a2b6ea>
 
