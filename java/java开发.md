@@ -252,3 +252,8 @@ keytool -genkey -alias ssltest -keypass 1234 -keyalg RSA -keysize 1024 
 #### [Be Aware of ForkJoinPool#commonPool()](https://dzone.com/articles/be-aware-of-forkjoinpoolcommonpool)
 #### [Default ForkJoinPool executor taking long time](https://stackoverflow.com/questions/45460577/default-forkjoinpool-executor-taking-long-time)
 #### [Performance Issues with newFixedThreadPool vs newSingleThreadExecutor](https://stackoverflow.com/questions/16125626/performance-issues-with-newfixedthreadpool-vs-newsinglethreadexecutor)
+#### [java-cef](https://bitbucket.org/chromiumembedded/java-cef/src/master/)
+```
+Java Chromium Embedded Framework (JCEF). A simple framework for embedding Chromium-based browsers in other 
+applications using the Java programming language.
+```
