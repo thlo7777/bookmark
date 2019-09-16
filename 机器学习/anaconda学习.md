@@ -36,3 +36,10 @@ Or for the GPU version
  conda deactivate
 ```
 
+### [Windows10下安装Anaconda3(64位)详细过程](https://blog.csdn.net/ychgyyn/article/details/82119201)
+```
+进入Anaconda的官网进行下载或学习。
+选择你想下载的Python版本，这里我们选择的是Python3.6
+选择你的操作系统和位数，这里我们选择的是Windows64位
+然后点击Download按钮就开始下载了
+```
