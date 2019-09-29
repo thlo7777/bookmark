@@ -257,3 +257,5 @@ keytool -genkey -alias ssltest -keypass 1234 -keyalg RSA -keysize 1024 
 Java Chromium Embedded Framework (JCEF). A simple framework for embedding Chromium-based browsers in other 
 applications using the Java programming language.
 ```
+
+#### [JCEF (Java Chromium Embedded Framework) build guide for windows](https://www.youtube.com/watch?v=Iran0zj0Za4)
