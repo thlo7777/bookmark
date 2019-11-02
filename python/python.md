@@ -16,3 +16,5 @@ Faiss是Facebook人工智能实验室开源的一个快速相似性搜索库。�
 ```
 主要是利用sys模块的getsizeof函数，使用的版本是 Python3.5。记录下来，以备后忘。
 ```
+
+#### [公式手写识别](https://github.com/JianshuZhang/WAP)
