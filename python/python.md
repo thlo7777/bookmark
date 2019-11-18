@@ -20,4 +20,5 @@ Faiss是Facebook人工智能实验室开源的一个快速相似性搜索库。�
 #### [公式手写识别](https://github.com/JianshuZhang/WAP)
 ```
 https://github.com/chungkwong/mathocr-myscript
+https://github.com/ThomasLech/CROHME_extractor
 ```
