@@ -17,4 +17,5 @@ https://www.evget.com/article/2018/1/9/27628.html
 # Node.js 2018 用户调查：最爱 Express，最想学 Rust
 https://www.oschina.net/news/96796/2018-nodejs-user-survey
 
+#### [JavaScript Complete Course 2019: Build Real Projects! // FOR BEGINNERS PART 1](https://www.youtube.com/watch?v=1UZ7__D7dxs)
 
