@@ -90,3 +90,5 @@ The default build configuration depends on only 3 libraries to be installed: Ope
 #### [Nginx+Keepalived(双机热备)搭建高可用负载均衡环境(HA)](https://my.oschina.net/xshuai/blog/917097)
 #### [keepalived + nginx 双活热备负载均衡](http://giveme5.cc/2018/02/27/web%20server/nginx/keepalivedNginx/)
 #### [LVS+Keepalived+Nginx负载均衡搭建测试](https://cloud.tencent.com/developer/article/1501289)
+#### [Web Server HA： Nginx + Keepalived](https://www.zybuluo.com/saltyang/note/961170)
+#### [干货 | CDN搭配OSS最佳实践 ——搭建动静态分离的应用架构](http://blog.itpub.net/69912185/viewspace-2649452/)
