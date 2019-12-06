@@ -86,3 +86,7 @@ The default build configuration depends on only 3 libraries to be installed: Ope
 
 
 #### [Keepalived+Nginx+Apache主备及双活搭建测试](https://blog.51cto.com/3241766/2103154)
+#### [双机高可用、负载均衡、MySQL(读写分离、主从自动切换)架构设计](https://blog.csdn.net/weixin_30483013/article/details/97711918)
+#### [Nginx+Keepalived(双机热备)搭建高可用负载均衡环境(HA)](https://my.oschina.net/xshuai/blog/917097)
+#### [keepalived + nginx 双活热备负载均衡](http://giveme5.cc/2018/02/27/web%20server/nginx/keepalivedNginx/)
+#### [LVS+Keepalived+Nginx负载均衡搭建测试](https://cloud.tencent.com/developer/article/1501289)
