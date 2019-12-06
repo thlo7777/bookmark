@@ -85,3 +85,4 @@ The default build configuration depends on only 3 libraries to be installed: Ope
 
 
 
+#### [Keepalived+Nginx+Apache主备及双活搭建测试](https://blog.51cto.com/3241766/2103154)
