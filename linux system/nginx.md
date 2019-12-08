@@ -92,3 +92,4 @@ The default build configuration depends on only 3 libraries to be installed: Ope
 #### [LVS+Keepalived+Nginx负载均衡搭建测试](https://cloud.tencent.com/developer/article/1501289)
 #### [Web Server HA： Nginx + Keepalived](https://www.zybuluo.com/saltyang/note/961170)
 #### [干货 | CDN搭配OSS最佳实践 ——搭建动静态分离的应用架构](http://blog.itpub.net/69912185/viewspace-2649452/)
+#### [SSL双向认证和SSL单向认证的区别](https://www.jianshu.com/p/fb5fe0165ef2)
