@@ -7,3 +7,6 @@
 #### [How to Develop Word Embeddings in Python with Gensim](https://machinelearningmastery.com/develop-word-embeddings-python-gensim/)
 #### [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
 #### [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
+
+#### [词向量总结笔记（简洁版）](http://www.shuang0420.com/2016/06/21/%E8%AF%8D%E5%90%91%E9%87%8F%E6%80%BB%E7%BB%93%E7%AC%94%E8%AE%B0%EF%BC%88%E7%AE%80%E6%B4%81%E7%89%88%EF%BC%89/)
+#### [使用Bert预训练模型文本分类（内附源码）](https://www.jiqizhixin.com/articles/2019-03-13-4)
