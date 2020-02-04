@@ -22,3 +22,5 @@ Faiss是Facebook人工智能实验室开源的一个快速相似性搜索库。�
 https://github.com/chungkwong/mathocr-myscript
 https://github.com/ThomasLech/CROHME_extractor
 ```
+
+#### [如何简单地理解Python中的if __name__ == '__main__'](https://blog.csdn.net/yjk13703623757/article/details/77918633)
