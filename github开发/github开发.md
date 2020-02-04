@@ -51,3 +51,7 @@ $ git clone xxxxxx
 3. git pull origin debug 
 更新本地分支 
 ```
+
+#### [发布模式与分支策略](https://cloud.tencent.com/developer/news/372717)
+#### [源代码主干分支开发四大模式](https://blog.csdn.net/zhangmike/article/details/38613429)
+#### [基于Git的主干开发工作流](https://juejin.im/post/5d96a219e51d4577f4608b2c)
