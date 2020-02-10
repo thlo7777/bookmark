@@ -24,3 +24,5 @@ https://github.com/ThomasLech/CROHME_extractor
 ```
 
 #### [如何简单地理解Python中的if __name__ == '__main__'](https://blog.csdn.net/yjk13703623757/article/details/77918633)
+
+#### [基于Python,RabbitMQ,Nameko,Flask的微服务架构](https://xionzhi.com/microservices_with_python_rabbitmq_nameko_flask/)

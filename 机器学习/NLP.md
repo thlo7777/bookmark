@@ -14,3 +14,7 @@
 #### [Natural Language Processing with TensorFlow 2 - Beginner's Course](https://www.youtube.com/watch?v=B2q5cRJvqI8)
 
 #### [高数解题神器：拍照上传就出答案，这个中国学霸做的AI厉害了 | Demo](https://zhuanlan.zhihu.com/p/67028849)
+
+#### [DataminingGuideBook](https://github.com/yourtion/DataminingGuideBook/blob/master/chapter-2/chapter-2-1.md)
+
+#### [We Recommend a Singular Value Decomposition](http://www.ams.org/publicoutreach/feature-column/fcarc-svd)
