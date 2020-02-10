@@ -12,3 +12,5 @@
 #### [使用Bert预训练模型文本分类（内附源码）](https://www.jiqizhixin.com/articles/2019-03-13-4)
 #### [peterjc123/pytorch-scripts](https://github.com/peterjc123/pytorch-scripts)
 #### [Natural Language Processing with TensorFlow 2 - Beginner's Course](https://www.youtube.com/watch?v=B2q5cRJvqI8)
+
+#### [高数解题神器：拍照上传就出答案，这个中国学霸做的AI厉害了 | Demo](https://zhuanlan.zhihu.com/p/67028849)
