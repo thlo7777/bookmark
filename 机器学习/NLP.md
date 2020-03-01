@@ -18,3 +18,5 @@
 #### [DataminingGuideBook](https://github.com/yourtion/DataminingGuideBook/blob/master/chapter-2/chapter-2-1.md)
 
 #### [We Recommend a Singular Value Decomposition](http://www.ams.org/publicoutreach/feature-column/fcarc-svd)
+
+#### [字节跳动自研万亿级图数据库 & 图计算实践](https://mp.weixin.qq.com/s?__biz=MzU1NTMyOTI4Mw==&mid=2247497685&idx=2&sn=3ac806e61e2112de6492d99ed952ca07&chksm=fbd745b9cca0ccaf015671847a9b5a38233078fe9329c1957b6d33661efa370036acc5559004&mpshare=1&scene=1&srcid=&sharer_sharetime=1582727693652&sharer_shareid=2c1e0e3076350834d41b7b3e439ed945&key=3722f9ed6dec8f5a94c0c909e009f7424754ad358bbc23603db62c9ec385fcce013371d8f4edb35d0433144b3138cd1a04220f5e92eccde55dc376f6e41448a32e5cd59d55136e05f43032d3d53b3695&ascene=1&uin=OTg2MTEzNzc4&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=Ad7UZ5X%2Bv5UwzDqOBYDx55E%3D&pass_ticket=HUXfEBjTr3E3aeQoC%2FvpU5ZXVHxfIAlanmFEX62NSIgu5Nxpj8zdaXYOHLH5nXj2)
