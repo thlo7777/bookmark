@@ -24,3 +24,5 @@
 #### [Building OCR and Handwriting Recognition for document images](https://blog.usejournal.com/building-ocr-and-handwriting-recognition-for-document-images-f7630ee95d46)
 
 #### [snip](https://mathpix.com/)
+
+#### [大数据时代下的用户画像建立](https://www.jianshu.com/p/05f0d9b9c9cd)
