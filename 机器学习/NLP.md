@@ -26,3 +26,7 @@
 #### [snip](https://mathpix.com/)
 
 #### [大数据时代下的用户画像建立](https://www.jianshu.com/p/05f0d9b9c9cd)
+#### [用户体验研究中用户画像如何做](https://www.jianshu.com/p/0e7d69630163)
+#### [知乎独家发布 | 标签系统：大数据的典型应用](https://zhuanlan.zhihu.com/p/52683548)
+
+#### [深度学习word2vec笔记之基础篇](https://blog.csdn.net/mytestmy/article/details/26961315)
