@@ -81,3 +81,19 @@ docker启动命令,docker重启命令,docker关闭命令
 关闭docker   service docker stop   
 关闭docker  systemctl stop docker
 ```
+
+#### [Docker 之 Jenkins自动化部署](https://www.jianshu.com/p/a1aef2f7da56)
+
+```
+official jenkins docker
+docker pull jenkins/jenkins
+
+sudo chown -R 1000 volume_dir
+
+docker run -d -p 49001:8080 -v ~/jenkins:/var/jenkins_home --name jenkins --restart=always jenkins
+
+docker run -u 1000 -d -p 8080:8080 -v ~/jenkins:/var/jenkins_home --name jenkins --restart=always jenkins/jenkins:lts
+
+docker run -d -p 8080:8080 -v ~/jenkins:/var/jenkins_home --name jenkins --restart=always jenkins/jenkins:lts
+
+```

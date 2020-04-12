@@ -30,3 +30,9 @@
 #### [知乎独家发布 | 标签系统：大数据的典型应用](https://zhuanlan.zhihu.com/p/52683548)
 
 #### [深度学习word2vec笔记之基础篇](https://blog.csdn.net/mytestmy/article/details/26961315)
+
+#### [bert-as-service Documentation](https://bert-as-service.readthedocs.io/en/latest/)
+
+#### [Go 语言高效分词, 支持英文、中文、日文等](https://github.com/go-ego/gse/blob/master/README_zh.md)
+
+#### [NLP历史突破！快速解读Google BERT模型 + Word Embedding](https://www.youtube.com/watch?v=Po38Dl-XDd4)
