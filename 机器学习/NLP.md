@@ -36,3 +36,5 @@
 #### [Go 语言高效分词, 支持英文、中文、日文等](https://github.com/go-ego/gse/blob/master/README_zh.md)
 
 #### [NLP历史突破！快速解读Google BERT模型 + Word Embedding](https://www.youtube.com/watch?v=Po38Dl-XDd4)
+
+#### [用tensorflow进行中文自然语言处理中的情感分析](https://www.youtube.com/watch?v=-mcrmLmNOXA)

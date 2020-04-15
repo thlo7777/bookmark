@@ -26,3 +26,12 @@ https://github.com/ThomasLech/CROHME_extractor
 #### [如何简单地理解Python中的if __name__ == '__main__'](https://blog.csdn.net/yjk13703623757/article/details/77918633)
 
 #### [基于Python,RabbitMQ,Nameko,Flask的微服务架构](https://xionzhi.com/microservices_with_python_rabbitmq_nameko_flask/)
+
+#### [Install Python PIP on CentOS7](https://linuxhint.com/install-python-pip-centos7/)
+
+#### [Pyppeteer：比selenium更高效的爬虫界的新神器](https://www.toutiao.com/a6802921787945386510/?timestamp=1583983690&app=news_article&group_id=6802921787945386510&req_id=202003121128100100140411570B02E02C)
+
+### pip install ssl error
+```
+sudo  pip install docker-compose --trusted-host pypi.org --trusted-host files.pythonhosted.org
+```

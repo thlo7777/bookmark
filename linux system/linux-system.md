@@ -193,3 +193,17 @@ deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse
 #### [Centos内核优化](https://blog.csdn.net/jet19810906/article/details/80676786)
 
 #### [The Shell Guru](https://www.theshell.guru/category/centos/)
+
+#### [CentOS Liunx 7 更换为阿里云的源]
+```
+1、备份
+mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
+
+2、下载新的CentOS-Base.repo 到/etc/yum.repos.d/
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+
+3、生成缓存
+yum makecache
+yum -y update
+
+```
