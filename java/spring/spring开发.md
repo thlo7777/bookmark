@@ -102,6 +102,10 @@ https://blog.csdn.net/a859522265/article/details/7282817
 # Java利器之UML类图详解
 https://zhuanlan.zhihu.com/p/24247571
 https://blog.csdn.net/xiehuimx/article/details/53427452
+
+# UML时序图(Sequence Diagram)学习笔记
+https://blog.csdn.net/fly_zxy/article/details/80911942
+
 # Servlet 工作原理解析
 https://www.ibm.com/developerworks/cn/java/j-lo-servlet/
 # spring MVC maven intellij 搭建 How to get UTF-8 working in Java webapps?

@@ -13,3 +13,8 @@
 之前我一直以为xpose框架是针对特殊机型，现在才发现其实针对不同的android版本装xpose版本，跟机型没有关系。
 前提是是手机已root和安装了第三方recovery，比如TWRP。
 ```
+
+
+#### [获取Android微信加密数据库路径和密码](https://zhuanlan.zhihu.com/p/108923531)
+#### [A Rootless Xposed-Style Framework](https://taichi.cool/)
+#### [Taichi 太极](https://www.taichi-app.com/#/index)

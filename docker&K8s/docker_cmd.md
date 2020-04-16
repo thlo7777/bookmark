@@ -82,6 +82,20 @@ docker启动命令,docker重启命令,docker关闭命令
 关闭docker  systemctl stop docker
 ```
 
+### 用户加入docker组，避免使用sudo
+```
+查看用户组中有没有docker组
+sudo cat /etc/group | grep docker
+创建docker分组, -g 999为组ID，也可以不指定
+sudo groupadd -g 999 docker 
+
+增加用户到docker组
+sudo usermod -aG docker $USER
+
+退出当前用户登陆状态，然后重新登录，以便让权限生效,或重启docker-daemon
+sudo systemctl restart docker
+```
+
 #### [Docker 之 Jenkins自动化部署](https://www.jianshu.com/p/a1aef2f7da56)
 
 ```
@@ -97,3 +111,5 @@ docker run -u 1000 -d -p 8080:8080 -v ~/jenkins:/var/jenkins_home --name jenkins
 docker run -d -p 8080:8080 -v ~/jenkins:/var/jenkins_home --name jenkins --restart=always jenkins/jenkins:lts
 
 ```
+
+#### [Hyperledger Fabric 的第一个长期支持发布版本](https://hyperledger-fabric.readthedocs.io/zh_CN/release-1.4/whatsnew.html)
