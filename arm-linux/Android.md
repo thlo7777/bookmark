@@ -18,3 +18,7 @@
 #### [获取Android微信加密数据库路径和密码](https://zhuanlan.zhihu.com/p/108923531)
 #### [A Rootless Xposed-Style Framework](https://taichi.cool/)
 #### [Taichi 太极](https://www.taichi-app.com/#/index)
+
+#### [Xposed模块开发入门】真·第一课](https://www.52pojie.cn/thread-688466-1-1.html)
+
+#### [编写微信聊天机器人4《聊天精灵WeChatGenius》：实时获取到微信聊天消息，hook数据库插入操作。](https://blog.csdn.net/weixin_42127613/article/details/81840536)

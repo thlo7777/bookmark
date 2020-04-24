@@ -207,3 +207,5 @@ yum makecache
 yum -y update
 
 ```
+
+#### [How to yum update curl 7.29 to 7.61 - CentOS 7.X](https://qiita.com/tkprof/items/5460b8d603cbbc542c8c)
