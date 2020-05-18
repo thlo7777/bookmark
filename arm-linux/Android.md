@@ -22,3 +22,8 @@
 #### [Xposed模块开发入门】真·第一课](https://www.52pojie.cn/thread-688466-1-1.html)
 
 #### [编写微信聊天机器人4《聊天精灵WeChatGenius》：实时获取到微信聊天消息，hook数据库插入操作。](https://blog.csdn.net/weixin_42127613/article/details/81840536)
+
+#### [Android VideoView Tutorial](https://o7planning.org/en/10487/android-videoview-tutorial)
+#### [史上最全Android build.gradle配置详解](https://www.jianshu.com/p/c11862136abf)
+
+#### [Android 入门——ConstraintLayout详解以及使用替代你的常规布局](https://blog.csdn.net/crazymo_/article/details/73036350)

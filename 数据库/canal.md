@@ -8,6 +8,9 @@ canal 1.1.1版本之后, 默认支持将canal server接收到的binlog数据直�
 
 kafka: https://github.com/apache/kafka
 RocketMQ : https://github.com/apache/rocketmq
+
+Kafka 单机使用案例（本地开发、服务器运行皆可用）: https://juejin.im/post/5dce70ef5188254c74033160
+
 ```
 
 ### exception.PositionNotFoundException: can't find start position for example
