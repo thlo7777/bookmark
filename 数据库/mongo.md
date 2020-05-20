@@ -12,3 +12,5 @@ docker run -it -v /data/db:/mongoData -p 27017:27017 --restart=always --name mon
 
 #### [Data Modeling Introduction](https://docs.mongodb.com/manual/core/data-modeling-introduction/)
 #### [Data Model Examples and Patterns](https://docs.mongodb.com/manual/applications/data-models/)
+
+#### [mongodb multiple groups in one result](https://stackoverflow.com/questions/23745097/mongodb-multiple-groups-in-one-result)

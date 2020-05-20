@@ -11,6 +11,14 @@ RocketMQ : https://github.com/apache/rocketmq
 
 Kafka 单机使用案例（本地开发、服务器运行皆可用）: https://juejin.im/post/5dce70ef5188254c74033160
 
+Kafka的消息会丢失和重复吗？——如何实现Kafka精确传递一次语义
+https://cloud.tencent.com/developer/article/1494140
+
+Understanding the ‘enable.auto.commit’ Kafka Consumer property
+https://medium.com/@danieljameskay/understanding-the-enable-auto-commit-kafka-consumer-property-12fa0ade7b65
+
+Kafka Go Client
+https://docs.confluent.io/current/clients/go.html#
 ```
 
 ### exception.PositionNotFoundException: can't find start position for example
@@ -83,3 +91,4 @@ FLUSH PRIVILEGES;
 
 
 ```
+#### [Zookeeper 运维的一些经验](https://juejin.im/entry/5824290f2f301e005c40ed18)
