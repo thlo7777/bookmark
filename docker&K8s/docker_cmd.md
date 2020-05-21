@@ -113,3 +113,22 @@ docker run -d -p 8080:8080 -v ~/jenkins:/var/jenkins_home --name jenkins --resta
 ```
 
 #### [Hyperledger Fabric 的第一个长期支持发布版本](https://hyperledger-fabric.readthedocs.io/zh_CN/release-1.4/whatsnew.html)
+
+
+#### docker volume command
+##### Differences between -v and --mount behavior
+```
+As opposed to bind mounts, all options for volumes are available for both --mount and -v flags.
+
+When using volumes with services, only --mount is supported.
+```
+##### Start a container with a volume
+```
+If you start a container with a volume that does not yet exist, Docker creates the volume for you. The following example mounts the volume myvol2 into /app/ in the container.
+
+The -v and --mount examples below produce the same result. You can’t run them both unless you remove the devtest container and the myvol2 volume after running the first one.
+
+$ docker run -d  --name devtest  -v myvol2:/app  nginx:latest
+$ docker run -d  --name devtest  --mount source=myvol2,target=/app  nginx:latest
+
+```
