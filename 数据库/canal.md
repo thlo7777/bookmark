@@ -92,3 +92,5 @@ FLUSH PRIVILEGES;
 
 ```
 #### [Zookeeper 运维的一些经验](https://juejin.im/entry/5824290f2f301e005c40ed18)
+
+#### [How to install Kafka using Docker](https://itnext.io/how-to-install-kafka-using-docker-a2b7c746cbdc)
