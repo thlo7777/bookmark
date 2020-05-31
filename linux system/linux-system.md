@@ -144,6 +144,9 @@ When first start tmux Use tmux kill-server, after that start a new tmux session.
 
 ```
 
+#### [Centos 7 设置使用阿里云镜像做 yum 源](https://www.hotbak.net/key/%E9%98%BF%E9%87%8C%E4%BA%91yum%E9%95%9C%E5%83%8F%E6%BA%90.html)
+
+
 ### [ubuntu16.04 apt-get更换阿里源](https://blog.csdn.net/ypbsyy/article/details/81143017)
 ```text
 1.备份系统自带源

@@ -6,6 +6,27 @@
 mount  host  /data/db folder to container  /mongoData
 
 docker run -it -v /data/db:/mongoData -p 27017:27017 --restart=always --name mongodb -d mongo
+                                            ^    ^
+                                    host port    container port and keep 27017
+                                    can set any
+                                    port
+
+You can run processes inside a container and outside on the same port. You can even run multiple containers using the same port internally. What you can't do is map the one port from the host to a container. Or in your, map a port that is already in use to a container.
+services:
+    webapp:
+        image: myimage
+        ports:
+            - '3000:3000'
+
+    mongo:
+        image: 'mongo:latest'
+        ports:
+            - '27018:27017'      <------
+
+    mongo2:
+        image: mongo:latest
+        ports:
+            - '27019:27017'     <--------
 ```
 
 #### [MongoDB 进阶模式设计](https://mongoing.com/mongodb-advanced-pattern-design)

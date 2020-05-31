@@ -58,3 +58,5 @@ $ git clone xxxxxx
 
 
 #### [How to Install Git on CentOS 7](https://linuxize.com/post/how-to-install-git-on-centos-7/)
+
+#### [Install Latest Git ( Git 2.x ) on CentOS 7](https://computingforgeeks.com/how-to-install-latest-version-of-git-git-2-x-on-centos-7/)
