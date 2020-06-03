@@ -130,3 +130,22 @@ func myfnc(i *Intr) {       <-----------
 #### [Golang的select/非缓冲的Channel实例详解](https://studygolang.com/articles/5418)
 
 #### [身份验证和OAuth](http://www.topgoer.com/%E5%BC%80%E6%BA%90/%E8%BA%AB%E4%BB%BD%E9%AA%8C%E8%AF%81%E5%92%8COAuth.html)
+
+
+#### [Go编程——变量、函数导出与首字母大写](https://blog.csdn.net/typ2004/article/details/41604655)
+```
+1.本地包 even 在这里导入；
+2. 官方 fmt 包导入；
+3.调用 even 包中的函数。访问一个包中的函数的语法是 <package>.Function()，变量 <package>.Var。
+在 Go 中，当变量或函数的首字母大写的时候，函数会被从包中导出（在包外部可见，或者说公有的），因此函数名是 Even。如果修改main.go 的第 10 行，使用未导出的函数 even.odd：
+
+fmt.Printf("Is %d even? %v\n", i, even.odd(i))
+由于使用了私有的函数，会得到一个编译错误：
+
+main.go:10: cannot refer to unexported name even.odd
+概括来说：
+ 公有函数的名字以大写字母开头；
+ 私有函数的名字以小写字母开头。
+```
+
+#### [Delve is a debugger for the Go programming language. ](https://github.com/go-delve/delve)

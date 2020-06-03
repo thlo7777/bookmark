@@ -604,3 +604,8 @@ Asynchronous support introduced in Servlet 3.0 offers the possibility to process
 ```
 In this example I will demonstrate four different approaches to returning JSON from a Spring Boot REST service. The example is a 'time server' whose calls will return a JSON result with the current date/time in ISO 8601 format. All the calls with be simple GET calls that can be done from your browser.
 ```
+
+#### [Spring Boot RestController Error: “No Converter Found for Return Value of Type”](https://dzone.com/articles/spring-boot-restcontroller-error-no-converter-foun)
+```
+If you’ve found my post because you have this same issue, before you go down the rabbit hole adding additional Maven dependencies or additional annotations you think might be missing, the reason is usually that the POJO class you are returning doesn’t have any public getter methods. For each property in your POJO that you want returned in your JSON, make sure you have a public getter.
+```
