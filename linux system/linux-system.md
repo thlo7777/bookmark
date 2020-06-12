@@ -146,6 +146,8 @@ When first start tmux Use tmux kill-server, after that start a new tmux session.
 
 #### [Centos 7 设置使用阿里云镜像做 yum 源](https://www.hotbak.net/key/%E9%98%BF%E9%87%8C%E4%BA%91yum%E9%95%9C%E5%83%8F%E6%BA%90.html)
 
+#### [CentOS 7- 配置阿里镜像源](https://yq.aliyun.com/articles/704987)
+
 
 ### [ubuntu16.04 apt-get更换阿里源](https://blog.csdn.net/ypbsyy/article/details/81143017)
 ```text
@@ -212,3 +214,31 @@ yum -y update
 ```
 
 #### [How to yum update curl 7.29 to 7.61 - CentOS 7.X](https://qiita.com/tkprof/items/5460b8d603cbbc542c8c)
+
+#### [Centos 7 忘记密码重置用户密码](https://www.jianshu.com/p/581c0444d627)
+
+#### [VirtualBox Configure a Static IP on CentOS 7](https://qiita.com/Tutorial/items/5ab1ec4ba55396b089f8)
+```
+virtual box 6.0 config host only with virtual machine
+1. firstlly to install virtualbox guest addtionals
+2. then create host only network adaptor in VB menu 管理->主机网络管理器
+3. Configure a Static IP on CentOS
+    Login with 'root' user.
+
+    Edit ifcfg-enp0s3 file as per the following code. (In vi editor, use 'i' for insert, 'esc' key to enter command mode and 'wq' for save and quit)
+
+    vi /etc/sysconfig/network-scripts/ifcfg-enp0s3
+
+    ONBOOT=yes
+    USERCTL=no
+    Edit ifcfg-enp0s8 file as per the following code. (Note. IPADDR value should be in between Lower Address Bound and Upper Address Bound values)
+    vi /etc/sysconfig/network-scripts/ifcfg-enp0s8
+
+    BOOTPROTO=none
+    ONBOOT=yes
+    IPADDR=192.168.56.141
+    PREFIX=24
+    Restart network
+    systemctl restart network
+    Test with the ping command, try it in a Windows Command Prompt window (CMD).
+```
