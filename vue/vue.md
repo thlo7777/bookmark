@@ -53,7 +53,7 @@ v-text="text"：将数据解析为纯文本，不能输出真正的html，与花
 >> <template>
 >>  <div class="title">hello</div>
 >> </template>
-```
+>> ```
 > 上述代码被编译为：
 > ``` 
 > <style>
