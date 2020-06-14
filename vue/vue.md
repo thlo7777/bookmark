@@ -44,5 +44,5 @@ props 单向流动，父组件到子组件。 data是每个组件的内存,这�
 ```
  一般情况下  此处的data是私有的，仅供组件本身使用，其他组件不能访问它。 注意:理论上是其它组件是不能访问这些数据，但实际是可以的。但是出于同样的原因，这样做是非常糟糕的 
 
-#### vue---获取元素额外生成的data-v-xxx
+#### [vue---获取元素额外生成的data-v-xxx](https://blog.csdn.net/maidu_xbd/article/details/89315210)
 > ``` 当 <style> 标签有 scoped 属性时，它的 CSS 只作用于当前组件中的元素。编译时将生成data-v-xxx属性，如下的“data-v-2bc3d899”就是因为加了scoped. ```
