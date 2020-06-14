@@ -43,3 +43,26 @@ v-text="text"：将数据解析为纯文本，不能输出真正的html，与花
 
 #### [vue---获取元素额外生成的data-v-xxx](https://blog.csdn.net/maidu_xbd/article/details/89315210)
 > ``` 当 <style> 标签有 scoped 属性时，它的 CSS 只作用于当前组件中的元素。编译时将生成data-v-xxx属性，如下的“data-v-2bc3d899”就是因为加了scoped. ```
+``` 
+<style scoped>
+.title {
+  color:blue;
+}
+</style>
+ 
+<template>
+  <div class="title">hello</div>
+</template>
+```
+> 上述代码被编译为：
+> ``` 
+> <style>
+> .title[data-v-f3f3eg9] {
+>  color: blue;
+> }
+> </style>
+ 
+> <template>
+>  <div class="title" data-v-f3f3eg9>hello</div>
+> </template>
+> ```
