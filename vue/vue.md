@@ -78,7 +78,6 @@ v-text="text"：将数据解析为纯文本，不能输出真正的html，与花
 > ```
 > 1、将安装包放在 ./node_modules 下（运行npm时所在的目录）
 > 比如运行下面命令
-
 > npm install grunt --save-dev
 > 那么，就会在当前目录下发现一个node_modules目录，进去后能够看到grunt这个包
 > ```
