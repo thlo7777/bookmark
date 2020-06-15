@@ -70,4 +70,15 @@ v-text="text"：将数据解析为纯文本，不能输出真正的html，与花
 > ```
 > npm root -g
 > C:\Users\lxw77\AppData\Roaming\npm\node_modules
+> npm install grunt # 本地安装
+> npm install -g grunt-cli # 全局安装
+> ```
+
+> 本地安装: 
+> ```
+> 1、将安装包放在 ./node_modules 下（运行npm时所在的目录）
+> 比如运行下面命令
+
+> npm install grunt --save-dev
+> 那么，就会在当前目录下发现一个node_modules目录，进去后能够看到grunt这个包
 > ```
