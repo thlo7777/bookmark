@@ -65,3 +65,9 @@ v-text="text"：将数据解析为纯文本，不能输出真正的html，与花
 >  <div class="title" data-v-f3f3eg9>hello</div>
 > </template>
 > ```
+
+### ** npm install packages path **
+> ```
+> npm root -g
+> C:\Users\lxw77\AppData\Roaming\npm\node_modules
+> ```
