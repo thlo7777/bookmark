@@ -98,5 +98,39 @@ v-text="text"：将数据解析为纯文本，不能输出真正的html，与花
 > 5. 使用 babel-plugin-import（推荐）
 > 5.1  安装 
 >   $ npm install babel-plugin-import --save-dev
-> 
+> 5.2 使用 vue-cli 3 的小伙伴 #
+>     修改babel.config.js文件，配置 babel-plugin-import
+>   module.exports = {
+>       presets: ["@vue/app"],
+>       plugins: [
+>           [
+>               "import",
+>               { libraryName: "ant-design-vue", libraryDirectory: "es", style: true }
+>           ]
+>       ]
+>   };
+> 6. 引入局部组件 main.js
+> import Vue from 'vue'
+> import App from './App.vue'
+> import router from './router'
+> import store from './store'
+> import {
+>     Menu,
+>     Button,
+>     Icon,
+>     Layout
+> } from 'ant-design-vue'
+
+> Vue.use(Menu)
+> Vue.use(Button)
+> Vue.use(Icon)
+> Vue.use(Layout)
+
+> Vue.config.productionTip = false
+
+> new Vue({
+>    router,
+>    store,
+>    render: h => h(App)
+> }).$mount('#app')
 > ```
