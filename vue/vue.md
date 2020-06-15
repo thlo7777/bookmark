@@ -86,14 +86,14 @@ v-text="text"：将数据解析为纯文本，不能输出真正的html，与花
 ### Vue cli4  按需加载 ant design 组件
 > ```
 > 1.安装 Vue cli4
-> $ npm install -g @vue/cli
+>   $ npm install -g @vue/cli
 > 2. 创建新项目
-> $ vue create antd-demo
+>   $ vue create antd-demo
 > 3. 进入项目并启动
-    > $ cd antd-demo
-    > $ npm run serve
+>   $ cd antd-demo
+>   $ npm run serve
 > 4. 安装ant design
-> $ npm install ant-design-vue --save
+>   $ npm install ant-design-vue --save
 > 
 > 5. 使用 babel-plugin-import（推荐）
 > 5.1  安装 
