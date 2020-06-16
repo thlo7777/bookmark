@@ -144,3 +144,12 @@ v-text="text"：将数据解析为纯文本，不能输出真正的html，与花
 
 > #### [Less介绍及其与Sass的差异](https://www.sass.hk/skill/sass5.html)
 > #### [less-Mixin 之 @functions 趣谈](https://www.geek-share.com/detail/2791518135.html)
+>> ```
+>> .paletteMixin() {
+>> @functions: ~`(function() {
+>> this.palette = function(color) {
+>> return color;
+>> }
+>> })()`;
+>> }
+>> ```
