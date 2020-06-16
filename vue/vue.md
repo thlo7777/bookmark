@@ -1,8 +1,15 @@
 ## VUE  资料
 
+### Axure RP9 license 
+> ```
+> Axure RP 9.0.0.3693，3695，3696，3699版本使用—-亲测可用
+> Licensee : sunny_pm 【推荐，我一直在用的这个 好多版本都可以用】
+> KEY: P0qe+ILVbfoor6qQXv32NDzicDpygaWWrBt+FW4lWnU=
+> ```
+
 #### [看完这篇，我奶奶都会设计组件了](http://maying.ink/2019/07/29/part/)
 
-## v-html
+### v-html
 ---
 在 html 中输出 data 中的值了，我们已经用的是{{xxx}},这种情况是有弊端的，就是当我们网速很慢或者 javascript 出错时，会暴露我们的{{xxx}}。 Vue 给我们提供的 v-text 和 v-html,就是解决这个问题的。我们来看代码：
 ```
@@ -131,3 +138,9 @@ v-text="text"：将数据解析为纯文本，不能输出真正的html，与花
 >    render: h => h(App)
 > }).$mount('#app')
 > ```
+
+
+## less 和 Mixin介绍
+
+> #### [Less介绍及其与Sass的差异](https://www.sass.hk/skill/sass5.html)
+> #### [less-Mixin 之 @functions 趣谈](https://www.geek-share.com/detail/2791518135.html)
