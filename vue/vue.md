@@ -139,6 +139,42 @@ v-text="text"：将数据解析为纯文本，不能输出真正的html，与花
 > }).$mount('#app')
 > ```
 
+### ant-design-vue组件的三种加载方式
+>```
+>1. 完整引入, main.js中全局引入并注册, 在页面中不再需要引入注册组件，可以直接使用所有的组件
+> import Antd from 'ant-design-vue'
+> import 'ant-design-vue/dist/antd.css'
+> Vue.use(Antd)
+> ----
+>2. 导入部分组件,  在main.js中导入并注册需要在项目中使用的组件
+>  import { Button } from "ant-design-vue";
+>  import 'ant-design-vue/lib/button/style/css'
+>  Vue.component(Button.name, Button) 
+>  在项目中可以直接使用这个已经注册的组件
+>  <template>
+>    <div>
+>        <a-button type="primary">hello world</a-button>
+>    </div>
+>  </template>
+>
+>  <script>
+>   export default {}
+>  </script>
+>3. 按需加载  在需要使用相关组件的页面引入并注册即可按需加载.  或者在main.js中全局引入
+>  <script>
+>  // @ is an alias to /src
+>  import HelloWorld from '@/components/HelloWorld.vue'
+>  import { Row, Col } from 'ant-design-vue'
+>  export default {
+>    name: 'Home',
+>    components: {
+>      HelloWorld,
+>      ARow:Row,
+>      ACol:Col
+>    }
+>  }
+>  </script>
+>```
 
 ## less 和 Mixin介绍
 
