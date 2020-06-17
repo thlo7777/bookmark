@@ -23,3 +23,6 @@ https://www.oschina.net/news/96796/2018-nodejs-user-survey
 #### [中高级前端进阶之极速通关koa2全栈核心内容](https://juejin.im/post/5d3c51ad6fb9a07ead5a42bf)
 
 #### [JavaScript Programming All-in-One Tutorial Series (9 HOURS!)](https://www.youtube.com/watch?v=9M4XKi25I2M)
+
+##  javascript 各种控件
+> #### [Javascript Clock | CSS Neumorphism Working Analog Clock UI Design](https://www.youtube.com/watch?v=weZFfrjF-k4)
