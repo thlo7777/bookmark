@@ -190,3 +190,5 @@ v-text="text"：将数据解析为纯文本，不能输出真正的html，与花
 >> })()`;
 >> }
 >> ```
+
+#### [vue-cli4 全面配置(持续更新)](https://github.com/staven630/vue-cli4-config)
