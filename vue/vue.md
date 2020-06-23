@@ -192,3 +192,10 @@ v-text="text"：将数据解析为纯文本，不能输出真正的html，与花
 >> ```
 
 #### [vue-cli4 全面配置(持续更新)](https://github.com/staven630/vue-cli4-config)
+
+#### VUE编程规范
+>```
+> 指令缩写 (用 : 表示 v-bind: 、用 @ 表示 v-on: 和用 # 表示 v-slot:) 应该要么都用要么都不用。
+> script标签内部解构顺序
+>> components --> props --> data --> computed --> watch --> filter --> 钩子函数 --> methods 
+>```
