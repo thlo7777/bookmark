@@ -609,3 +609,5 @@ In this example I will demonstrate four different approaches to returning JSON f
 ```
 If you’ve found my post because you have this same issue, before you go down the rabbit hole adding additional Maven dependencies or additional annotations you think might be missing, the reason is usually that the POJO class you are returning doesn’t have any public getter methods. For each property in your POJO that you want returned in your JSON, make sure you have a public getter.
 ```
+
+#### [mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于SpringBoot+MyBatis实现。](http://www.macrozheng.com/#/foreword/mall_foreword_01)
