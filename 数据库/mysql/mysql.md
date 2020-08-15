@@ -157,3 +157,7 @@ auto-increment-offset   = 3
 ```
 
 ### [MySql 索引优化原则](https://blog.csdn.net/yhl_jxy/article/details/88636685?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522159745725719195264520265%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=159745725719195264520265&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v3~pc_rank_v4-1-88636685.first_rank_ecpm_v3_pc_rank_v4&utm_term=mysql++%E7%B4%A2%E5%BC%95+%E4%BC%98%E5%8C%96)
+
+### [Mysql索引优化及面试题](https://blog.csdn.net/qq_44590469/article/details/96473238?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522159745725719195264520265%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=159745725719195264520265&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v3~pc_rank_v4-2-96473238.first_rank_ecpm_v3_pc_rank_v4&utm_term=mysql++%E7%B4%A2%E5%BC%95+%E4%BC%98%E5%8C%96&spm=1018.2118.3001.4187)
+
+### [MySQL——7种JOIN的sql语法](https://blog.csdn.net/Doit_kang/article/details/84797499?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-4.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-4.channel_param)
