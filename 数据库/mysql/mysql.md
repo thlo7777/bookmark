@@ -155,3 +155,5 @@ auto-increment-offset   = 3
 根据 redis 的官网的  INCR 命令介绍，它是一个原子操作，效果是是将 redis 数据库中 key 的值加一并且返回这个结果。
 如果 key 不存在，将在执行加一操作前，将这个 key 的值设置为0，也就是说执行这个命令的结果是从 1 开始一直累加下去的。
 ```
+
+### [MySql 索引优化原则](https://blog.csdn.net/yhl_jxy/article/details/88636685?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522159745725719195264520265%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=159745725719195264520265&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v3~pc_rank_v4-1-88636685.first_rank_ecpm_v3_pc_rank_v4&utm_term=mysql++%E7%B4%A2%E5%BC%95+%E4%BC%98%E5%8C%96)
