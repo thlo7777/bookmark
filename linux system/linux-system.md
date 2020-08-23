@@ -79,6 +79,14 @@ libev 版是因为此版本还在维护，特别注意不要使用 python 版尤
 
 ## centos7  firewall commnd
 ```
+//Enable Firewalld
+//To enable firewalld, run the following command as root:
+# systemctl enable firewalld
+
+//Start Firewalld
+//To start firewalld, run the following command as root:
+# systemctl start firewalld
+
 //add port
 $ sudo firewall-cmd --permanent --zone=public --add-port=8080/tcp
 $ sudo firewall-cmd --permanent --zone=public --remove-port=10911/tcp
