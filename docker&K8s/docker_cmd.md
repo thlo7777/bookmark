@@ -84,6 +84,10 @@ docker启动命令,docker重启命令,docker关闭命令
 
 ### 用户加入docker组，避免使用sudo
 ```
+//Use the usermod command to add the user to the wheel group.
+//By default, on CentOS, members of the wheel group have sudo privileges.
+usermod -aG wheel username
+
 查看用户组中有没有docker组
 sudo cat /etc/group | grep docker
 创建docker分组, -g 999为组ID，也可以不指定
