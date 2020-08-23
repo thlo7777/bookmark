@@ -132,3 +132,6 @@ $ docker run -d  --name devtest  -v myvol2:/app  nginx:latest
 $ docker run -d  --name devtest  --mount source=myvol2,target=/app  nginx:latest
 
 ```
+
+
+#### [Docker安装太慢，使用国内镜像服务快速安装](https://blog.csdn.net/weixin_39806100/article/details/105925731?utm_medium=distribute.pc_relevant.none-task-blog-baidulandingword-2&spm=1001.2101.3001.4242)
