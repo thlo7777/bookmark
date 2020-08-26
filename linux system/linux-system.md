@@ -250,3 +250,7 @@ virtual box 6.0 config host only with virtual machine
     systemctl restart network
     Test with the ping command, try it in a Windows Command Prompt window (CMD).
 ```
+
+#### [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/18.04/)
+
+#### [Ubuntu 镜像使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/)
