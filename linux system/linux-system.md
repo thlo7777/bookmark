@@ -254,3 +254,6 @@ virtual box 6.0 config host only with virtual machine
 #### [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/18.04/)
 
 #### [Ubuntu 镜像使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/)
+
+
+#### [How to Install Xrdp Server (Remote Desktop) on Ubuntu 18.04](https://linuxize.com/post/how-to-install-xrdp-on-ubuntu-18-04/)
