@@ -93,3 +93,19 @@ The default build configuration depends on only 3 libraries to be installed: Ope
 #### [Web Server HA： Nginx + Keepalived](https://www.zybuluo.com/saltyang/note/961170)
 #### [干货 | CDN搭配OSS最佳实践 ——搭建动静态分离的应用架构](http://blog.itpub.net/69912185/viewspace-2649452/)
 #### [SSL双向认证和SSL单向认证的区别](https://www.jianshu.com/p/fb5fe0165ef2)
+
+
+#### [Linux 下使用 acme.sh 配置 Let's Encrypt 免费 SSL 证书 + 通配符证书](https://sb.sb/blog/linux-acme-sh-lets-encrypt-ssl/)
+#### [ammgws/letsencrypt-acme-guide.md](https://gist.github.com/ammgws/381b4d9104c4e2b43b9210f33f03a15a)
+```
+should use acme  with root
+
+5. Install cert to nginx
+acme.sh --install-cert -d example.com \
+--key-file       /path/to/keyfile/in/nginxconfig/cert.key  \
+--fullchain-file /path/to/fullchain/nginxconfig/fullchain.cer \
+
+sudo service nginx force-reload
+```
+
+#### [nginx 配置location详解](https://www.jianshu.com/p/a16936455018)
