@@ -101,6 +101,8 @@ The default build configuration depends on only 3 libraries to be installed: Ope
 should use acme  with root
 
 5. Install cert to nginx
+
+而在nginx中配置 letsencrypt 证书时，如果用的test01.com.cer就会有问题 (证书链不完整, 小程序验证不过)， 而fullchain.cer才是完整的。
 acme.sh --install-cert -d example.com \
 --key-file       /path/to/keyfile/in/nginxconfig/cert.key  \
 --fullchain-file /path/to/fullchain/nginxconfig/fullchain.cer \
