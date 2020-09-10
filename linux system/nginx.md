@@ -111,3 +111,4 @@ sudo service nginx force-reload
 ```
 
 #### [nginx 配置location详解](https://www.jianshu.com/p/a16936455018)
+#### [证书链不完整问题](https://juejin.im/post/6844904111729541128)
