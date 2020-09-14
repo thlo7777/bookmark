@@ -38,3 +38,5 @@
 #### [NLP历史突破！快速解读Google BERT模型 + Word Embedding](https://www.youtube.com/watch?v=Po38Dl-XDd4)
 
 #### [用tensorflow进行中文自然语言处理中的情感分析](https://www.youtube.com/watch?v=-mcrmLmNOXA)
+
+#### [自然语言处理 | 莫烦Python](https://mofanpy.com/tutorials/machine-learning/nlp/)
