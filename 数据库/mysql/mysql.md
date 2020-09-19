@@ -163,3 +163,11 @@ auto-increment-offset   = 3
 ### [MySQL——7种JOIN的sql语法](https://blog.csdn.net/Doit_kang/article/details/84797499?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-4.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-4.channel_param)
 
 #### [mysql中大数据表alter增加字段报错："1034 Incorrect key file for table 'table_name'; try to repair it"](https://www.cnblogs.com/kcxg/p/10912766.html)
+
+```
+SELECT a1.id FROM xh_sum_yuanshishuju_quchong a1 INNER JOIN xh_sum_yuanshishuju_quchong a2 on (a1.trading_account=a2.trading_account
+or a1.transaction_card_number=a2.transaction_card_number )and substring(a1.trade_date,12,8)='00:00:00'
+and substring(a2.trade_date,12,8)<>'00:00:00' and substring(a2.trade_date,12,8)is not null and substring(a1.trade_date,1,10)=substring(a2.trade_date,1,10)
+and a1.amount=a2.amount and a1.balances is null and  a2.balances is not null
+and a1.sign=a2.sign and a1.duishou_account_num=a2.duishou_account_num and a1.id<>a2.id
+```
