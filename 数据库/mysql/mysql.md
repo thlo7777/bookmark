@@ -171,3 +171,5 @@ and substring(a2.trade_date,12,8)<>'00:00:00' and substring(a2.trade_date,12,8)i
 and a1.amount=a2.amount and a1.balances is null and  a2.balances is not null
 and a1.sign=a2.sign and a1.duishou_account_num=a2.duishou_account_num and a1.id<>a2.id
 ```
+
+#### [MySQL huge tables JOIN makes database collapse](https://stackoverflow.com/questions/15004045/mysql-huge-tables-join-makes-database-collapse)  ***
