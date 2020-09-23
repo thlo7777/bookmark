@@ -266,3 +266,4 @@ If you successfully install the driver, the driver is installed on /lib/modules/
 ls /lib/modules/$(uname -r)/kernel/drivers/net/wireless/realtek/rtl8821cu
 Make sure 8821cu.ko file present on that directory
 ```
+#### [Change default kernel in Ubuntu 18.04](https://kowalczyk.me/change-default-kernel-in-ubuntu-18-04/)
