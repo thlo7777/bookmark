@@ -259,3 +259,10 @@ virtual box 6.0 config host only with virtual machine
 #### [How to Install Xrdp Server (Remote Desktop) on Ubuntu 18.04](https://linuxize.com/post/how-to-install-xrdp-on-ubuntu-18-04/)
 
 #### [TengDa U9 移动WiFi](https://github.com/brektrou/rtl8821CU)
+```
+ubuntu 更新kernel 以后 需要 copy  realtek.ro to kernal libarary
+If you successfully install the driver, the driver is installed on /lib/modules/<linux version>/kernel/drivers/net/wireless/realtek/rtl8821cu. Check the driver with the ls command:
+
+ls /lib/modules/$(uname -r)/kernel/drivers/net/wireless/realtek/rtl8821cu
+Make sure 8821cu.ko file present on that directory
+```
