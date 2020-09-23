@@ -257,3 +257,5 @@ virtual box 6.0 config host only with virtual machine
 
 
 #### [How to Install Xrdp Server (Remote Desktop) on Ubuntu 18.04](https://linuxize.com/post/how-to-install-xrdp-on-ubuntu-18-04/)
+
+#### [TengDa U9 移动WiFi](https://github.com/brektrou/rtl8821CU)
