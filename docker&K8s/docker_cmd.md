@@ -132,7 +132,7 @@ If you start a container with a volume that does not yet exist, Docker creates t
 
 The -v and --mount examples below produce the same result. You can’t run them both unless you remove the devtest container and the myvol2 volume after running the first one.
 
-$ docker run -d  --name devtest  -v myvol2:/app  nginx:latest
+$ docker run -d  --name devtest  -v {宿主机目录/home/xxxx}:{容器内目录/app}  nginx:latest
 $ docker run -d  --name devtest  --mount source=myvol2,target=/app  nginx:latest
 
 ```
