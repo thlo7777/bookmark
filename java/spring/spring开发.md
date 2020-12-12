@@ -611,3 +611,5 @@ If you’ve found my post because you have this same issue, before you go down t
 ```
 
 #### [mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于SpringBoot+MyBatis实现。](http://www.macrozheng.com/#/foreword/mall_foreword_01)
+
+#### [分布式解决方案-分布式session一致性问题](https://www.jianshu.com/p/b889f9a49fec)
