@@ -139,3 +139,9 @@ $ docker run -d  --name devtest  --mount source=myvol2,target=/app  nginx:latest
 
 
 #### [Docker安装太慢，使用国内镜像服务快速安装](https://blog.csdn.net/weixin_39806100/article/details/105925731?utm_medium=distribute.pc_relevant.none-task-blog-baidulandingword-2&spm=1001.2101.3001.4242)
+
+#### [Docker安装Redis](https://www.cnblogs.com/linjiqin/p/10472023.html)
+```
+docker run --restart=always --log-driver json-file --log-opt max-size=100m --log-opt max-file=2 -p 6379:6379 --name myredis -v /opt/data/redis/redis.conf:/etc/redis/redis.conf -v /opt/data/redis:/data -d redis redis-server /etc/redis/redis.conf --appendonly yes --requirepass "lynch#1508"
+
+```
