@@ -199,3 +199,9 @@ v-text="text"：将数据解析为纯文本，不能输出真正的html，与花
 > script标签内部解构顺序
 >> components --> props --> data --> computed --> watch --> filter --> 钩子函数 --> methods 
 >```
+
+
+#### [Grid Layout Editor for Vue.js — A research project for Pariksha.io](https://blog.prototypr.io/grid-layout-editor-for-vue-js-a-research-project-for-pariksha-io-e3445025d21e)
+```
+github link address 
+```
