@@ -205,3 +205,37 @@ v-text="text"：将数据解析为纯文本，不能输出真正的html，与花
 ```
 github link address 
 ```
+
+#### vue中的.sync修饰符用法及原理详解
+```
+vue中我们经常会用v-bind(缩写为:)给子组件传入参数。
+或者我们会给子组件传入一个函数，子组件通过调用传入的函数来改变父组件的状态。
+例如：
+
+//父组件给子组件传入一个函数
+ <MyFooter :age="age" @setAge="(res)=> age = res">
+ </MyFooter>
+ //子组件通过调用这个函数来实现修改父组件的状态。
+ mounted () {
+      console.log(this.$emit('setAge',1234567));
+ }
+
+这时子组件触发了父组件的修改函数使父组件的age修改成了1234567
+
+这种情况比较常见且写法比较复杂。于是我们引出今天的主角 .sync
+
+这时我们可以直接这样写
+
+//父组件将age传给子组件并使用.sync修饰符。
+<MyFooter :age.sync="age">
+</MyFooter>
+//子组件触发事件
+ mounted () {
+    console.log(this.$emit('update:age',1234567));
+ }
+这里注意我们的事件名称被换成了update:age
+update：是被固定的也就是vue为我们约定好的名称部分
+age是我们要修改的状态的名称，是我们手动配置的，与传入的状态名字对应起来
+```
+
+#### vue vue.config.js 需要手动添加文件并配置
