@@ -239,3 +239,52 @@ age是我们要修改的状态的名称，是我们手动配置的，与传入�
 ```
 
 #### vue vue.config.js 需要手动添加文件并配置
+
+#### [複用元件的好幫手：Vue Slots(v-slot、Scoped Slots)](https://medium.com/unalai/%E8%A4%87%E7%94%A8%E5%85%83%E4%BB%B6%E7%9A%84%E5%A5%BD%E5%B9%AB%E6%89%8B-vue-slot-v-slot-scoped-slots-5364a0048ab7)
+
+#### Vue el与$mount的区别
+```
+/* 此时是未挂载状态，页面是不显示的 */
+//此时可以使用下面A或B来挂载，都可以
+new Vue({
+  router,
+  store,
+  render: h => h(App)
+})
+
+//A指定el option
+new Vue({
+  el: '#app',
+  router,
+  store,
+  render: h => h(App)
+})
+//B使用$mount实例方法
+new Vue({
+  router,
+  store,
+  render: h => h(App)
+}).$mount('#app')
+
+/* 但是下面这种情况只能使用$mount挂载 */
+//在vue实例化之后，再进行挂载
+
+//这种方式是错误的，查看el限制（上面picture-el）
+const vm = new Vue({
+  router,
+  store,
+  render: h => h(App)
+})
+
+vm.$el = '#app';
+
+//可以使用$mount来挂载
+const vm = new Vue({
+  router,
+  store,
+  render: h => h(App)
+})
+
+vm.$mount('#app')
+
+```
