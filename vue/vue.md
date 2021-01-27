@@ -288,3 +288,84 @@ const vm = new Vue({
 vm.$mount('#app')
 
 ```
+#### VUE项目的目录的结构
+```
+### 目录结构如下：
+demo1                                       # 工程名
+|   |--- dist                               # 打包后生成的目录文件             
+|   |--- node_modules                       # 所有的依赖包
+|   |--- app
+|   | |---index
+|   | | |-- views                           # 存放所有vue页面文件
+|   | | | |-- parent.vue                    # 父组件
+|   | | | |-- child.vue                     # 子组件
+|   | | | |-- index.vue
+|   | | |-- components                      # 存放vue公用的组件
+|   | | |-- js                              # 存放js文件的
+|   | | |-- store                           # store仓库
+|   | | | |--- actions.js
+|   | | | |--- mutations.js
+|   | | | |--- state.js
+|   | | | |--- mutations-types.js
+|   | | | |--- index.js
+|   | | |-- app.js                          # vue入口配置文件
+|   | | |-- router.js                       # 路由配置文件
+|   |--- views
+|   | |-- index.html                        # html文件
+|   |--- webpack.config.js                  # webpack配置文件 
+|   |--- .gitignore  
+|   |--- README.md
+|   |--- package.json
+|   |--- .babelrc                           # babel转码文件
+```
+
+#### ...mapState一定也是写在computed里才有效大家千万要记住了
+```
+在组件调用vuex中的 值，我们一般会这样写：const value = this.$store.state.value
+
+当我们在组件中调用几十个vuex中的值时，这样的写法显得有些重复繁琐。这时候mapstate就能发挥巨大作用了。
+
+mapstate第一种用法：  第一种写法仅适用data无重名，无计算属性的组件
+我们可以在组件内的计算属性中写成下面这个样子：
+computed : mapState (["name", "value", "age"])
+
+mapstate第二种用法： 第二种写法适合无计算属性的组件使用
+第二种写法是第一种写法的升级版，这种写法解决的是data重名属性的问题，这里解决的方式是分别给每个state值重新起名。
+computed : mapState ({
+    storeName : state => state.name
+    storeValue : state => state.value
+    storeAge : state => state.age
+})
+
+mapstate第三种用法：
+当我们既想使用mapState，又不想跟data重名，还想给别的计算属性挪地方的话，可以试试第三种写法。
+这种写法是第二种写法的升级版，将mapState放到computed计算属性里面，用扩展运算符对mapState进行展开。
+这种写法能完美解决上面两种方法带来的不便，data重名不怕、computed也留了空间。
+computed : {
+    ...mapState({
+    storeName : state => state.name
+    storeValue : state => state.value
+    storeAge : state => state.age
+    }),
+
+    count(){
+        ...
+    },
+}
+
+
+两种对比
+computed: {
+  count () {
+    return this.$store.state.count
+  },
+  name () {
+    return this.$store.state.name
+  }
+},
+
+使用...mapState
+computed:{
+  ...mapState(['count','name'])
+},
+```
