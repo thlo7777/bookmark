@@ -81,3 +81,9 @@ DISTINCT 表示对后面的所有参数的拼接取 不重复的记录，相当�
 >> * 当group by 与聚合函数配合使用时，功能为分组后计算
 >> * 当group by 与 having配合使用时，功能为分组后过滤，获得满足条件的分组的返回结果。
 >> * having与where区别：where过滤行，having过滤组
+
+### SQL 子查询
+```
+子查询用于为主查询返回其所需数据，或者对检索数据进行进一步的限制。
+子查询可以在 SELECT、INSERT、UPDATE 和 DELETE 语句中，同 =、<、>、>=、<=、IN、BETWEEN 等运算符一起使用。
+```
