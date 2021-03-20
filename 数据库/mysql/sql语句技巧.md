@@ -87,3 +87,5 @@ DISTINCT 表示对后面的所有参数的拼接取 不重复的记录，相当�
 子查询用于为主查询返回其所需数据，或者对检索数据进行进一步的限制。
 子查询可以在 SELECT、INSERT、UPDATE 和 DELETE 语句中，同 =、<、>、>=、<=、IN、BETWEEN 等运算符一起使用。
 ```
+
+### [笛卡尔积运算](https://blog.csdn.net/Call_Coder/article/details/79483708?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&dist_request_id=1328679.22631.16162113109727057&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control)
