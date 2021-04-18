@@ -27,3 +27,5 @@
 #### [史上最全Android build.gradle配置详解](https://www.jianshu.com/p/c11862136abf)
 
 #### [Android 入门——ConstraintLayout详解以及使用替代你的常规布局](https://blog.csdn.net/crazymo_/article/details/73036350)
+
+### [打造个性化『Android Studio』](https://liarrdev.github.io/post/%E6%89%93%E9%80%A0%E4%B8%AA%E6%80%A7%E5%8C%96%E3%80%8EAndroid-Studio%E3%80%8F/)
