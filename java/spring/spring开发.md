@@ -613,3 +613,11 @@ If you’ve found my post because you have this same issue, before you go down t
 #### [mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于SpringBoot+MyBatis实现。](http://www.macrozheng.com/#/foreword/mall_foreword_01)
 
 #### [分布式解决方案-分布式session一致性问题](https://www.jianshu.com/p/b889f9a49fec)
+
+
+#### [openJDK17 + intellij Idea  error](https://www.programmersought.com/article/49228567905/)
+```
+OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and
+1. In Intellij Idea,  open 'Edit Run/Debug configurations' dialog
+2.  ideaConfig.jpg
+```
