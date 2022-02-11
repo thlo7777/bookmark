@@ -77,6 +77,9 @@ libev 版是因为此版本还在维护，特别注意不要使用 python 版尤
 ><http://www.linuxandubuntu.com/home/how-to-reset-root-password-in-centos-7>
 #### [How To Reset Root Password On CentOS 7](https://www.unixmen.com/reset-root-password-centos-7/)
 
+## ubuntu ufw firewall command line
+> <https://zhuanlan.zhihu.com/p/139381645>
+
 ## centos7  firewall commnd
 ```
 //Enable Firewalld
@@ -267,3 +270,5 @@ ls /lib/modules/$(uname -r)/kernel/drivers/net/wireless/realtek/rtl8821cu
 Make sure 8821cu.ko file present on that directory
 ```
 #### [Change default kernel in Ubuntu 18.04](https://kowalczyk.me/change-default-kernel-in-ubuntu-18-04/)
+
+#### [linux中通过iptables实现端口转发](https://zhuanlan.zhihu.com/p/165043421)
